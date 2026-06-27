@@ -6,13 +6,17 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await HighlightManager.load();
   await TestHistoryManager.load();
+  await GeminiService.loadApiKey();
   runApp(const Study4CloneApp());
 }
 
@@ -7257,6 +7261,209 @@ class HighlightManager {
   }
 }
 
+class GeminiService {
+  static String? _apiKey;
+  static const String _apiKeyFileName = 'gemini_api_key.txt';
+
+  static Future<void> loadApiKey() async {
+    try {
+      final dir = await getApplicationDocumentsDirectory();
+      final file = File('${dir.path}/$_apiKeyFileName');
+      if (await file.exists()) {
+        _apiKey = (await file.readAsString()).trim();
+      }
+    } catch (e) {
+      debugPrint('Error loading Gemini API key: $e');
+    }
+  }
+
+  static Future<void> saveApiKey(String key) async {
+    try {
+      final dir = await getApplicationDocumentsDirectory();
+      final file = File('${dir.path}/$_apiKeyFileName');
+      await file.writeAsString(key.trim());
+      _apiKey = key.trim();
+    } catch (e) {
+      debugPrint('Error saving Gemini API key: $e');
+    }
+  }
+
+  static String? get apiKey => _apiKey;
+  static bool get hasApiKey => _apiKey != null && _apiKey!.isNotEmpty;
+
+  /// Calls Gemini API to get meaning and phonetic for a word.
+  /// Returns a map with 'meaning' and 'phonetic' keys.
+  static Future<Map<String, String>?> getWordInfo(String word) async {
+    if (!hasApiKey) return null;
+    try {
+      final url = Uri.parse(
+        'https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=$_apiKey',
+      );
+      final response = await http.post(
+        url,
+        headers: {'Content-Type': 'application/json'},
+        body: jsonEncode({
+          'contents': [
+            {
+              'parts': [
+                {
+                  'text':
+                      'Cho từ tiếng Anh "$word", hãy trả về nghĩa tiếng Việt ngắn gọn và phiên âm IPA. '
+                      'Trả về đúng format sau, không thêm gì khác:\n'
+                      'meaning:nghĩa tiếng Việt\n'
+                      'phonetic:phiên âm IPA\n\n'
+                      'Ví dụ cho từ "accept":\n'
+                      'meaning:chấp nhận, đồng ý\n'
+                      'phonetic:əkˈsept',
+                },
+              ],
+            },
+          ],
+          'generationConfig': {
+            'temperature': 0.1,
+            'maxOutputTokens': 100,
+          },
+        }),
+      );
+
+      if (response.statusCode == 200) {
+        final data = jsonDecode(response.body);
+        final text = data['candidates']?[0]?['content']?['parts']?[0]?['text']
+                ?.toString() ??
+            '';
+        final lines = text.trim().split('\n');
+        String meaning = '';
+        String phonetic = '';
+        for (final line in lines) {
+          final trimmed = line.trim();
+          if (trimmed.startsWith('meaning:')) {
+            meaning = trimmed.substring('meaning:'.length).trim();
+          } else if (trimmed.startsWith('phonetic:')) {
+            phonetic = trimmed.substring('phonetic:'.length).trim();
+          }
+        }
+        if (meaning.isNotEmpty || phonetic.isNotEmpty) {
+          return {'meaning': meaning, 'phonetic': phonetic};
+        }
+      } else {
+        debugPrint('Gemini API error: ${response.statusCode} ${response.body}');
+      }
+    } catch (e) {
+      debugPrint('Error calling Gemini API: $e');
+    }
+    return null;
+  }
+
+  /// Show the API key settings dialog.
+  static Future<void> showApiKeyDialog(BuildContext context) async {
+    final controller = TextEditingController(text: _apiKey ?? '');
+    await showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: Row(
+          children: [
+            SvgPicture.asset(
+              'assets/icon/gemini-color.svg',
+              width: 24,
+              height: 24,
+            ),
+            const SizedBox(width: 8),
+            const Text(
+              'Gemini API Key',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+            ),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              'Nhập API Key của bạn',
+              style: TextStyle(
+                fontWeight: FontWeight.w600,
+                fontSize: 13,
+                color: AppColors.muted,
+              ),
+            ),
+            const SizedBox(height: 8),
+            TextField(
+              controller: controller,
+              autofocus: true,
+              decoration: InputDecoration(
+                hintText: 'Paste API key...',
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 12,
+                  vertical: 10,
+                ),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(8),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+            SizedBox(
+              width: double.infinity,
+              child: OutlinedButton.icon(
+                icon: const Icon(Icons.open_in_new, size: 16),
+                label: const Text('Lấy API Key'),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: AppColors.blue,
+                  side: const BorderSide(color: AppColors.blue),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                ),
+                onPressed: () {
+                  launchUrl(
+                    Uri.parse(
+                      'https://aistudio.google.com/api-keys?hl=vi&project=gen-lang-client-0474502518',
+                    ),
+                    mode: LaunchMode.externalApplication,
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(ctx).pop(),
+            child: const Text('Hủy', style: TextStyle(color: Colors.grey)),
+          ),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: AppColors.blue,
+              foregroundColor: Colors.white,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8),
+              ),
+            ),
+            onPressed: () async {
+              final key = controller.text.trim();
+              if (key.isNotEmpty) {
+                await saveApiKey(key);
+                if (ctx.mounted) {
+                  Navigator.of(ctx).pop();
+                  ScaffoldMessenger.of(ctx).showSnackBar(
+                    const SnackBar(
+                      content: Text('Đã lưu API Key thành công!'),
+                      backgroundColor: Color(0xFF20A856),
+                    ),
+                  );
+                }
+              }
+            },
+            child: const Text('Lưu'),
+          ),
+        ],
+      ),
+    );
+    controller.dispose();
+  }
+}
+
 class VocabularyManager {
   static Future<List<String>> getVocabularyFiles() async {
     try {
@@ -7281,12 +7488,18 @@ class VocabularyManager {
     required String filename,
     required String word,
     required String meaning,
+    String phonetic = '',
   }) async {
     try {
       final dir = await getApplicationDocumentsDirectory();
       final cleanName = filename.endsWith('.txt') ? filename : '$filename.txt';
       final file = File('${dir.path}/$cleanName');
-      final content = '$word:$meaning\n';
+      String content;
+      if (phonetic.isNotEmpty) {
+        content = '$word:$meaning ($phonetic)\n';
+      } else {
+        content = '$word:$meaning\n';
+      }
       await file.writeAsString(content, mode: FileMode.append);
     } catch (e) {
       debugPrint('Error adding vocabulary: $e');
@@ -7307,14 +7520,17 @@ class _AddVocabularyDialogState extends State<AddVocabularyDialog> {
   final _formKey = GlobalKey<FormState>();
   late final TextEditingController _wordController;
   final _meaningController = TextEditingController();
+  final _phoneticController = TextEditingController();
   final _fileController = TextEditingController(text: 'vocab.txt');
   List<String> _existingFiles = [];
+  bool _isGeminiLoading = false;
 
   @override
   void initState() {
     super.initState();
     _wordController = TextEditingController(text: widget.initialWord);
     _loadFiles();
+    _autoFillWithGemini();
   }
 
   Future<void> _loadFiles() async {
@@ -7328,10 +7544,33 @@ class _AddVocabularyDialogState extends State<AddVocabularyDialog> {
     });
   }
 
+  Future<void> _autoFillWithGemini() async {
+    final word = _wordController.text.trim();
+    if (word.isEmpty || !GeminiService.hasApiKey) return;
+    setState(() => _isGeminiLoading = true);
+    try {
+      final result = await GeminiService.getWordInfo(word);
+      if (result != null && mounted) {
+        setState(() {
+          if (result['meaning']?.isNotEmpty == true) {
+            _meaningController.text = result['meaning']!;
+          }
+          if (result['phonetic']?.isNotEmpty == true) {
+            _phoneticController.text = result['phonetic']!;
+          }
+        });
+      }
+    } catch (e) {
+      debugPrint('Gemini auto-fill error: $e');
+    }
+    if (mounted) setState(() => _isGeminiLoading = false);
+  }
+
   @override
   void dispose() {
     _wordController.dispose();
     _meaningController.dispose();
+    _phoneticController.dispose();
     _fileController.dispose();
     super.dispose();
   }
@@ -7340,13 +7579,40 @@ class _AddVocabularyDialogState extends State<AddVocabularyDialog> {
   Widget build(BuildContext context) {
     return AlertDialog(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-      title: const Row(
+      title: Row(
         children: [
-          Icon(Icons.edit_note, color: AppColors.blue, size: 28),
-          SizedBox(width: 8),
-          Text(
-            'Thêm từ vựng mới',
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+          const Icon(Icons.edit_note, color: AppColors.blue, size: 28),
+          const SizedBox(width: 8),
+          const Expanded(
+            child: Text(
+              'Thêm từ vựng mới',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+            ),
+          ),
+          // Gemini icon button
+          InkWell(
+            onTap: () {
+              GeminiService.showApiKeyDialog(context).then((_) {
+                if (GeminiService.hasApiKey && _meaningController.text.trim().isEmpty) {
+                  _autoFillWithGemini();
+                }
+              });
+            },
+            borderRadius: BorderRadius.circular(20),
+            child: Padding(
+              padding: const EdgeInsets.all(4),
+              child: _isGeminiLoading
+                  ? const SizedBox(
+                      width: 24,
+                      height: 24,
+                      child: CircularProgressIndicator(strokeWidth: 2),
+                    )
+                  : SvgPicture.asset(
+                      'assets/icon/gemini-color.svg',
+                      width: 24,
+                      height: 24,
+                    ),
+            ),
           ),
         ],
       ),
@@ -7357,6 +7623,38 @@ class _AddVocabularyDialogState extends State<AddVocabularyDialog> {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              if (_isGeminiLoading)
+                Container(
+                  margin: const EdgeInsets.only(bottom: 12),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 8,
+                  ),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFE8F0FE),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: const Row(
+                    children: [
+                      SizedBox(
+                        width: 16,
+                        height: 16,
+                        child: CircularProgressIndicator(
+                          strokeWidth: 2,
+                          color: AppColors.blue,
+                        ),
+                      ),
+                      SizedBox(width: 8),
+                      Text(
+                        'Gemini đang tạo nghĩa và phiên âm...',
+                        style: TextStyle(
+                          fontSize: 12,
+                          color: AppColors.blue,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               const Text(
                 'Từ vựng',
                 style: TextStyle(
@@ -7408,6 +7706,29 @@ class _AddVocabularyDialogState extends State<AddVocabularyDialog> {
                 validator: (value) => value == null || value.trim().isEmpty
                     ? 'Không được bỏ trống'
                     : null,
+              ),
+              const SizedBox(height: 16),
+              const Text(
+                'Phiên âm (IPA)',
+                style: TextStyle(
+                  fontWeight: FontWeight.w600,
+                  fontSize: 13,
+                  color: AppColors.muted,
+                ),
+              ),
+              const SizedBox(height: 6),
+              TextFormField(
+                controller: _phoneticController,
+                decoration: InputDecoration(
+                  hintText: 'Nhập phiên âm, vd: əkˈsept',
+                  contentPadding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 10,
+                  ),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                ),
               ),
               const SizedBox(height: 16),
               const Text(
@@ -7485,11 +7806,13 @@ class _AddVocabularyDialogState extends State<AddVocabularyDialog> {
             if (_formKey.currentState?.validate() ?? false) {
               final word = _wordController.text.trim();
               final meaning = _meaningController.text.trim();
+              final phonetic = _phoneticController.text.trim();
               final filename = _fileController.text.trim();
               await VocabularyManager.addWord(
                 filename: filename,
                 word: word,
                 meaning: meaning,
+                phonetic: phonetic,
               );
               if (context.mounted) {
                 Navigator.of(context).pop(meaning);
