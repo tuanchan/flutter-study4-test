@@ -1,0 +1,1275 @@
+{
+  "part": 7,
+  "part_name": "Part7_Reading_Comprehension",
+  "part_id": 9604,
+  "questions": [
+    {
+      "qid": "161991",
+      "question_number": 147,
+      "question_text": "On what floor would visitors most likely find personal care products?",
+      "options": {
+        "A": "The 1st floor",
+        "B": "The 2nd floor",
+        "C": "The 3rd floor",
+        "D": "The 4th floor"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image66.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_021.png"
+      ]
+    },
+    {
+      "qid": "161992",
+      "question_number": 148,
+      "question_text": "Whom should visitors contact to rent office space?",
+      "options": {
+        "A": "Misel Global Trading, Inc.",
+        "B": "Ohmes Consulting",
+        "C": "Building Services",
+        "D": "Wheatly Square"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image66.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_021.png"
+      ]
+    },
+    {
+      "qid": "161993",
+      "question_number": 149,
+      "question_text": "What part of a shoe does the sign NOT mention?",
+      "options": {
+        "A": "The bottom",
+        "B": "The top",
+        "C": "The strings",
+        "D": "The toe"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image307.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_015.png"
+      ]
+    },
+    {
+      "qid": "161994",
+      "question_number": 150,
+      "question_text": "When will the store be open?",
+      "options": {
+        "A": "Thursday 9 A.M.",
+        "B": "Friday 10 A.M.",
+        "C": "Saturday 11 A.M.",
+        "D": "Sunday 12 noon"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image307.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_015.png"
+      ]
+    },
+    {
+      "qid": "161995",
+      "question_number": 151,
+      "question_text": "According to Mr. Dunlap, what was the problem?",
+      "options": {
+        "A": "A building material was out of stock.",
+        "B": "A light was not working properly.",
+        "C": "A kitchen was missing an appliance.",
+        "D": "A building's access code was unavailable."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image88.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_023.png"
+      ]
+    },
+    {
+      "qid": "161996",
+      "question_number": 152,
+      "question_text": "At 10:11 A.M., what does Mr. Mauro most likely mean when he writes, \"When can we go over to East Plaza?\"",
+      "options": {
+        "A": "He wants to praise Mr. Dunlap for his work.",
+        "B": "He needs driving directions to a building.",
+        "C": "He needs permission to buy building materials.",
+        "D": "He wants to remind Mr. Dunlap about a task's urgency."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image88.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_023.png"
+      ]
+    },
+    {
+      "qid": "161997",
+      "question_number": 153,
+      "question_text": "What is the purpose of the memo?",
+      "options": {
+        "A": "To share business travel plans",
+        "B": "To inform staff of policy changes",
+        "C": "To describe a manager's business expenses",
+        "D": "To announce a new sales budget"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image288.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_012.png"
+      ]
+    },
+    {
+      "qid": "161998",
+      "question_number": 154,
+      "question_text": "What is suggested about the expense reports?",
+      "options": {
+        "A": "Hard copies are currently accepted.",
+        "B": "They often have calculation inaccuracies.",
+        "C": "Receipts can be submitted within one week.",
+        "D": "They must be received once per quarter."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image288.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_012.png"
+      ]
+    },
+    {
+      "qid": "161999",
+      "question_number": 155,
+      "question_text": "What is required to join Every Car Club?",
+      "options": {
+        "A": "A reference from an existing member",
+        "B": "Special driving insurance",
+        "C": "Payment of a membership fee",
+        "D": "A purchase of a new car"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image143.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_006.png"
+      ]
+    },
+    {
+      "qid": "162000",
+      "question_number": 156,
+      "question_text": "What is NOT mentioned as something Every Car Club customers can do?",
+      "options": {
+        "A": "Rent a vehicle from multiple locations",
+        "B": "Reduce maintenance costs",
+        "C": "Hire a driver for short trips",
+        "D": "Use a car any day of the week"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image143.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_006.png"
+      ]
+    },
+    {
+      "qid": "162001",
+      "question_number": 157,
+      "question_text": "According to the advertisement, what is the most efficient way to use Every Car Club?",
+      "options": {
+        "A": "Contacting a car owner",
+        "B": "Visiting a Web site",
+        "C": "Going to a rental office",
+        "D": "Using a mobile application"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image143.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_006.png"
+      ]
+    },
+    {
+      "qid": "162002",
+      "question_number": 158,
+      "question_text": "What part of the Web site is most likely shown?",
+      "options": {
+        "A": "Our Hiring Process",
+        "B": "Employee Benefits",
+        "C": "What Our Staff Say",
+        "D": "Meet Our New Staff"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image204.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_008.png"
+      ]
+    },
+    {
+      "qid": "162003",
+      "question_number": 159,
+      "question_text": "What is indicated about the Talent Finding Team?",
+      "options": {
+        "A": "It will be expanded in the future.",
+        "B": "It designs staff training programs.",
+        "C": "It was formed last year.",
+        "D": "It participates in job fairs."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image204.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_008.png"
+      ]
+    },
+    {
+      "qid": "162004",
+      "question_number": 160,
+      "question_text": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?--\"It includes an interactive video presentation about the company's values and culture.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image204.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_008.png"
+      ]
+    },
+    {
+      "qid": "162005",
+      "question_number": 161,
+      "question_text": "What kind of facility are residents being surveyed about?",
+      "options": {
+        "A": "A public sports complex",
+        "B": "A local government office",
+        "C": "A history museum",
+        "D": "A retail center"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image199.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_007.png"
+      ]
+    },
+    {
+      "qid": "162006",
+      "question_number": 162,
+      "question_text": "When will the survey respondent most likely visit the facility?",
+      "options": {
+        "A": "Before work",
+        "B": "After work",
+        "C": "During lunch breaks",
+        "D": "On weekends"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image199.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_007.png"
+      ]
+    },
+    {
+      "qid": "162007",
+      "question_number": 163,
+      "question_text": "What is the survey respondent concerned about?",
+      "options": {
+        "A": "Construction noise",
+        "B": "Traffic congestion",
+        "C": "Opening hours",
+        "D": "Obstructed views"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image199.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_007.png"
+      ]
+    },
+    {
+      "qid": "162008",
+      "question_number": 164,
+      "question_text": "What does Mr. Kropf suggest is causing heavy city traffic?",
+      "options": {
+        "A": "A sporting event",
+        "B": "Road construction",
+        "C": "Poor weather",
+        "D": "A broken down vehicle"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image371.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_020.png"
+      ]
+    },
+    {
+      "qid": "162009",
+      "question_number": 165,
+      "question_text": "Who most likely is Mr. Huffman?",
+      "options": {
+        "A": "A receptionist",
+        "B": "A delivery driver",
+        "C": "A project manager",
+        "D": "A real estate salesperson"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image371.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_020.png"
+      ]
+    },
+    {
+      "qid": "162010",
+      "question_number": 166,
+      "question_text": "What is probably true about Bostec Tower?",
+      "options": {
+        "A": "Its name will be changed soon.",
+        "B": "Its parking area is underground.",
+        "C": "It has a gated entryway.",
+        "D": "It has two lobbies."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image371.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_020.png"
+      ]
+    },
+    {
+      "qid": "162011",
+      "question_number": 167,
+      "question_text": "At 10:50 A.M., what does Mr. Kropf most likely mean when he writes, \"Craftac Ltd. is aregular customer\"?",
+      "options": {
+        "A": "Craftac Ltd. is eligible for special discounts.",
+        "B": "Craftac Ltd. has priority over other clients.",
+        "C": "He is surprised that business is slow.",
+        "D": "He will handle an order for Ms. Latsky."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image371.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_020.png"
+      ]
+    },
+    {
+      "qid": "162012",
+      "question_number": 168,
+      "question_text": "What is suggested about Ms. Perk?",
+      "options": {
+        "A": "She needs to install some new equipment.",
+        "B": "She would like to hire some caterers for an event.",
+        "C": "She works for the government.",
+        "D": "She wants to have some offices cleaned."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image205.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_009.png"
+      ]
+    },
+    {
+      "qid": "162013",
+      "question_number": 169,
+      "question_text": "What does Mr. Evans indicate about the prices in the e-mail?",
+      "options": {
+        "A": "They include applicable tax on the bill.",
+        "B": "They are available for a limited time only.",
+        "C": "They are lower than that of a rival company.",
+        "D": "They are increased during holiday periods."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image205.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_009.png"
+      ]
+    },
+    {
+      "qid": "162014",
+      "question_number": 170,
+      "question_text": "What is NOT stated as a service of the company?",
+      "options": {
+        "A": "Vacuuming",
+        "B": "Clothes washing",
+        "C": "Desk cleaning",
+        "D": "Waste removal"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image205.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_009.png"
+      ]
+    },
+    {
+      "qid": "162015",
+      "question_number": 171,
+      "question_text": "What does Mr. Evans ask Ms. Perk to do?",
+      "options": {
+        "A": "Make a payment",
+        "B": "Fill in a booking form",
+        "C": "Complete a tax return",
+        "D": "Visit an office"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image205.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_009.png"
+      ]
+    },
+    {
+      "qid": "162016",
+      "question_number": 172,
+      "question_text": "What is suggested about the Harledic Theater?",
+      "options": {
+        "A": "It is under new management.",
+        "B": "It plans to raise its ticket prices.",
+        "C": "It had new equipment installed.",
+        "D": "It has more than one screen."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image328.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_018.png"
+      ]
+    },
+    {
+      "qid": "162017",
+      "question_number": 173,
+      "question_text": "When most likely would the theater show student films?",
+      "options": {
+        "A": "On Thursdays",
+        "B": "On Fridays",
+        "C": "On Saturdays",
+        "D": "On Sundays"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image328.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_018.png"
+      ]
+    },
+    {
+      "qid": "162018",
+      "question_number": 174,
+      "question_text": "According to the press release, what was given a new name?",
+      "options": {
+        "A": "A feature film",
+        "B": "A movie theater",
+        "C": "A city street",
+        "D": "A film festival"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image328.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_018.png"
+      ]
+    },
+    {
+      "qid": "162019",
+      "question_number": 175,
+      "question_text": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?--\"To accompany these updates, the concession stand has been expanded as well.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image328.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_018.png"
+      ]
+    },
+    {
+      "qid": "162020",
+      "question_number": 176,
+      "question_text": "What kind of activity requires wearing a wristband?",
+      "options": {
+        "A": "Playing basketball",
+        "B": "Weightlifting",
+        "C": "Running",
+        "D": "Swimming"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2996a33f69b7a9977d13767ab5996f915c0dcbd1.jpg",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image3.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.jpg",
+        "images/img_014.png"
+      ]
+    },
+    {
+      "qid": "162021",
+      "question_number": 177,
+      "question_text": "What is indicated about the Wiffle Athletic Club?",
+      "options": {
+        "A": "It has only one location.",
+        "B": "Its members can take dance classes.",
+        "C": "It holds racquetball tournaments.",
+        "D": "It does not permit children to enter."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2996a33f69b7a9977d13767ab5996f915c0dcbd1.jpg",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image3.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.jpg",
+        "images/img_014.png"
+      ]
+    },
+    {
+      "qid": "162022",
+      "question_number": 178,
+      "question_text": "In the letter, the word \"form\" in paragraph 3, line 2, is closest in meaning to",
+      "options": {
+        "A": "style",
+        "B": "paper",
+        "C": "plan",
+        "D": "number"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2996a33f69b7a9977d13767ab5996f915c0dcbd1.jpg",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image3.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.jpg",
+        "images/img_014.png"
+      ]
+    },
+    {
+      "qid": "162023",
+      "question_number": 179,
+      "question_text": "Who most likely is NOT required to wear a wristband during a certain activity?",
+      "options": {
+        "A": "Adults who have passed a test",
+        "B": "Children under the age of 5",
+        "C": "Those taking a group class",
+        "D": "All long-term facility members"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2996a33f69b7a9977d13767ab5996f915c0dcbd1.jpg",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image3.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.jpg",
+        "images/img_014.png"
+      ]
+    },
+    {
+      "qid": "162024",
+      "question_number": 180,
+      "question_text": "When most likely was the letter sent?",
+      "options": {
+        "A": "In December",
+        "B": "In January",
+        "C": "In February",
+        "D": "In March"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2996a33f69b7a9977d13767ab5996f915c0dcbd1.jpg",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image3.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.jpg",
+        "images/img_014.png"
+      ]
+    },
+    {
+      "qid": "162025",
+      "question_number": 181,
+      "question_text": "What is the deadline for submitting a volunteer application?",
+      "options": {
+        "A": "October 15",
+        "B": "October 17",
+        "C": "December 10",
+        "D": "January 15"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image311.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image131.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.png",
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "162026",
+      "question_number": 182,
+      "question_text": "What is indicated about Mr. Singh?",
+      "options": {
+        "A": "He is a physician.",
+        "B": "He does not own a mobile phone.",
+        "C": "He has never visited the center.",
+        "D": "He used to live in another country."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image311.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image131.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.png",
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "162027",
+      "question_number": 183,
+      "question_text": "What does Mr. Amir ask Mr. Singh to do?",
+      "options": {
+        "A": "Complete an application",
+        "B": "Indicate his availability",
+        "C": "Translate a document",
+        "D": "Submit references"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image311.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image131.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.png",
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "162028",
+      "question_number": 184,
+      "question_text": "What will most likely happen next week?",
+      "options": {
+        "A": "Mr. Singh will meet with a center employee.",
+        "B": "Mr. Singh will begin his volunteer position.",
+        "C": "Mr. Amir will fill out a financial form.",
+        "D": "Ms. Flint will resign from her position."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image311.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image131.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.png",
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "162029",
+      "question_number": 185,
+      "question_text": "What most likely is one of the services that the Financial Services Coordinator offers?",
+      "options": {
+        "A": "Coordinating expense reimbursement",
+        "B": "Overseeing the provision of loans",
+        "C": "Providing medical insurance advice",
+        "D": "Helping people with tax documents"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image311.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image131.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.png",
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "162030",
+      "question_number": 186,
+      "question_text": "What is indicated about Event Supply Plus?",
+      "options": {
+        "A": "It is now in its fifth year of business.",
+        "B": "It provides discounts for fund-raising events.",
+        "C": "It recently changed ownership.",
+        "D": "It has more than one store location."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image350.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image228.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image141.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.png",
+        "images/img_010.png",
+        "images/img_005.png"
+      ]
+    },
+    {
+      "qid": "162031",
+      "question_number": 187,
+      "question_text": "In the Web page, the word \"extend\" in paragraph 1, line 3, is closest in meaning to",
+      "options": {
+        "A": "offer",
+        "B": "reach",
+        "C": "lengthen",
+        "D": "slow down"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image350.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image228.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image141.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.png",
+        "images/img_010.png",
+        "images/img_005.png"
+      ]
+    },
+    {
+      "qid": "162032",
+      "question_number": 188,
+      "question_text": "Where most likely did Ardac Technology hold its staff party?",
+      "options": {
+        "A": "In the Crystal Room",
+        "B": "In the Grand Room",
+        "C": "In the Bently Room",
+        "D": "In the McGill Room"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image350.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image228.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image141.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.png",
+        "images/img_010.png",
+        "images/img_005.png"
+      ]
+    },
+    {
+      "qid": "162033",
+      "question_number": 189,
+      "question_text": "What is suggested about Ms. Szanto?",
+      "options": {
+        "A": "She received a new customer discount.",
+        "B": "She met Ms. Paulson at a previous company event.",
+        "C": "She requested game rentals from Event Supply Plus.",
+        "D": "She has won employee recognition awards."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image350.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image228.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image141.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.png",
+        "images/img_010.png",
+        "images/img_005.png"
+      ]
+    },
+    {
+      "qid": "162034",
+      "question_number": 190,
+      "question_text": "What item did Ms. Szanto most likely NOT purchase?",
+      "options": {
+        "A": "#S470",
+        "B": "#S482",
+        "C": "#S493",
+        "D": "#S497"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image350.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image228.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image141.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.png",
+        "images/img_010.png",
+        "images/img_005.png"
+      ]
+    },
+    {
+      "qid": "162035",
+      "question_number": 191,
+      "question_text": "Why did the DBC speak to district supervisors?",
+      "options": {
+        "A": "They design new staff training programs.",
+        "B": "They are in charge of hiring consulting firms.",
+        "C": "They purchase displays for company stores.",
+        "D": "They work directly with personnel records."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image310.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image121.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image83.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.png",
+        "images/img_002.png",
+        "images/img_022.png"
+      ]
+    },
+    {
+      "qid": "162036",
+      "question_number": 192,
+      "question_text": "What is most likely included in the DBC report?",
+      "options": {
+        "A": "Criteria for choosing executives",
+        "B": "Advice for designing shopper surveys",
+        "C": "Details about merger deals",
+        "D": "Price comparisons for organic foods"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image310.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image121.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image83.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.png",
+        "images/img_002.png",
+        "images/img_022.png"
+      ]
+    },
+    {
+      "qid": "162037",
+      "question_number": 193,
+      "question_text": "What is suggested about Mr. Branson?",
+      "options": {
+        "A": "He has not read the report by the DBC.",
+        "B": "He used to be a regional manager.",
+        "C": "He is the head of the HRF committee.",
+        "D": "He followed Ms. Gorecki's suggestion."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image310.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image121.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image83.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.png",
+        "images/img_002.png",
+        "images/img_022.png"
+      ]
+    },
+    {
+      "qid": "162038",
+      "question_number": 194,
+      "question_text": "What did the DBC most likely recommend that Organic-Mor Foods do?",
+      "options": {
+        "A": "Convert paper documents to electronic files",
+        "B": "Reduce staffing at certain locations",
+        "C": "Relocate their head office",
+        "D": "Offer home delivery service"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image310.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image121.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image83.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.png",
+        "images/img_002.png",
+        "images/img_022.png"
+      ]
+    },
+    {
+      "qid": "162039",
+      "question_number": 195,
+      "question_text": "In the newsletter article, the word \"significant\" in paragraph 1, line 5, is closest in meaning to",
+      "options": {
+        "A": "direct",
+        "B": "important",
+        "C": "necessary",
+        "D": "substantial"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image310.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image121.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image83.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.png",
+        "images/img_002.png",
+        "images/img_022.png"
+      ]
+    },
+    {
+      "qid": "162040",
+      "question_number": 196,
+      "question_text": "What is indicated about the Town Arts Festival?",
+      "options": {
+        "A": "It is an annual event.",
+        "B": "It will last for two days.",
+        "C": "It will take place in a city park.",
+        "D": "It is free for contestants to enter."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image299.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image243.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image134.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.png",
+        "images/img_011.png",
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "162041",
+      "question_number": 197,
+      "question_text": "In the e-mail, the word \"accommodate\" in paragraph 2, line 2, is closest in meaning to",
+      "options": {
+        "A": "contain",
+        "B": "handle",
+        "C": "regulate",
+        "D": "lend"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image299.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image243.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image134.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.png",
+        "images/img_011.png",
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "162042",
+      "question_number": 198,
+      "question_text": "What sponsorship option did Bilesky Design Studio most likely choose?",
+      "options": {
+        "A": "Headline",
+        "B": "Platinum",
+        "C": "Appearance",
+        "D": "Supporter"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image299.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image243.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image134.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.png",
+        "images/img_011.png",
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "162043",
+      "question_number": 199,
+      "question_text": "What is suggested about the DAC?",
+      "options": {
+        "A": "It was founded by a local entrepreneur.",
+        "B": "It recently organized a cooking contest.",
+        "C": "It postponed the starting date of an event.",
+        "D": "It also sponsors local theater festivals."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image299.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image243.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image134.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.png",
+        "images/img_011.png",
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "162044",
+      "question_number": 200,
+      "question_text": "What most likely is true about Ms. Davis?",
+      "options": {
+        "A": "She wrote an article for a DAC magazine.",
+        "B": "She is an employee at the Town Art Museum.",
+        "C": "She met Ms. Fallon after a ceremony.",
+        "D": "She plans to open a poster store."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image299.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image243.png",
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image134.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.png",
+        "images/img_011.png",
+        "images/img_004.png"
+      ]
+    }
+  ]
+}

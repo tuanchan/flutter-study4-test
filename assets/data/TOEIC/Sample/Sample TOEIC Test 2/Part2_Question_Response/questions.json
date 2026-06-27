@@ -1,0 +1,532 @@
+{
+  "part": 2,
+  "part_name": "Part2_Question_Response",
+  "part_id": 758,
+  "questions": [
+    {
+      "qid": "9398",
+      "question_number": 7,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_7.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Who's presenting the sales report at the next meeting?(A) I think Jason is.(B) It's already been sold.(C) At the nearest port.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_023.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9399",
+      "question_number": 8,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_8.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Would you prefer an appointment today or tomorrow?(A) I arrived yesterday.(B) This afternoon is fine.(C) The office on the second floor.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_024.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9400",
+      "question_number": 9,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_9.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "How can you improve product quality?(A) By using better materials.(B) I can prove him wrong.(C) Production costs.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_025.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9401",
+      "question_number": 10,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_10.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Which road is fastest?(A) Why don't I drive?(B) Take the highway.(C) Slow down.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9402",
+      "question_number": 11,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_11.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Do you mind if I print a document?(A) It's black and white.(B) This is not mine.(C) No problem. Go ahead.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9403",
+      "question_number": 12,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_12.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Who's welcoming our guest?(A) I think it's April 24.(B) Please reserve a room.(C) Mary is responsible for that.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9404",
+      "question_number": 13,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_13.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "That piano player was really talented, wasn't he?(A) Yes, I was very impressed.(B) It was rather expensive.(C) I bought the player online.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9405",
+      "question_number": 14,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_14.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Why is the copy center closed today?(A) 300 copies, please.(B) In the storage closet.(C) It's Sunday.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9406",
+      "question_number": 15,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_15.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Where can I apply for a job?(A) The application fee.(B) On our website.(C) Mr. Marshall will conduct an interview.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9407",
+      "question_number": 16,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_16.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "I signed up for the leadership workshop.(A) At the local community center.(B) I've been assigned the role.(C) Oh, so did I.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9408",
+      "question_number": 17,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_17.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "The wellness seminar is this afternoon, isn't it?(A) Yes, don't be late.(B) No, please register online.(C) It was quite informative.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9409",
+      "question_number": 18,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_18.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Where can I find the client's phone number?(A) Before 5:00 P.M.(B) The secretary should know.(C) No, she never called back.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9410",
+      "question_number": 19,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_19.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "The network system isn't functioning.(A) New login information.(B) For the corporate function.(C) It's being repaired.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9411",
+      "question_number": 20,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_20.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Why are you still advertising this position?(A) The new advertising strategy.(B) We still haven't hired anyone.(C) Every other week.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_011.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9412",
+      "question_number": 21,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_21.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "When are membership fees due?(A) No, but you can upgrade.(B) A bank account number.(C) The last week of every month.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_012.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9413",
+      "question_number": 22,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_22.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Are you scheduled for a private consultation?(A) No, I forgot to call ahead.(B) That was helpful.(C) She departed on schedule.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_013.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9414",
+      "question_number": 23,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_23.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Weren't you going to purchase a large-screen television?(A) I bought a projector instead.(B) How much did it cost?(C) Turn down the volume.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_014.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9415",
+      "question_number": 24,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_24.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Do you want to work on this task together?(A) I'll walk on the treadmill for half an hour.(B) A family get-together.(C) Sure. When do you want to start?",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_015.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9416",
+      "question_number": 25,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_25.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "The manager expects everyone to arrive by 7:00 A.M.(A) I'll set the alarm.(B) What did you expect?(C) Leave it at the front desk.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_016.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9417",
+      "question_number": 26,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_26.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Where do we store past years' sales records?(A) I'll inform a store manager.(B) Yes, it's an expense report.(C) They have all been digitized.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_017.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9418",
+      "question_number": 27,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_27.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Would you be willing to organize the conference?(A) The keynote speaker.(B) Regarding consumer preferences.(C) Well, it depends on when it is.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_018.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9419",
+      "question_number": 28,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_28.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Have you found a new intern, or are you still searching?(A) The new intern starts tomorrow.(B) The sales department.(C) They will found a new company later this year.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_019.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9420",
+      "question_number": 29,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_29.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Can I talk to Mr. Marquez in the finance department, please?(A) Yes, I'll transfer you.(B) He lives in a studio apartment.(C) No, he's a finance expert.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_020.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9421",
+      "question_number": 30,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_30.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Is it possible to have this repaired today?(A) Yes, a pair of scissors.(B) Won't the event be held tomorrow?(C) No, we have to order new parts.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_021.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9422",
+      "question_number": 31,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_31.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Why don't we send the parcel express?(A) It still won't arrive in time.(B) Throughout the press conference.(C) They deliver supplies to your doorstep.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_022.mp3"
+      ],
+      "image_files": []
+    }
+  ]
+}

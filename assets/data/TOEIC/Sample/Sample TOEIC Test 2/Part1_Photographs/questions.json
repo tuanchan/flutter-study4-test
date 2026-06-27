@@ -1,0 +1,163 @@
+{
+  "part": 1,
+  "part_name": "Part1_Photographs",
+  "part_id": 757,
+  "questions": [
+    {
+      "qid": "9392",
+      "question_number": 1,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_1.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_1.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) The man is pointing at the flowers.(B) She is picking some flowers.(C) The man is holding a flower.(D) They are all looking at the plants.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "9393",
+      "question_number": 2,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_2.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_2.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) He is wearing a tool belt.(B) The man is loading a cart.(C) He is changing the tire in the garage.(D) The tire is brand new.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "9394",
+      "question_number": 3,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_3.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_3.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) He is driving a car in the snow.(B) He has already shoveled the snow off of the roof.(C) His car door is covered in snow.(D) He is playing with friends in the snow.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "9395",
+      "question_number": 4,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_4.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_4.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) The lecture theater is full of students.(B) The lecture theater is empty.(C) All of the students are outside the lecture theater.(D) There is a man giving a lecture.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": [
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "9396",
+      "question_number": 5,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_5.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_5.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) The woman is looking at the computer.(B) The woman is eating some fruits.(C) The woman has her hair down.(D) The woman is typing on the computer.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": [
+        "images/img_005.png"
+      ]
+    },
+    {
+      "qid": "9397",
+      "question_number": 6,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_6.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_6.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) She is holding a vegetable.(B) She is looking at some fish.(C) She is checking her shopping list.(D) She is tasting the vegetables.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": [
+        "images/img_006.png"
+      ]
+    }
+  ]
+}

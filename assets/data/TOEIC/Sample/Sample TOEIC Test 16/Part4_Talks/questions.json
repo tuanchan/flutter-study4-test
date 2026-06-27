@@ -1,0 +1,703 @@
+{
+  "part": 4,
+  "part_name": "Part4_Talks",
+  "part_id": 9566,
+  "questions": [
+    {
+      "qid": "160915",
+      "question_number": 71,
+      "question_text": "What has the speaker recently done?",
+      "options": {
+        "A": "Evaluated staff members",
+        "B": "Run an advertising campaign",
+        "C": "Hired a magazine editor",
+        "D": "Analyzed some figures"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/71.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160916",
+      "question_number": 72,
+      "question_text": "What does the speaker want to do?",
+      "options": {
+        "A": "Launch a new product",
+        "B": "Control operating expenses",
+        "C": "Improve the magazine's layout",
+        "D": "Increase subscriptions"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/71.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160917",
+      "question_number": 73,
+      "question_text": "Why should the listeners e-mail the speaker?",
+      "options": {
+        "A": "To share suggestions",
+        "B": "To get spending approval",
+        "C": "To confirm attendance",
+        "D": "To select a meeting time"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/71.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160918",
+      "question_number": 74,
+      "question_text": "What problem does the speaker mention?",
+      "options": {
+        "A": "A delivery arrived late.",
+        "B": "Some items were the wrong size.",
+        "C": "A Web site is not working.",
+        "D": "Some merchandise was damaged."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/74.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160919",
+      "question_number": 75,
+      "question_text": "What does the speaker want to do?",
+      "options": {
+        "A": "Use a coupon",
+        "B": "Cancel an order",
+        "C": "Get a replacement",
+        "D": "Receive a refund"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/74.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160920",
+      "question_number": 76,
+      "question_text": "Why should the listener call the speaker back?",
+      "options": {
+        "A": "To confirm a delivery",
+        "B": "To provide an estimate",
+        "C": "To explain a process",
+        "D": "To provide a code"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/74.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160921",
+      "question_number": 77,
+      "question_text": "According to the speaker, what will happen tomorrow?",
+      "options": {
+        "A": "The store will undergo an inspection.",
+        "B": "A branch will have a grand opening.",
+        "C": "The business will stay open late.",
+        "D": "A new product will go on sale."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/77.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160922",
+      "question_number": 78,
+      "question_text": "Who is Debra Lansing?",
+      "options": {
+        "A": "An inventor",
+        "B": "An assistant manager",
+        "C": "A journalist",
+        "D": "A business owner"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/77.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160923",
+      "question_number": 79,
+      "question_text": "What does the speaker say she will do?",
+      "options": {
+        "A": "Provide some refreshments",
+        "B": "Confirm a work schedule",
+        "C": "Make copies of a manual",
+        "D": "Get feedback from customers"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/77.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160924",
+      "question_number": 80,
+      "question_text": "Who most likely are the listeners?",
+      "options": {
+        "A": "Book club members",
+        "B": "Amateur musicians",
+        "C": "New employees",
+        "D": "Local politicians"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/80.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160925",
+      "question_number": 81,
+      "question_text": "According to the speaker, what has caused a problem?",
+      "options": {
+        "A": "A supply shortage",
+        "B": "A scheduling error",
+        "C": "A lack of funds",
+        "D": "An equipment malfunction"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/80.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160926",
+      "question_number": 82,
+      "question_text": "What does the speaker plan to do tomorrow?",
+      "options": {
+        "A": "Place an order",
+        "B": "E-mail the listeners",
+        "C": "Give a talk",
+        "D": "Copy some documents"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/80.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160927",
+      "question_number": 83,
+      "question_text": "What is the broadcast mainly about?",
+      "options": {
+        "A": "Shopping tips",
+        "B": "Party planning",
+        "C": "Home baking",
+        "D": "Cleaning techniques"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/83.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160928",
+      "question_number": 84,
+      "question_text": "According to the speaker, what will be posted on the Web site from next week?",
+      "options": {
+        "A": "Previous broadcasts",
+        "B": "Discount offers",
+        "C": "Detailed instructions",
+        "D": "Photo collections"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/83.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160929",
+      "question_number": 85,
+      "question_text": "Why does the speaker say, \"Be a part of it\"?",
+      "options": {
+        "A": "To encourage listener feedback",
+        "B": "To give a preview of the next show",
+        "C": "To promote a special event",
+        "D": "To announce a job opening"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/83.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160930",
+      "question_number": 86,
+      "question_text": "What did the listener send the speaker?",
+      "options": {
+        "A": "A questionnaire",
+        "B": "A written article",
+        "C": "A budget report",
+        "D": "An advertisement"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/86.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160931",
+      "question_number": 87,
+      "question_text": "What does the speaker imply when he says, \"Is this really it\"?",
+      "options": {
+        "A": "He thinks some information is missing.",
+        "B": "He is displeased with the quality.",
+        "C": "He cannot find the file he needs.",
+        "D": "He is surprised by the quick response."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/86.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160932",
+      "question_number": 88,
+      "question_text": "What does the speaker ask the listener to do?",
+      "options": {
+        "A": "Come to his office",
+        "B": "Hire a professional",
+        "C": "E-mail some notes",
+        "D": "Work extra hours"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/86.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160933",
+      "question_number": 89,
+      "question_text": "What is the purpose of the event?",
+      "options": {
+        "A": "To recognize an employee's achievement",
+        "B": "To commemorate a company anniversary",
+        "C": "To show appreciation to a retiring employee",
+        "D": "To celebrate a business expansion"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/89.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160934",
+      "question_number": 90,
+      "question_text": "Who most likely is Mr. Kott?",
+      "options": {
+        "A": "A lab technician",
+        "B": "A business owner",
+        "C": "A salesperson",
+        "D": "A financial consultant"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/89.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160935",
+      "question_number": 91,
+      "question_text": "What does the speaker remind listeners to do?",
+      "options": {
+        "A": "Specify a meal preference",
+        "B": "Complete a feedback form",
+        "C": "Get their picture taken",
+        "D": "Review some information"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/89.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "160936",
+      "question_number": 92,
+      "question_text": "Who most likely are the listeners?",
+      "options": {
+        "A": "Conference presenters",
+        "B": "Lecture attendees",
+        "C": "Contest judges",
+        "D": "Workshop participants"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/92.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image214.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "160937",
+      "question_number": 93,
+      "question_text": "What does the speaker say is especially important?",
+      "options": {
+        "A": "Asking questions",
+        "B": "Following guidelines",
+        "C": "Using teamwork",
+        "D": "Taking notes"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/92.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image214.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "160938",
+      "question_number": 94,
+      "question_text": "Look at the graphic. When will the listeners speak to Ms. Miller?",
+      "options": {
+        "A": "At 8:00 A.M.",
+        "B": "At 9:00 A.M.",
+        "C": "At 10:00 A.M.",
+        "D": "At 11:00 A.M."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/92.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image214.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "160939",
+      "question_number": 95,
+      "question_text": "What will the speaker do next week?",
+      "options": {
+        "A": "Purchase more items",
+        "B": "Move to a new apartment",
+        "C": "Open a business",
+        "D": "Schedule a delivery"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/95.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image265.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "160940",
+      "question_number": 96,
+      "question_text": "What problem does the speaker mention?",
+      "options": {
+        "A": "Some furniture was damaged.",
+        "B": "She was overcharged.",
+        "C": "An item was missing.",
+        "D": "She does not like the style."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/95.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image265.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "160941",
+      "question_number": 97,
+      "question_text": "Look at the graphic. How much does the speaker expect to be credited?",
+      "options": {
+        "A": "€450",
+        "B": "€140",
+        "C": "€75",
+        "D": "€40"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/95.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image265.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "160942",
+      "question_number": 98,
+      "question_text": "Why does the speaker apologize to the listeners?",
+      "options": {
+        "A": "One of the hiking trails is closed.",
+        "B": "The group is larger than expected.",
+        "C": "Some reservations were lost.",
+        "D": "The tour is starting later than planned."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/98.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image304.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "160943",
+      "question_number": 99,
+      "question_text": "Look at the graphic. Which site is usually not included in the hike?",
+      "options": {
+        "A": "Crystal Waterfall",
+        "B": "Finwood Peak",
+        "C": "Spring Lake",
+        "D": "Slate Cave"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/98.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image304.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "160944",
+      "question_number": 100,
+      "question_text": "What does the speaker remind the listeners to do?",
+      "options": {
+        "A": "Leave plants untouched",
+        "B": "Put on safety gear",
+        "C": "Bring along their cameras",
+        "D": "Stay on the trail"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test1/98.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image304.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "part": 1,
+  "part_name": "Part1_Photographs",
+  "part_id": 9584,
+  "questions": [
+    {
+      "qid": "161470",
+      "question_number": 1,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/1.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image259.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "(A) He is holding up a picture frame.\n(B) He is hanging up a jacket.\n(C) He is stacking some glasses on the counter.\n(D) He is using a touch screen.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "161471",
+      "question_number": 2,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/2.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image314.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) A woman is folding a newspaper.\n(B) Some people are gathered for a meeting.\n(C) The people are seated across from each other.\n(D) One man is speaking into a handset.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": [
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "161472",
+      "question_number": 3,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/3.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image23.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "(A) He is arranging some women’s clothing.\n(B) He is packing up some computers.\n(C) He is examining some mobile phones.\n(D) He is looking down at a laptop.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161473",
+      "question_number": 4,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/4.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image331.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) Passengers are waiting for a taxi to arrive.\n(B) Some vehicles have arrived on the runway.\n(C) The taxis have been parked beside each other.\n(D) A lineup of travelers leads into the terminal.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": [
+        "images/img_006.png"
+      ]
+    },
+    {
+      "qid": "161474",
+      "question_number": 5,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/5.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image272.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) Some  dishes are being prepared by the cooks.\n(B) Customers are selecting food items at a market.\n(C) A kitchen is being cleaned by a staff.\n(D) Some chefs are taking off their hats.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161475",
+      "question_number": 6,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/6.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image33.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) The men are pushing a cart in the store.\n(B) Some shelves are being set up in a warehouse.\n(C) A rolling ladder has been placed along the shelves.\n(D) One man is loading some boxes onto a cart.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": [
+        "images/img_005.png"
+      ]
+    }
+  ]
+}

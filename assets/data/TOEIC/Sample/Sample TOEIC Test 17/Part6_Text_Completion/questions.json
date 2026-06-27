@@ -1,0 +1,359 @@
+{
+  "part": 6,
+  "part_name": "Part6_Text_Completion",
+  "part_id": 9575,
+  "questions": [
+    {
+      "qid": "161175",
+      "question_number": 131,
+      "question_text": "",
+      "options": {
+        "A": "still",
+        "B": "once",
+        "C": "soon",
+        "D": "much"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image136.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161176",
+      "question_number": 132,
+      "question_text": "",
+      "options": {
+        "A": "will be appointed",
+        "B": "is appointing",
+        "C": "had appointed",
+        "D": "was appointed"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image136.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161177",
+      "question_number": 133,
+      "question_text": "",
+      "options": {
+        "A": "Mr. Ashfield helped them all rise from such humble beginnings.",
+        "B": "Mr. Ashfield's ultimate goal is to set up a sales department.",
+        "C": "It seems they were born to be leaders in the telecommunications field.",
+        "D": "It may seem that Mr. Ashfield has reached the top of his field."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image136.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161178",
+      "question_number": 134,
+      "question_text": "",
+      "options": {
+        "A": "In contrast",
+        "B": "Despite that",
+        "C": "In fact",
+        "D": "Instead"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image136.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161179",
+      "question_number": 135,
+      "question_text": "",
+      "options": {
+        "A": "specializes",
+        "B": "is specializing",
+        "C": "specializing",
+        "D": "has specialized"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image191.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161180",
+      "question_number": 136,
+      "question_text": "",
+      "options": {
+        "A": "We are very proud of our top-notch pastry bakers.",
+        "B": "We have developed more than 50 different cake designs.",
+        "C": "Plans to open more branches in the Big Apple are underway.",
+        "D": "There are 120,000 customers registered in our rewards program."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image191.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161181",
+      "question_number": 137,
+      "question_text": "",
+      "options": {
+        "A": "alternate",
+        "B": "customize",
+        "C": "conserve",
+        "D": "distribute"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image191.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161182",
+      "question_number": 138,
+      "question_text": "",
+      "options": {
+        "A": "was located",
+        "B": "will be located",
+        "C": "being located",
+        "D": "is located"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image191.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161183",
+      "question_number": 139,
+      "question_text": "",
+      "options": {
+        "A": "solution",
+        "B": "question",
+        "C": "calculation",
+        "D": "purpose"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image140.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "161184",
+      "question_number": 140,
+      "question_text": "",
+      "options": {
+        "A": "required",
+        "B": "have required",
+        "C": "are required",
+        "D": "were required"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image140.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "161185",
+      "question_number": 141,
+      "question_text": "",
+      "options": {
+        "A": "concisely",
+        "B": "identifiably",
+        "C": "suspiciously",
+        "D": "anonymously"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image140.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "161186",
+      "question_number": 142,
+      "question_text": "",
+      "options": {
+        "A": "There is never a need to worry about confidentiality.",
+        "B": "Nevertheless, the question-and-answer session will be useful for them.",
+        "C": "In short, the surveys have been completely redesigned.",
+        "D": "Their team previously explained the system's privacy settings."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image140.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "161187",
+      "question_number": 143,
+      "question_text": "",
+      "options": {
+        "A": "In comparison to the others, the one you ordered is quite popular.",
+        "B": "First of all, the shipment of your order will take as many as 7 days.",
+        "C": "Unfortunately, some of those featured products have been discontinued.",
+        "D": "With regret, I am writing to update you on your recent order from our Web site."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image355.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "161188",
+      "question_number": 144,
+      "question_text": "",
+      "options": {
+        "A": "from",
+        "B": "until",
+        "C": "ahead",
+        "D": "under"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image355.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "161189",
+      "question_number": 145,
+      "question_text": "",
+      "options": {
+        "A": "cancellation",
+        "B": "breakage",
+        "C": "inventory",
+        "D": "delay"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image355.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "161190",
+      "question_number": 146,
+      "question_text": "",
+      "options": {
+        "A": "afforded",
+        "B": "afford",
+        "C": "affordable",
+        "D": "affording"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image355.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_004.png"
+      ]
+    }
+  ]
+}

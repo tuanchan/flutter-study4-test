@@ -1,0 +1,163 @@
+{
+  "part": 1,
+  "part_name": "Part1_Photographs",
+  "part_id": 743,
+  "questions": [
+    {
+      "qid": "8992",
+      "question_number": 1,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_1.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_1.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) The woman is looking at some menu.(B) There is a measuring tape around her neck.(C) She is holding a pair of scissors.(D) She is making some curtains with her measuring tape.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "8993",
+      "question_number": 2,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_2.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_2.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) She is looking at the laptop.(B) The vegetables are behind the laptop.(C) She is writing an email.(D) She is cutting some cucumber and carrot.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "8994",
+      "question_number": 3,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_3.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_3.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) All of the men are wearing glasses.(B) All of the people are looking at the laptop.(C) There are glasses of water on the table.(D) All of the men are leaning over the table.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "8995",
+      "question_number": 4,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_4.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_4.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "(A) The man is throwing a snowball at the wood.(B) They are making a snowman.(C) The man is breaking the snowball.(D) They are having a snowball fight.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": [
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "8996",
+      "question_number": 5,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_5.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_5.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) All of the chairs are the same.(B) There are a lot of people swimming in the water.(C) The pool is nearby the sea.(D) The umbrellas are closed.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": [
+        "images/img_005.png"
+      ]
+    },
+    {
+      "qid": "8997",
+      "question_number": 6,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_6.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_6.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) She is at the supermarket.(B) She is selecting a flowerpot.(C) She is with her best friend.(D) She is paying for a flowerpot.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": [
+        "images/img_006.png"
+      ]
+    }
+  ]
+}

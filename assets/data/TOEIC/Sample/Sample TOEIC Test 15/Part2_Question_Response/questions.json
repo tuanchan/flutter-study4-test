@@ -1,0 +1,532 @@
+{
+  "part": 2,
+  "part_name": "Part2_Question_Response",
+  "part_id": 9627,
+  "questions": [
+    {
+      "qid": "162645",
+      "question_number": 7,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/7.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "How many days will Greg be away?\n(A) For a vacation.\n(B) Three in total.\n(C) I’ll tell her.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_023.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162646",
+      "question_number": 8,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/8.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Where did you buy this pen?\n(A) That’ll be two dollars.\n(B) I liked the color.\n(C) At the bookstore.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_024.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162647",
+      "question_number": 9,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/9.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Could you help me put labels on these boxes?\n(A) I’d be happy to help.\n(B) Many different sizes.\n(C) Some old computer parts.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_025.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162648",
+      "question_number": 10,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/10.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Are you going to call the caterer about the change?\n(A) I don’t have her number.\n(B) Kate’s change of clothes.\n(C) We ate at a restaurant.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162649",
+      "question_number": 11,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/11.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "You’ve used this software before, haven’t you?\n(A) Please fill in this spreadsheet.\n(B) In the user manual.\n(C) Yes, but that was years ago.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162650",
+      "question_number": 12,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/12.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Why did you arrive late to work today?\n(A) Sure, if that’s what you need.\n(B) Because I missed the bus.\n(C) Before the afternoon shift.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162651",
+      "question_number": 13,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/13.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Didn’t Ga-Yoon make an agenda for the meeting?\n(A) The whole department.\n(B) Not that I know of.\n(C) Where is Conference Room Four?",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162652",
+      "question_number": 14,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/14.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "The park’s operating hours have been reduced\nbecause of budget cuts.\n(A) I’m sorry to hear that.\n(B) The staff parking area.\n(C) He’s on the operations team.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162653",
+      "question_number": 15,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/15.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "When will you take your lunch break?\n(A) The café next door.\n(B) Take as many as you want.\n(C) As soon as I finish reading this report.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162654",
+      "question_number": 16,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/16.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "What award was your book nominated for?\n(A) By an authors’ organization.\n(B) Best Historical Fiction.\n(C) You really deserve it.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162655",
+      "question_number": 17,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/17.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "How can I tell if the batteries need to be replaced?\n(A) Two should be enough for it.\n(B) This light will start flashing.\n(C) Oh, that’s my favorite place.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162656",
+      "question_number": 18,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/18.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Should I reschedule the building permit inspection, or not?\n(A) It used to be an office building.\n(B) The city planning department.\n(C) Yes—we need more time to prepare.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162657",
+      "question_number": 19,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/19.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "This medicine is sold at most pharmacies, right?\n(A) I’ve definitely seen it on display at Cardell’s.\n(B) The patient in Room 405.\n(C) No, it’s a medical seminar.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162658",
+      "question_number": 20,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/20.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "How about sending an electronic invoice for the work?\n(A) This client prefers a paper one.\n(B) Sorry, I already spent it.\n(C) Once a month.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_011.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162659",
+      "question_number": 21,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/21.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "How do I access my bank account online?\n(A) You can pay bills more easily.\n(B) Yes, both savings and checking.\n(C) Have you registered a password yet?",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_012.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162660",
+      "question_number": 22,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/22.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Who’s designing the invitations for the club banquet?\n(A) That’s what the organizer said.\n(B) One of our members is a graphic designer.\n(C) I appreciate your inviting me.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_013.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162661",
+      "question_number": 23,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/23.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Is this the updated list of exhibitors at the trade show?\n(A) It looks like the old one.\n(B) Kojima Tools’ demonstration.\n(C) No, the first show is on April eighth.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_014.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162662",
+      "question_number": 24,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/24.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Which photograph are you going to use with this\narticle?\n(A) Thanks, it took me a while to write.\n(B) Look straight into the camera, please.\n(C) There aren’t a lot of options.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_015.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162663",
+      "question_number": 25,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/25.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Where should I order the banner for the anniversary party?\n(A) Talk to Sarah about that.\n(B) How about the back wall?\n(C) A simple message of congratulations.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_016.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162664",
+      "question_number": 26,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/26.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "I figured out why the packaging machine broke down.\n(A) It’s just down the street.\n(B) No, the package wasn’t delivered.\n(C) Will it take long to fix it?",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_017.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162665",
+      "question_number": 27,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/27.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Why don’t we make a corporate donation to a local charity?\n(A) We’re a major corporation.\n(B) I like that idea.\n(C) It was extremely helpful.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_018.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162666",
+      "question_number": 28,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/28.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Didn’t you get the survey I e-mailed to you?\n(A) It wasn’t in my inbox.\n(B) There’s no mail on Sundays.\n(C) I decided not to.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_019.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162667",
+      "question_number": 29,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/29.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Do you want to change the flight’s departure date or return date?\n(A) Actually, I’m canceling the trip.\n(B) He departed from Rome.\n(C) First-class section.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_020.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162668",
+      "question_number": 30,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/30.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Have you reviewed the latest version of the grant proposal?\n(A) It wasn’t late—the deadline’s today.\n(B) A research project on alternative energy.\n(C) I think it’s ready to be submitted.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_021.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "162669",
+      "question_number": 31,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test10/31.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Why are we postponing the ceremony to next week?\n(A) Until the end of the month.\n(B) You’ve seen the weather forecast.\n(C) A post with the meeting agenda details.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_022.mp3"
+      ],
+      "image_files": []
+    }
+  ]
+}

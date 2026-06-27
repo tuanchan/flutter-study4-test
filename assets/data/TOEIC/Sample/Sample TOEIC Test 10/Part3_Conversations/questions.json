@@ -1,0 +1,901 @@
+{
+  "part": 3,
+  "part_name": "Part3_Conversations",
+  "part_id": 745,
+  "questions": [
+    {
+      "qid": "9023",
+      "question_number": 32,
+      "question_text": "Which department does the man most likely work in?",
+      "options": {
+        "A": "Human Resources.",
+        "B": "Accounting.",
+        "C": "Marketing.",
+        "D": "Technical Support."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_32_34.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9024",
+      "question_number": 33,
+      "question_text": "What is the woman unable to do?",
+      "options": {
+        "A": "Contact a client.",
+        "B": "Write an e-mail.",
+        "C": "Access a file.",
+        "D": "Purchase a laptop computer."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_32_34.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9025",
+      "question_number": 34,
+      "question_text": "What does the man suggest doing?",
+      "options": {
+        "A": "Stopping by his office.",
+        "B": "Enrolling in a class.",
+        "C": "Replacing a part.",
+        "D": "Reading a manual."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_32_34.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9026",
+      "question_number": 35,
+      "question_text": "Why is the man calling?",
+      "options": {
+        "A": "To request a payment.",
+        "B": "To confirm an order.",
+        "C": "To offer a room upgrade.",
+        "D": "To advertise a product."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_35_37.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9027",
+      "question_number": 36,
+      "question_text": "What does the woman inquire about?",
+      "options": {
+        "A": "An additional fee.",
+        "B": "Valet parking.",
+        "C": "Local amenities.",
+        "D": "A warranty period."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_35_37.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9028",
+      "question_number": 37,
+      "question_text": "What does the woman say she will do?",
+      "options": {
+        "A": "Pay by credit card.",
+        "B": "Compare options.",
+        "C": "Take pictures.",
+        "D": "Rearrange her schedule."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_35_37.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9029",
+      "question_number": 38,
+      "question_text": "Why is the man calling?",
+      "options": {
+        "A": "To cancel an order.",
+        "B": "To ask for advice.",
+        "C": "To purchase an air conditioner.",
+        "D": "To schedule an appointment."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_38_40.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9030",
+      "question_number": 39,
+      "question_text": "How long has the man most likely used the air conditioner?",
+      "options": {
+        "A": "About a day.",
+        "B": "About a week.",
+        "C": "About a month.",
+        "D": "About a year."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_38_40.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9031",
+      "question_number": 40,
+      "question_text": "What information does the woman request?",
+      "options": {
+        "A": "The year of production.",
+        "B": "Contact information.",
+        "C": "A model number.",
+        "D": "The date of purchase."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_38_40.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9032",
+      "question_number": 41,
+      "question_text": "What type of event are the speakers discussing?",
+      "options": {
+        "A": "A fundraiser.",
+        "B": "A workshop.",
+        "C": "An anniversary.",
+        "D": "A music festival."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_41_43.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9033",
+      "question_number": 42,
+      "question_text": "What is the woman concerned about?",
+      "options": {
+        "A": "Reserving tickets.",
+        "B": "Finding a parking space.",
+        "C": "Arriving on time.",
+        "D": "Accommodating more attendees."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_41_43.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9034",
+      "question_number": 43,
+      "question_text": "How is the event different from the one held last year?",
+      "options": {
+        "A": "There will be a family ticket option.",
+        "B": "A shuttle bus will be available.",
+        "C": "No cameras will be allowed.",
+        "D": "A different place will be used."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_41_43.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9035",
+      "question_number": 44,
+      "question_text": "How did the man find out about the yoga class?",
+      "options": {
+        "A": "From a public posting.",
+        "B": "From a co-worker.",
+        "C": "From the woman.",
+        "D": "From a company's website."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_44_46.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9036",
+      "question_number": 45,
+      "question_text": "Why can't the woman attend the yoga class?",
+      "options": {
+        "A": "She hurt her back.",
+        "B": "She can't afford the fee.",
+        "C": "She has to take care of her children.",
+        "D": "She attends a different class."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_44_46.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9037",
+      "question_number": 46,
+      "question_text": "What will the woman do next month?",
+      "options": {
+        "A": "Apply for a new job.",
+        "B": "Watch the man's jazz dance.",
+        "C": "Appear in a performance.",
+        "D": "Register for a class."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_44_46.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9038",
+      "question_number": 47,
+      "question_text": "Who most likely is the woman?",
+      "options": {
+        "A": "A customer service representative.",
+        "B": "A travel agent.",
+        "C": "A fashion designer.",
+        "D": "An event coordinator."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_47_49.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9039",
+      "question_number": 48,
+      "question_text": "According to the woman, why can't the item be refunded immediately?",
+      "options": {
+        "A": "A computer system is not working.",
+        "B": "A manager is absent.",
+        "C": "It has already been sent.",
+        "D": "The man is not eligible for a refund."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_47_49.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9040",
+      "question_number": 49,
+      "question_text": "What does the woman say she will do?",
+      "options": {
+        "A": "Offer a discount.",
+        "B": "Send an e-mail.",
+        "C": "Provide a product catalog.",
+        "D": "Contact a manager."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_47_49.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9041",
+      "question_number": 50,
+      "question_text": "Why was it hot inside the office?",
+      "options": {
+        "A": "The air conditioner was on.",
+        "B": "The air conditioner was broken.",
+        "C": "There is no air conditioning.",
+        "D": "The air conditioner had been off."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_50_52.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9042",
+      "question_number": 51,
+      "question_text": "What is the man's problem with the office?",
+      "options": {
+        "A": "There was no public transport close by.",
+        "B": "The carpet was not clean.",
+        "C": "The contract is not signed.",
+        "D": "The office is too small."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_50_52.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9043",
+      "question_number": 52,
+      "question_text": "How does the woman respond to the man's problem?",
+      "options": {
+        "A": "She tells him they are putting in new carpets.",
+        "B": "She tells him that the carpets aren't dirty.",
+        "C": "She prepares the contract for tomorrow.",
+        "D": "She shows him another office."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_50_52.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9044",
+      "question_number": 53,
+      "question_text": "What are the speakers discussing?",
+      "options": {
+        "A": "A real estate deal.",
+        "B": "The condition of the property.",
+        "C": "Negotiating a contract.",
+        "D": "Renovating the property."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_53_55.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9045",
+      "question_number": 54,
+      "question_text": "Why does the woman say \"I've had several other offers that are higher than that from other real estate agents\"?",
+      "options": {
+        "A": "To offer a contract.",
+        "B": "To negotiate a higher price.",
+        "C": "To settle a deal.",
+        "D": "To recommend a realtor."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_53_55.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9046",
+      "question_number": 55,
+      "question_text": "Why is the woman pleased?",
+      "options": {
+        "A": "Because she completed her work.",
+        "B": "The renovations will go ahead.",
+        "C": "She found a new realtor.",
+        "D": "The realtor will pay more money."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_53_55.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9047",
+      "question_number": 56,
+      "question_text": "Where do the speakers most likely work?",
+      "options": {
+        "A": "A research facility.",
+        "B": "A legal firm.",
+        "C": "A construction company.",
+        "D": "A pharmacy."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_56_58.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9048",
+      "question_number": 57,
+      "question_text": "What does the man mean when he says \"I've been meaning to visit him\"?",
+      "options": {
+        "A": "He has already visited him.",
+        "B": "He knows that he should have visited him.",
+        "C": "He will visit him tonight.",
+        "D": "He forgot about it."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_56_58.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9049",
+      "question_number": 58,
+      "question_text": "What will the woman include in her e-mail?",
+      "options": {
+        "A": "When to visit Joseph.",
+        "B": "The contract details.",
+        "C": "Joseph's phone number.",
+        "D": "The lawyer's documents."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_56_58.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9050",
+      "question_number": 59,
+      "question_text": "What kind of work are the men doing?",
+      "options": {
+        "A": "Remodeling the foyer.",
+        "B": "Renovating the bathrooms.",
+        "C": "Repainting the foyer.",
+        "D": "Renovating the kitchen."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_59_61.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9051",
+      "question_number": 60,
+      "question_text": "What can the man explain?",
+      "options": {
+        "A": "Why she has a low budget.",
+        "B": "Why the price is above her budget.",
+        "C": "Why the foyer isn't ready to be painted.",
+        "D": "Why the foyer is peeling."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_59_61.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9052",
+      "question_number": 61,
+      "question_text": "When does the woman want the men to begin work?",
+      "options": {
+        "A": "The second week of September.",
+        "B": "Anytime during August.",
+        "C": "After August.",
+        "D": "The first Saturday of August."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_59_61.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9053",
+      "question_number": 62,
+      "question_text": "What is the woman trying to do?",
+      "options": {
+        "A": "Gain some weight.",
+        "B": "Eat foods with more sugar.",
+        "C": "Skip breakfast.",
+        "D": "Lose some weight."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_62_64.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_62_64.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_011.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "9054",
+      "question_number": 63,
+      "question_text": "Look at the graphic. Which ingredient is the woman concerned about?",
+      "options": {
+        "A": "Fat.",
+        "B": "Sugar.",
+        "C": "Protein.",
+        "D": "Eggs."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_62_64.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_62_64.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_011.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "9055",
+      "question_number": 64,
+      "question_text": "What does the man recommend the woman do?",
+      "options": {
+        "A": "Have some bacon and eggs.",
+        "B": "Just drink coffee in the morning.",
+        "C": "Don't eat breakfast.",
+        "D": "Have coffee and eggs."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_62_64.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_62_64.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_011.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "9056",
+      "question_number": 65,
+      "question_text": "What does the man say he will do on the weekend?",
+      "options": {
+        "A": "Go on a vacation.",
+        "B": "Host a business lunch.",
+        "C": "Go on a business trip.",
+        "D": "Get some new suits."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_65_67.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_65_67.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_012.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "9057",
+      "question_number": 66,
+      "question_text": "Look at the graphic. What is the suit made of?",
+      "options": {
+        "A": "Polyester.",
+        "B": "Silk.",
+        "C": "Cotton.",
+        "D": "Wool."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_65_67.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_65_67.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_012.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "9058",
+      "question_number": 67,
+      "question_text": "What does the woman say she will do?",
+      "options": {
+        "A": "She won't do it for twenty dollars.",
+        "B": "She will do it for twenty dollars.",
+        "C": "She will do it for more than twenty dollars.",
+        "D": "She will do it by next week."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_65_67.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_65_67.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_012.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "9059",
+      "question_number": 68,
+      "question_text": "Who most likely are the speakers?",
+      "options": {
+        "A": "Plumbers.",
+        "B": "Office workers.",
+        "C": "Electricians.",
+        "D": "Carpet cleaners."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_68_70.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_68_70.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_013.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "9060",
+      "question_number": 69,
+      "question_text": "Look at the graphic. Where is the woman currently working?",
+      "options": {
+        "A": "Trinity Construction.",
+        "B": "Mulberry & co.",
+        "C": "Olive Cosmetics.",
+        "D": "Torrenz Inc."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_68_70.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_68_70.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_013.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "9061",
+      "question_number": 70,
+      "question_text": "What does the woman ask the man to do?",
+      "options": {
+        "A": "Install some piping in the wall.",
+        "B": "Install some cables in the ground.",
+        "C": "Install some cables in the roof.",
+        "D": "Install some new software on the computers."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_3_68_70.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_3_eco_toeic_1000_test_3_68_70.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_013.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    }
+  ]
+}

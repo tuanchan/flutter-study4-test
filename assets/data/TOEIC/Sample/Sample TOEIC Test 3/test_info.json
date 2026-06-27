@@ -1,0 +1,55 @@
+{
+  "test_id": 1209,
+  "test_name": "Sample TOEIC Test 3",
+  "parts": {
+    "1": {
+      "part_id": 3124,
+      "part_name": "Part1_Photographs",
+      "total_questions": 6,
+      "total_audios": 6,
+      "total_images": 6
+    },
+    "2": {
+      "part_id": 3126,
+      "part_name": "Part2_Question_Response",
+      "total_questions": 39,
+      "total_audios": 13,
+      "total_images": 3
+    },
+    "3": {
+      "part_id": 3127,
+      "part_name": "Part3_Conversations",
+      "total_questions": 30,
+      "total_audios": 10,
+      "total_images": 3
+    },
+    "4": {
+      "part_id": 3128,
+      "part_name": "Part4_Talks",
+      "total_questions": 30,
+      "total_audios": 0,
+      "total_images": 0
+    },
+    "5": {
+      "part_id": 3129,
+      "part_name": "Part5_Incomplete_Sentences",
+      "total_questions": 16,
+      "total_audios": 0,
+      "total_images": 4
+    },
+    "6": {
+      "part_id": 3130,
+      "part_name": "Part6_Text_Completion",
+      "total_questions": 54,
+      "total_audios": 0,
+      "total_images": 23
+    },
+    "7": {
+      "part_id": 3131,
+      "part_name": "Part7_Reading_Comprehension",
+      "total_questions": 25,
+      "total_audios": 25,
+      "total_images": 0
+    }
+  }
+}

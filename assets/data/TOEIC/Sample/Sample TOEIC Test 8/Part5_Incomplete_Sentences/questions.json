@@ -1,0 +1,547 @@
+{
+  "part": 5,
+  "part_name": "Part5_Incomplete_Sentences",
+  "part_id": 733,
+  "questions": [
+    {
+      "qid": "8692",
+      "question_number": 101,
+      "question_text": "When filling out the order form, please _____ your address clearly to prevent delays.",
+      "options": {
+        "A": "fix",
+        "B": "write",
+        "C": "send",
+        "D": "direct"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8693",
+      "question_number": 102,
+      "question_text": "Ms. Morgan recruited the individuals that the company _____ for the next three months.",
+      "options": {
+        "A": "will employ",
+        "B": "to employ",
+        "C": "has been employed",
+        "D": "employ"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8694",
+      "question_number": 103,
+      "question_text": "The contractor had a fifteen-percent _____ in his business after advertising in the local newspaper.",
+      "options": {
+        "A": "experience",
+        "B": "growth",
+        "C": "formula",
+        "D": "incentive"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8695",
+      "question_number": 104,
+      "question_text": "The free clinic was founded by a group of doctors to give _____ for various medical conditions.",
+      "options": {
+        "A": "treatment",
+        "B": "treat",
+        "C": "treated",
+        "D": "treating"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8696",
+      "question_number": 105,
+      "question_text": "Participants in the walking tour should gather _____ 533 Bates Road on Saturday morning.",
+      "options": {
+        "A": "with",
+        "B": "at",
+        "C": "like",
+        "D": "among"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8697",
+      "question_number": 106,
+      "question_text": "The artist sent _____ best pieces to the gallery to be reviewed by the owner.",
+      "options": {
+        "A": "him",
+        "B": "himself",
+        "C": "his",
+        "D": "he"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8698",
+      "question_number": 107,
+      "question_text": "The figures that accompany the financial statement should be _____ to the spending category.",
+      "options": {
+        "A": "relevance",
+        "B": "relevantly",
+        "C": "more relevantly",
+        "D": "relevant"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8699",
+      "question_number": 108,
+      "question_text": "The building owner purchased the property _____ three months ago, but she has already spent a great deal of money on renovations.",
+      "options": {
+        "A": "yet",
+        "B": "just",
+        "C": "few",
+        "D": "still"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8700",
+      "question_number": 109,
+      "question_text": "We would like to discuss this problem honestly and _____ at the next staff meeting.",
+      "options": {
+        "A": "rarely",
+        "B": "tiredly",
+        "C": "openly",
+        "D": "highly"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8701",
+      "question_number": 110,
+      "question_text": "The store's manager plans to put the new merchandise on display _____ to promote the line of fall fashions.",
+      "options": {
+        "A": "soon",
+        "B": "very",
+        "C": "that",
+        "D": "still"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8702",
+      "question_number": 111,
+      "question_text": "During the peak season, it is _____ to hire additional workers for the weekend shifts.",
+      "options": {
+        "A": "necessitate",
+        "B": "necessarily",
+        "C": "necessary",
+        "D": "necessity"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8703",
+      "question_number": 112,
+      "question_text": "_____ that the insulation has been replaced, the building is much more energy-efficient.",
+      "options": {
+        "A": "Now",
+        "B": "For",
+        "C": "As",
+        "D": "Though"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8704",
+      "question_number": 113,
+      "question_text": "Mr. Sims needs a more _____ vehicle for commuting from his suburban home to his office downtown.",
+      "options": {
+        "A": "expressive",
+        "B": "reliable",
+        "C": "partial",
+        "D": "extreme"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8705",
+      "question_number": 114,
+      "question_text": "The company _____ lowered its prices to outsell its competitors and attract more customers.",
+      "options": {
+        "A": "strategy",
+        "B": "strategically",
+        "C": "strategies",
+        "D": "strategic"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8706",
+      "question_number": 115,
+      "question_text": "_____ Mr. Williams addressed the audience, he showed a brief video about the engine he had designed.",
+      "options": {
+        "A": "Then",
+        "B": "So that",
+        "C": "Before",
+        "D": "Whereas"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8707",
+      "question_number": 116,
+      "question_text": "For optimal safety on the road, avoid _____ the view of the rear window and side-view mirrors.",
+      "options": {
+        "A": "obstructs",
+        "B": "obstructed",
+        "C": "obstruction",
+        "D": "obstructing"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8708",
+      "question_number": 117,
+      "question_text": "Having proper ventilation throughout the building is _____ for protecting the health and well-being of the workers.",
+      "options": {
+        "A": "cooperative",
+        "B": "visible",
+        "C": "essential",
+        "D": "alternative"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8709",
+      "question_number": 118,
+      "question_text": "_____ sales of junk food have been steadily declining indicates that consumers are becoming more health-conscious.",
+      "options": {
+        "A": "In addition to",
+        "B": "The fact that",
+        "C": "As long as",
+        "D": "In keeping with"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8710",
+      "question_number": 119,
+      "question_text": "The sprinklers for the lawn's irrigation system are _____ controlled.",
+      "options": {
+        "A": "mechanically",
+        "B": "mechanic",
+        "C": "mechanism",
+        "D": "mechanical"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8711",
+      "question_number": 120,
+      "question_text": "The library staff posted signs to _____ patrons of the upcoming closure for renovations.",
+      "options": {
+        "A": "notify",
+        "B": "agree",
+        "C": "generate",
+        "D": "perform"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8712",
+      "question_number": 121,
+      "question_text": "Mr. Ross, _____ is repainting the interior of the lobby, was recommended by a friend of the building manager.",
+      "options": {
+        "A": "himself",
+        "B": "he",
+        "C": "who",
+        "D": "which"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8713",
+      "question_number": 122,
+      "question_text": "The guidelines for the monthly publication are _____ revised to adapt to the changing readers.",
+      "options": {
+        "A": "courteously",
+        "B": "initially",
+        "C": "periodically",
+        "D": "physically"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8714",
+      "question_number": 123,
+      "question_text": "_____ an ankle injury, the baseball player participated in the last game of the season.",
+      "options": {
+        "A": "In spite of",
+        "B": "Even if",
+        "C": "Whether",
+        "D": "Given that"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8715",
+      "question_number": 124,
+      "question_text": "The governmental department used to provide financial aid, but now it offers _____ services only.",
+      "options": {
+        "A": "legal",
+        "B": "legalize",
+        "C": "legally",
+        "D": "legalizes"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8716",
+      "question_number": 125,
+      "question_text": "At the guest's_____, an extra set of towels and complimentary soaps were brought to the room.",
+      "options": {
+        "A": "quote",
+        "B": "graduation",
+        "C": "request",
+        "D": "dispute"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8717",
+      "question_number": 126,
+      "question_text": "The upscale boutique Jane's Closet is known for selling the most stylish _____ for young professionals.",
+      "options": {
+        "A": "accessorized",
+        "B": "accessorize",
+        "C": "accessorizes",
+        "D": "accessories"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8718",
+      "question_number": 127,
+      "question_text": "The company started recognize the increasing _____ of using resources responsibly.",
+      "options": {
+        "A": "more important",
+        "B": "importantly",
+        "C": "importance",
+        "D": "important"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8719",
+      "question_number": 128,
+      "question_text": "_____ restructuring several departments within the company, the majority of the problems with miscommunication have disappeared.",
+      "options": {
+        "A": "After",
+        "B": "Until",
+        "C": "Below",
+        "D": "Like"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8720",
+      "question_number": 129,
+      "question_text": "The riskiest _____ of the development of new medications are the trials with human subjects.",
+      "options": {
+        "A": "proceeds",
+        "B": "perspectives",
+        "C": "installments",
+        "D": "stages"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8721",
+      "question_number": 130,
+      "question_text": "_____ seeking a position at Tulare Designs must submit a portfolio of previous work.",
+      "options": {
+        "A": "Anyone",
+        "B": "Whenever",
+        "C": "Other",
+        "D": "Fewer"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    }
+  ]
+}

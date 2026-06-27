@@ -1,0 +1,703 @@
+{
+  "part": 4,
+  "part_name": "Part4_Talks",
+  "part_id": 3142,
+  "questions": [
+    {
+      "qid": "24157",
+      "question_number": 71,
+      "question_text": "Where does the announcement most likely take place?",
+      "options": {
+        "A": "On a train",
+        "B": "On a bus",
+        "C": "On a plane",
+        "D": "On a ship"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q71-73.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24158",
+      "question_number": 72,
+      "question_text": "What is the speaker waiting for?",
+      "options": {
+        "A": "An itinerary",
+        "B": "Authorization to depart",
+        "C": "Some passengers to board",
+        "D": "A parking permit"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q71-73.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24159",
+      "question_number": 73,
+      "question_text": "What does the speaker suggest listeners do?",
+      "options": {
+        "A": "Have their tickets reissued",
+        "B": "Transfer to another line",
+        "C": "Stay near a departure gate",
+        "D": "Modify their plans"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q71-73.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24160",
+      "question_number": 74,
+      "question_text": "What type of business does the speaker work for?",
+      "options": {
+        "A": "An electronics store",
+        "B": "A furniture outlet",
+        "C": "A clothing store",
+        "D": "A theater company"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q74-76.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24161",
+      "question_number": 75,
+      "question_text": "What improvement is mentioned?",
+      "options": {
+        "A": "Product selection will be increased.",
+        "B": "More staff will be able to help.",
+        "C": "Free parking will be offered.",
+        "D": "Store hours will be extended."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q74-76.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24162",
+      "question_number": 76,
+      "question_text": "When can customers receive a discount?",
+      "options": {
+        "A": "On Tuesday",
+        "B": "On Wednesday",
+        "C": "On Thursday",
+        "D": "On Friday"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q74-76.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24163",
+      "question_number": 77,
+      "question_text": "What is being advertised?",
+      "options": {
+        "A": "A security system",
+        "B": "A rented house",
+        "C": "A gardening tool",
+        "D": "An insulating product"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q77-79.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24164",
+      "question_number": 78,
+      "question_text": "What is mentioned about the product?",
+      "options": {
+        "A": "It is domestically produced.",
+        "B": "It reduces the cost of living.",
+        "C": "It won several awards.",
+        "D": "It received positive reviews."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q77-79.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24165",
+      "question_number": 79,
+      "question_text": "What must listeners do to receive a discount?",
+      "options": {
+        "A": "Buy a certain amount of products",
+        "B": "Apply for a membership card",
+        "C": "Talk about the advertisement",
+        "D": "Make a payment in cash"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q77-79.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24166",
+      "question_number": 80,
+      "question_text": "What event is ending?",
+      "options": {
+        "A": "A grand opening",
+        "B": "A consumer electronics expo",
+        "C": "A product demonstration",
+        "D": "A museum tour"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q80-82.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24167",
+      "question_number": 81,
+      "question_text": "What is required of volunteers?",
+      "options": {
+        "A": "Relevant experience",
+        "B": "A degree in engineering",
+        "C": "Availability to work on weekends",
+        "D": "Fluency in two languages"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q80-82.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24168",
+      "question_number": 82,
+      "question_text": "What are potential volunteers cautioned about?",
+      "options": {
+        "A": "Missing a deadline",
+        "B": "Leaking confidential information",
+        "C": "Damaging a device",
+        "D": "Interrupting a presenter"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q80-82.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24169",
+      "question_number": 83,
+      "question_text": "What is the company recruiting?",
+      "options": {
+        "A": "Programmer",
+        "B": "Chef",
+        "C": "Interns",
+        "D": "Factory workers"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q83-85.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24170",
+      "question_number": 84,
+      "question_text": "What does the man imply when he says, \"Have you seen the interview questions we use?\"",
+      "options": {
+        "A": "He is postponing an appointment.",
+        "B": "He needs a record of the report.",
+        "C": "He wants her to help him with the questions.",
+        "D": "He will recruit some accountants."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q83-85.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24171",
+      "question_number": 85,
+      "question_text": "Why does the man want to meet with the woman?",
+      "options": {
+        "A": "To get some assistance from her",
+        "B": "To ask her for some records",
+        "C": "To get a new letter head",
+        "D": "To plan an orientation"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q83-85.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24172",
+      "question_number": 86,
+      "question_text": "What is the purpose of the announcement?",
+      "options": {
+        "A": "To announce winning firm of the year",
+        "B": "To announce a rise in sales",
+        "C": "To announce a new team member",
+        "D": "To complete a project"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q86-88.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24173",
+      "question_number": 87,
+      "question_text": "What does the woman imply when she says \"So let's keep moving up!\"?",
+      "options": {
+        "A": "They need to continue working hard.",
+        "B": "They are moving buildings.",
+        "C": "She is renovating the office.",
+        "D": "They are going on a business trip."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q86-88.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24174",
+      "question_number": 88,
+      "question_text": "What does the woman ask the staff to do?",
+      "options": {
+        "A": "Study the new hand book",
+        "B": "Prepare a report",
+        "C": "Study the material on corporate law",
+        "D": "Write a memo"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q86-88.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24175",
+      "question_number": 89,
+      "question_text": "Why is the woman calling?",
+      "options": {
+        "A": "To say thank you",
+        "B": "To ask a favor",
+        "C": "To discuss travel plans",
+        "D": "To request a form"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q89-91.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24176",
+      "question_number": 90,
+      "question_text": "What does the woman imply when she says, \"you have to show me the design sometime!\"?",
+      "options": {
+        "A": "She wants to learn how to make it.",
+        "B": "She wasn't sure about the details.",
+        "C": "She needs a dentist recommendation.",
+        "D": "She is writing a design manual."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q89-91.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24177",
+      "question_number": 91,
+      "question_text": "What will the women do next week?",
+      "options": {
+        "A": "Plan for the Grayson wedding",
+        "B": "Plan for the Christmas party",
+        "C": "Design a new invitation",
+        "D": "Meet for coffee"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q89-91.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24178",
+      "question_number": 92,
+      "question_text": "What is indicated about Springdale Music Club?",
+      "options": {
+        "A": "They love all music equally.",
+        "B": "They take pride in location.",
+        "C": "They specialize in country music.",
+        "D": "They have never carried world music before."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q92-94.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/80ef6c130f8fa34b88387a13b5365053f0844052.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24179",
+      "question_number": 93,
+      "question_text": "Look at the graphic. What can you infer about the bands?",
+      "options": {
+        "A": "They will be great.",
+        "B": "They are jazz musicians.",
+        "C": "The acts following Djubai Djinn play rock and roll.",
+        "D": "It will be loud."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q92-94.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/80ef6c130f8fa34b88387a13b5365053f0844052.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24180",
+      "question_number": 94,
+      "question_text": "Why does Springdale Music Club ask you to bring your money?",
+      "options": {
+        "A": "The concert will be expensive.",
+        "B": "There is a bar.",
+        "C": "To help support Djubai Djinn's US tour",
+        "D": "To pay for your meats"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q92-94.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/80ef6c130f8fa34b88387a13b5365053f0844052.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24181",
+      "question_number": 95,
+      "question_text": "Who most likely are the listeners?",
+      "options": {
+        "A": "Residents",
+        "B": "Tourists",
+        "C": "Park employees",
+        "D": "Forest rangers"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q95-97.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/877cb4de17cf1602e9a07e3680964deb897d6d92.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_002.jpg"
+      ]
+    },
+    {
+      "qid": "24182",
+      "question_number": 96,
+      "question_text": "Look at the map. What place are the listeners unable to go to?",
+      "options": {
+        "A": "Lake Kitano",
+        "B": "Eastgate",
+        "C": "Kilmore Cliff",
+        "D": "Paradise Garden"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q95-97.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/877cb4de17cf1602e9a07e3680964deb897d6d92.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_002.jpg"
+      ]
+    },
+    {
+      "qid": "24183",
+      "question_number": 97,
+      "question_text": "What does the woman mention about Kilmore Cliff?",
+      "options": {
+        "A": "It is dangerous.",
+        "B": "The views are spectacular.",
+        "C": "People who fear heights may not enjoy it.",
+        "D": "It is 50 meters from the final destination."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q95-97.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/877cb4de17cf1602e9a07e3680964deb897d6d92.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_002.jpg"
+      ]
+    },
+    {
+      "qid": "24184",
+      "question_number": 98,
+      "question_text": "Look at the graphic. Which department filled out the order form?",
+      "options": {
+        "A": "Finance",
+        "B": "IT",
+        "C": "Public Relations",
+        "D": "Human Resources"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q98-100.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/ba8bceae18d50478f6a7286b18ed6fcea887c468.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24185",
+      "question_number": 99,
+      "question_text": "What does the speaker anticipate may happen?",
+      "options": {
+        "A": "Some departments may go over budget.",
+        "B": "The warehouse may not have enough supplies.",
+        "C": "The orders may not arrive on time.",
+        "D": "The departments may forget some items."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q98-100.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/ba8bceae18d50478f6a7286b18ed6fcea887c468.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24186",
+      "question_number": 100,
+      "question_text": "What does the speaker request of Lima?",
+      "options": {
+        "A": "To fax over the orders",
+        "B": "To file the papers",
+        "C": "To arrange a meeting",
+        "D": "To contact him"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q98-100.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/ba8bceae18d50478f6a7286b18ed6fcea887c468.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_003.jpg"
+      ]
+    }
+  ]
+}

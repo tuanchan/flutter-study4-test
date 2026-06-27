@@ -1,0 +1,547 @@
+{
+  "part": 5,
+  "part_name": "Part5_Incomplete_Sentences",
+  "part_id": 3150,
+  "questions": [
+    {
+      "qid": "24774",
+      "question_number": 101,
+      "question_text": "The projector borrowed by Ms. Reid is ------- back to the IT department by five o'clock.",
+      "options": {
+        "A": "due",
+        "B": "set",
+        "C": "paid",
+        "D": "prompt"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24775",
+      "question_number": 102,
+      "question_text": "Now that the annual conference is finished, the planning committee will hold meetings ------- often.",
+      "options": {
+        "A": "below",
+        "B": "less",
+        "C": "decreased",
+        "D": "lower"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24776",
+      "question_number": 103,
+      "question_text": "Before you distribute the report, ask Ms. Burns to check that ------- has all the necessary information.",
+      "options": {
+        "A": "them",
+        "B": "our",
+        "C": "her",
+        "D": "it"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24777",
+      "question_number": 104,
+      "question_text": "According to consumers, using the new Web site is no ------- than calling the help center directly.",
+      "options": {
+        "A": "easily",
+        "B": "easy",
+        "C": "easiest",
+        "D": "easier"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24778",
+      "question_number": 105,
+      "question_text": "Anyone who participates ------- the city's Annual Baking Competition will receive a coupon from Fresh Supermarket.",
+      "options": {
+        "A": "to",
+        "B": "beside",
+        "C": "in",
+        "D": "among"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24779",
+      "question_number": 106,
+      "question_text": "City officials are still debating Irving Enterprises' request ------- the outdated building.",
+      "options": {
+        "A": "demolishes",
+        "B": "have demolished",
+        "C": "to demolish",
+        "D": "demolished"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24780",
+      "question_number": 107,
+      "question_text": "Heron Glassworks ------- student groups of all ages for weekday tours of its warehouse and production floor.",
+      "options": {
+        "A": "conveys",
+        "B": "preserves",
+        "C": "encloses",
+        "D": "welcomes"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24781",
+      "question_number": 108,
+      "question_text": "To combat mental illness, the clinic will take a more comprehensive ------- than it did in the past.",
+      "options": {
+        "A": "approachably",
+        "B": "approached",
+        "C": "approach",
+        "D": "approachable"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24782",
+      "question_number": 109,
+      "question_text": "Brandy can make withdrawals from any Salis Bank branch, but she usually visits the ------- one.",
+      "options": {
+        "A": "closing",
+        "B": "closely",
+        "C": "closure",
+        "D": "closest"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24783",
+      "question_number": 110,
+      "question_text": "As a ------ - for making contracts with a lot of new clients, Mr. Skinner was given additional vacation days.",
+      "options": {
+        "A": "reward",
+        "B": "progress",
+        "C": "solution",
+        "D": "routine"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24784",
+      "question_number": 111,
+      "question_text": "Please be seated according to the ------- name cards that have been placed on each table.",
+      "options": {
+        "A": "personalizes",
+        "B": "personalizing",
+        "C": "personalize",
+        "D": "personalized"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24785",
+      "question_number": 112,
+      "question_text": "The memo sent by Mr. Lee addressed a few ------- that were discovered during the quarterly inspection.",
+      "options": {
+        "A": "issuing",
+        "B": "issue",
+        "C": "issues",
+        "D": "issued"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24786",
+      "question_number": 113,
+      "question_text": "Many voters in this city are uninterested, and only about 15% of them are ------- active.",
+      "options": {
+        "A": "politically",
+        "B": "political",
+        "C": "politics",
+        "D": "politician"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24787",
+      "question_number": 114,
+      "question_text": "This year's award winner, Cheryl Garner, taught basic first aid skills to students and adults ------- the region.",
+      "options": {
+        "A": "between",
+        "B": "throughout",
+        "C": "during",
+        "D": "toward"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24788",
+      "question_number": 115,
+      "question_text": "-------, the cabin will be rented out for the entire month, but the owner would agree to four weekly rentals instead.",
+      "options": {
+        "A": "Reluctantly",
+        "B": "Absolutely",
+        "C": "Ideally",
+        "D": "Mutually"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24789",
+      "question_number": 116,
+      "question_text": "The non-profit organization released to the press several documents ------- the largest donors and how much they contributed.",
+      "options": {
+        "A": "detailed",
+        "B": "detail",
+        "C": "details",
+        "D": "detailing"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24790",
+      "question_number": 117,
+      "question_text": "No passengers are allowed on board -------. the aircraft's door has been closed.",
+      "options": {
+        "A": "that",
+        "B": "despite",
+        "C": "once",
+        "D": "rather"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24791",
+      "question_number": 118,
+      "question_text": "A government ------- will visit the site to talk with protesters directly and seek a resolution.",
+      "options": {
+        "A": "representative",
+        "B": "representation",
+        "C": "represent",
+        "D": "represented"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24792",
+      "question_number": 119,
+      "question_text": "An extensive ------- conducted by lvanex Communications revealed that Internet speed was one of the most important factors to customers.",
+      "options": {
+        "A": "inventory",
+        "B": "strategy",
+        "C": "coverage",
+        "D": "survey"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24793",
+      "question_number": 120,
+      "question_text": "Mr. Denson wanted to purchase a special edition gold-plated watch from Utica Watches, but there were ------- left.",
+      "options": {
+        "A": "none",
+        "B": "nothing",
+        "C": "something",
+        "D": "some"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24794",
+      "question_number": 121,
+      "question_text": "Ms. May reminded us that the agreement was only ------- because it had not been approved yet.",
+      "options": {
+        "A": "perishable",
+        "B": "imperative",
+        "C": "accustomed",
+        "D": "tentative"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24795",
+      "question_number": 122,
+      "question_text": "Following the restoration project, the lobby of the historical Kirkwood Hotel looked ------- like its original state.",
+      "options": {
+        "A": "remarkably",
+        "B": "remarking",
+        "C": "remark",
+        "D": "remarked"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24796",
+      "question_number": 123,
+      "question_text": "------- the right environmental conditions, this tree will yield fresh fruit for most of the year.",
+      "options": {
+        "A": "With",
+        "B": "About",
+        "C": "On",
+        "D": "As"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24797",
+      "question_number": 124,
+      "question_text": "One of the interns ------- that the logo on the second page of the sales report was upside down.",
+      "options": {
+        "A": "looked after",
+        "B": "accounted for",
+        "C": "pointed out",
+        "D": "came across"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24798",
+      "question_number": 125,
+      "question_text": "------- the parking lot is closed, both employees and customers will have to make use of street parking.",
+      "options": {
+        "A": "As if",
+        "B": "Until",
+        "C": "So that",
+        "D": "While"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24799",
+      "question_number": 126,
+      "question_text": "If the new athletic shoes do well in the smaller test markets, their nationwide launch could be -------.",
+      "options": {
+        "A": "convined",
+        "B": "accelerated",
+        "C": "directed",
+        "D": "circulated"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24800",
+      "question_number": 127,
+      "question_text": "The city hosted a display of------- fireworks to celebrate the 100th anniversary of its founding.",
+      "options": {
+        "A": "impressive",
+        "B": "impress",
+        "C": "impression",
+        "D": "impressively"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24801",
+      "question_number": 128,
+      "question_text": "After investing heavily in Internet marketing campaigns, Bailey Coffee increased its annual profits ------- fifteen percent.",
+      "options": {
+        "A": "by",
+        "B": "among",
+        "C": "between",
+        "D": "on"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24802",
+      "question_number": 129,
+      "question_text": "The receptionists change the artwork in the clinic's waiting room ------- and rearrange the layout of the furniture.",
+      "options": {
+        "A": "periodically",
+        "B": "relatively",
+        "C": "tightly",
+        "D": "narrowly"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "24803",
+      "question_number": 130,
+      "question_text": "The policy that requires businesses to provide medical insurance applies only to those ------- more than twenty-five people.",
+      "options": {
+        "A": "employs",
+        "B": "employ",
+        "C": "employed",
+        "D": "employing"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "part": 2,
+  "part_name": "Part2_Question_Response",
+  "part_id": 3147,
+  "questions": [
+    {
+      "qid": "24418",
+      "question_number": 7,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q7.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Is Mr. Johnson joining us for lunch?\n(A) Yes, I'm hungry too.\n(B) No, he's occupied.\n(C) I brought a sandwich.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_023.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24419",
+      "question_number": 8,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q8.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "When will the company release its newest video game console?\n(A) At midnight tonight.\n(B) He will renew his lease next month.\n(C) It's on the desk.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_024.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24420",
+      "question_number": 9,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q9.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "How did you get such great seats for the concert?\n(A) By winning tickets at a raffle.\n(B) At least once a week.\n(C) He's a world-renowned musician.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_025.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24421",
+      "question_number": 10,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q10.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Why are the lights off in the conference room?\n(A) I was sitting there.\n(B) They are watching a video.\n(C) Yes, she's off duty.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24422",
+      "question_number": 11,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q11.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Do you know where the employee break room is?\n(A)We will take a ten-minute break.\n(B) Have you worked here long?\n(C) On the second floor.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24423",
+      "question_number": 12,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q12.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Who replaced the ink cartridge?\n(A) Suzy did this morning.\n(B) In the shopping cart.\n(C) It's a brand-new printer.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24424",
+      "question_number": 13,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q13.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "I'm so thankful for all your help in preparing this report.\n(A) You're welcome to stay.\n(B) Don't mention it.\n(C) I need a pair of gloves.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24425",
+      "question_number": 14,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q14.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Would you like to make a reservation for tonight?\n(A) The dinner was delicious.\n(B) I would, for six people.\n(C) It's an expensive hobby.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24426",
+      "question_number": 15,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q15.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Why did you open the window?\n(A) To let in some fresh air.\n(B) In the master bedroom.\n(C) Because the store will open next month.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24427",
+      "question_number": 16,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q16.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Let's stop by the post office on the way.\n(A) A letter to my cousin.\n(B) OK, where is it?\n(C) The delivery arrived yesterday.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24428",
+      "question_number": 17,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q17.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "There's a name missing from the list of speakers.\n(A) Oh, who is it?\n(B) I'll make twenty copies.\n(C) Yes, he agreed to the contract.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24429",
+      "question_number": 18,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q18.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "What day are we hosting that party?\n(A) Yes, it's ready.\n(B) He requested a chocolate cake.\n(C) Check the calendar in the office.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24430",
+      "question_number": 19,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q19.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "You should sign up for a computer programming workshop.\n(A) Mr. Greene will assign more employees to the project.\n(B) You don't think it would be too difficult for me?\n(C) Please refund this purchase.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24431",
+      "question_number": 20,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q20.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "You've finished interviewing the candidates, haven't you?\n(A) It was in the meeting room.\n(B) Yes, the last person just left.\n(C) Where did you put the applications?",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_011.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24432",
+      "question_number": 21,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q21.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Would you like to be in charge of entertainment or catering?\n(A) I'll take care of food and drinks.\n(B) It was a great party.\n(C) The stage is too small.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_012.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24433",
+      "question_number": 22,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q22.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Don't we need to check out soon?\n(A) No, I reserved the room until tomorrow.\n(B) The hotel doesn't provide room service.\n(C) Let's make a reservation for 6 o'clock.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_013.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24434",
+      "question_number": 23,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q23.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "I'm excited to start using this new software.\n(A) Yes, it should make work easier.\n(B) It's old, but still usable.\n(C) I was disappointed in him.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_014.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24435",
+      "question_number": 24,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q24.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Why don't we hand out free samples to customers?\n(A) No, it's the customer service department.\n(B) Because we conducted a survey.\n(C) Yeah, that's a good strategy.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_015.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24436",
+      "question_number": 25,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q25.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "The building site hasn't been selected, has it?\n(A) We are still considering multiple options.\n(B) It's a luxury apartment complex.\n(C) He will cite a passage from his book.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_016.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24437",
+      "question_number": 26,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q26.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "How did you hear about the meeting on Thursday?\n(A) Mr. Shepard told me at lunch.\n(B) My neighbor gave it to me.\n(C) I can't tell them apart.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_017.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24438",
+      "question_number": 27,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q27.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Should I tell Susan for you, or do you want to tell her yourself?\n(A) She's a teller.\n(B) I want to do it directly.\n(C) I forgot the phone number.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_018.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24439",
+      "question_number": 28,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q28.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "The annual sales report is finished.\n(A) We should proofread it before printing.\n(B) I watched the weather report too.\n(C) They raised the price by 10 dollars.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_019.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24440",
+      "question_number": 29,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q29.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Is this used vehicle for sale?\n(A) Yes, and I changed the tires on it.\n(B) The price of gas is reasonable.\n(C) I used it for cooking.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_020.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24441",
+      "question_number": 30,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q30.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "What is needed to apply for this job?\n(A) Yes, she starts on Monday.\n(B) A bachelor's degree or higher in engineering.\n(C) The rule doesn't apply to children under 8.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_021.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "24442",
+      "question_number": 31,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test9_audios/q31.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Who's in charge of designing promotional handouts?\n(A) Mr. Wilson was promoted to sales manager.\n(B) The man wearing the blue shirt.\n(C) We don't charge for delivery.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_022.mp3"
+      ],
+      "image_files": []
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "part": 5,
+  "part_name": "Part5_Incomplete_Sentences",
+  "part_id": 9623,
+  "questions": [
+    {
+      "qid": "162545",
+      "question_number": 101,
+      "question_text": "The cleaning staff will finish work early today in_______ of a national holiday.",
+      "options": {
+        "A": "observe",
+        "B": "observer",
+        "C": "observing",
+        "D": "observance"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162546",
+      "question_number": 102,
+      "question_text": "In order to be well-prepared for_______ interview, Ms. Adams did some research on the firm.",
+      "options": {
+        "A": "hers",
+        "B": "her",
+        "C": "herself",
+        "D": "she"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162547",
+      "question_number": 103,
+      "question_text": "The county courthouse_______at 2:00 P.M. tomorrow due to road closures for the Historic Homes festival.",
+      "options": {
+        "A": "closed",
+        "B": "will close",
+        "C": "was closing",
+        "D": "had been closed"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162548",
+      "question_number": 104,
+      "question_text": "Traffic reporters at WXI suggested that drivers take the Dill Court Expressway in order to_______ avoid traffic from the parade.",
+      "options": {
+        "A": "newly",
+        "B": "dully",
+        "C": "hotly",
+        "D": "fully"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162549",
+      "question_number": 105,
+      "question_text": "There is some debate as to_______ we should revise the budget now or wait for Ms. Cox's report.",
+      "options": {
+        "A": "even",
+        "B": "despite",
+        "C": "since",
+        "D": "whether"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162550",
+      "question_number": 106,
+      "question_text": "The new Stability Recline line of lounge chairs is_______ available at Quinn Department Store.",
+      "options": {
+        "A": "exclude",
+        "B": "exclusive",
+        "C": "excluding",
+        "D": "exclusively"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162551",
+      "question_number": 107,
+      "question_text": "Tickets can only be refunded if_______ are returned 72 hours before the performance.",
+      "options": {
+        "A": "this",
+        "B": "we",
+        "C": "they",
+        "D": "them"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162552",
+      "question_number": 108,
+      "question_text": "Wilson Windows is_______ an extensive promotion that offers discounts on all installations for new customers.",
+      "options": {
+        "A": "believing",
+        "B": "investing",
+        "C": "running",
+        "D": "informing"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162553",
+      "question_number": 109,
+      "question_text": "The new edition of the smartphone is_______ on sale in four different colors and three different sizes.",
+      "options": {
+        "A": "extremely",
+        "B": "previously",
+        "C": "already",
+        "D": "highly"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162554",
+      "question_number": 110,
+      "question_text": "The first 100 visitors to Maynald's Furniture will _______a Maynald coffee mug.",
+      "options": {
+        "A": "receive",
+        "B": "received",
+        "C": "receiver",
+        "D": "receives"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162555",
+      "question_number": 111,
+      "question_text": "Apartment construction has continued to increase throughout Kastar City_______ the efforts of urban planners to create more public park space.",
+      "options": {
+        "A": "as soon as",
+        "B": "in case",
+        "C": "even still",
+        "D": "despite"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162556",
+      "question_number": 112,
+      "question_text": "Gift certificate_______are refillable via the members section of the Swankson Web site.",
+      "options": {
+        "A": "markets",
+        "B": "balances",
+        "C": "suggestions",
+        "D": "developments"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162557",
+      "question_number": 113,
+      "question_text": "International shipping is available at multiple price points_______ by weight, speed of delivery, and insurance amount.",
+      "options": {
+        "A": "determine",
+        "B": "determines",
+        "C": "determined",
+        "D": "determination"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162558",
+      "question_number": 114,
+      "question_text": "Please remember to check under your seat_______ in the overhead compartment for any belongings you may have forgotten.",
+      "options": {
+        "A": "and",
+        "B": "but",
+        "C": "because",
+        "D": "so"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162559",
+      "question_number": 115,
+      "question_text": "Fruits and other raw exports are expected to decline after a poor_______due to an unusually long rainy season.",
+      "options": {
+        "A": "cubicle",
+        "B": "wardrobe",
+        "C": "harvest",
+        "D": "tractor"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162560",
+      "question_number": 116,
+      "question_text": "Happy Village Bank would like to apologize to those customers_______by the service outages last week.",
+      "options": {
+        "A": "implemented",
+        "B": "affected",
+        "C": "reversed",
+        "D": "approved"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162561",
+      "question_number": 117,
+      "question_text": "Unintentional_______of the products' adhesive was a major problem for R-Dec's latest line of sticky notes.",
+      "options": {
+        "A": "evaporate",
+        "B": "evaporator",
+        "C": "evaporated",
+        "D": "evaporation"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162562",
+      "question_number": 118,
+      "question_text": "A recent push for more_______ organic produce has led to mass-production opportunities for organic farmers.",
+      "options": {
+        "A": "affordable",
+        "B": "arguable",
+        "C": "limited",
+        "D": "divided"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162563",
+      "question_number": 119,
+      "question_text": "According to the survey results, area residents are_______ that more care was not taken to protect the neighboring forest from pollution.",
+      "options": {
+        "A": "disappoint",
+        "B": "disappointing",
+        "C": "disappointed",
+        "D": "disappointment"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162564",
+      "question_number": 120,
+      "question_text": "_______devices can be replaced at the point of sale within two years of the purchase date.",
+      "options": {
+        "A": "Ambitious",
+        "B": "Absolute",
+        "C": "Intermittent",
+        "D": "Malfunctioning"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162565",
+      "question_number": 121,
+      "question_text": "The orientation for new employees will be held Sunday, April 26 in the office_______from the break room.",
+      "options": {
+        "A": "inside",
+        "B": "above",
+        "C": "beside",
+        "D": "across"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162566",
+      "question_number": 122,
+      "question_text": "The cafeteria,_______ provides inexpensive lunch and dinner options for employees, is located on the second floor.",
+      "options": {
+        "A": "who",
+        "B": "when",
+        "C": "where",
+        "D": "which"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162567",
+      "question_number": 123,
+      "question_text": "Not enough people_______in the company baseball league, so it has been cancelled.",
+      "options": {
+        "A": "enrolled",
+        "B": "defeated",
+        "C": "relieved",
+        "D": "excepted"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162568",
+      "question_number": 124,
+      "question_text": "In order to provide better insulation, the single-pane glass_______with a double pane in next year's models.",
+      "options": {
+        "A": "will replace",
+        "B": "has replaced",
+        "C": "will be replaced",
+        "D": "has been replaced"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162569",
+      "question_number": 125,
+      "question_text": "Rondstone Financial is_______ waiting for the perfect candidate to submit an application.",
+      "options": {
+        "A": "patient",
+        "B": "patients",
+        "C": "patiently",
+        "D": "patience"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162570",
+      "question_number": 126,
+      "question_text": "The performance summary reports a sales performance that is_______ the most optimistic predictions.",
+      "options": {
+        "A": "accustomed to",
+        "B": "in line with",
+        "C": "in order to",
+        "D": "on account of"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162571",
+      "question_number": 127,
+      "question_text": "Clarifent bleach pens promise to lift even the most_______stains from ties and other delicate fabrics.",
+      "options": {
+        "A": "elegant",
+        "B": "stubborn",
+        "C": "apologetic",
+        "D": "accessible"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162572",
+      "question_number": 128,
+      "question_text": "Duluth Electronics hopes_______ a spike in new clients after the outsourcing of their production facilities to overseas.",
+      "options": {
+        "A": "seen",
+        "B": "sees",
+        "C": "to see",
+        "D": "seeing"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162573",
+      "question_number": 129,
+      "question_text": "Only_______ technical problems with unknown causes should be reported to the IT department.",
+      "options": {
+        "A": "reoccur",
+        "B": "being reoccurred",
+        "C": "to be reoccurred",
+        "D": "reoccurring"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162574",
+      "question_number": 130,
+      "question_text": "To_______ smooth transitions into the new building, each office is being assigned a relocation specialist for the month of June.",
+      "options": {
+        "A": "interrupt",
+        "B": "facilitate",
+        "C": "abandon",
+        "D": "distribute"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    }
+  ]
+}

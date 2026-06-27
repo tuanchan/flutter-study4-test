@@ -1,0 +1,547 @@
+{
+  "part": 5,
+  "part_name": "Part5_Incomplete_Sentences",
+  "part_id": 9595,
+  "questions": [
+    {
+      "qid": "161745",
+      "question_number": 101,
+      "question_text": "If managers_______ employees to work on weekends, they should pay them overtime.",
+      "options": {
+        "A": "asking",
+        "B": "to ask",
+        "C": "ask",
+        "D": "were asked"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161746",
+      "question_number": 102,
+      "question_text": "Orders placed_______ 5:00 P.M. will be processed the next business day.",
+      "options": {
+        "A": "to",
+        "B": "after",
+        "C": "between",
+        "D": "in"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161747",
+      "question_number": 103,
+      "question_text": "Please be sure to respond_______ to customer inquiries and complaints, and address their needs in a professional manner.",
+      "options": {
+        "A": "rarely",
+        "B": "namely",
+        "C": "promptly",
+        "D": "heavily"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161748",
+      "question_number": 104,
+      "question_text": "We will have to deal with the merchandise shipping problems as the_______arises.",
+      "options": {
+        "A": "situated",
+        "B": "situational",
+        "C": "situation",
+        "D": "situate"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161749",
+      "question_number": 105,
+      "question_text": "It has been confirmed that the company will _______a new CEO who will be responsible for overseeing day-to-day operations.",
+      "options": {
+        "A": "decide",
+        "B": "conclude",
+        "C": "establish",
+        "D": "appoint"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161750",
+      "question_number": 106,
+      "question_text": "The survey showed that managers would choose to open stores earlier in the morning _______close them later at night.",
+      "options": {
+        "A": "rather than",
+        "B": "in spite of",
+        "C": "regarding",
+        "D": "whereas"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161751",
+      "question_number": 107,
+      "question_text": "Before opening _______ doors to the public, Orange Sun Café held a soft opening for friends and family.",
+      "options": {
+        "A": "its",
+        "B": "hers",
+        "C": "theirs",
+        "D": "his"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161752",
+      "question_number": 108,
+      "question_text": "Our_______efforts have optimized production and have made a noticeable difference in the number of overseas orders.",
+      "options": {
+        "A": "cooperatively",
+        "B": "cooperate",
+        "C": "cooperator",
+        "D": "cooperative"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161753",
+      "question_number": 109,
+      "question_text": "We will wait_______the Board of Directors returns from New York before we schedule the event.",
+      "options": {
+        "A": "against",
+        "B": "to",
+        "C": "until",
+        "D": "with"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161754",
+      "question_number": 110,
+      "question_text": "The best way to handle a_______ client is to apologize and assure them that you will take prompt action to resolve the issue.",
+      "options": {
+        "A": "disappoint",
+        "B": "disappointed",
+        "C": "disappointingly",
+        "D": "disappointment"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161755",
+      "question_number": 111,
+      "question_text": "Consumer spending is on the rise_______ the Internet makes it easy to do comparison shopping of products and prices.",
+      "options": {
+        "A": "due to",
+        "B": "because",
+        "C": "except",
+        "D": "rather than"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161756",
+      "question_number": 112,
+      "question_text": "Please inform the staff members that we will become fully _______ once we finish updating our equipment.",
+      "options": {
+        "A": "operate",
+        "B": "operational",
+        "C": "operation",
+        "D": "operated"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161757",
+      "question_number": 113,
+      "question_text": "When searching for work, look for companies that interest you, and do some research before you _______  for a position.",
+      "options": {
+        "A": "reply",
+        "B": "approve",
+        "C": "submit",
+        "D": "apply"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161758",
+      "question_number": 114,
+      "question_text": "Because Kenmere Corporation has not made much _______ this year, the company is in no position to embark upon a new business venture.",
+      "options": {
+        "A": "progress",
+        "B": "progressing",
+        "C": "progressive",
+        "D": "progressed"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161759",
+      "question_number": 115,
+      "question_text": "The number of laws impacting the travel industry has been increasing_______  over the past decade, particularly in relation to safety.",
+      "options": {
+        "A": "dramatic",
+        "B": "dramatize",
+        "C": "dramatized",
+        "D": "dramatically"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161760",
+      "question_number": 116,
+      "question_text": "The next exhibition will include products that were not presented at the _______ event in Atlanta.",
+      "options": {
+        "A": "probable",
+        "B": "previous",
+        "C": "unavailable",
+        "D": "upcoming"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161761",
+      "question_number": 117,
+      "question_text": "Save 5% on every delivery order from Greg's Green Grocer_______  by registering online and entering a coupon code.",
+      "options": {
+        "A": "simplicity",
+        "B": "simplify",
+        "C": "simpler",
+        "D": "simply"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161762",
+      "question_number": 118,
+      "question_text": "If we leave the office at noon, we  _______ at the station in plenty of time to catch the train to Chicago.",
+      "options": {
+        "A": "would have arrived",
+        "B": "arrived",
+        "C": "will arrive",
+        "D": "arriving"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161763",
+      "question_number": 119,
+      "question_text": "All of our used vehicles are _______ inspected for mechanical safety and performance by expert auto technicians.",
+      "options": {
+        "A": "costly",
+        "B": "strangely",
+        "C": "thoroughly",
+        "D": "approximately"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161764",
+      "question_number": 120,
+      "question_text": "At the New England campus, international student _______has increased over the past few years.",
+      "options": {
+        "A": "enrollment",
+        "B": "enrolls",
+        "C": "enroll",
+        "D": "enrolled"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161765",
+      "question_number": 121,
+      "question_text": "Health benefits, vacation time, and bonus payments_______ employees to work hard and stay with the company.",
+      "options": {
+        "A": "encourages",
+        "B": "encouraging",
+        "C": "are encouraged",
+        "D": "encourage"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161766",
+      "question_number": 122,
+      "question_text": "Since Ms. Foreman has become head of marketing, the company has grown at a _______of 5% in the last quarter.",
+      "options": {
+        "A": "rate",
+        "B": "height",
+        "C": "measurement",
+        "D": "figure"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161767",
+      "question_number": 123,
+      "question_text": "The clients _______with the architect's final sketches and would like to begin construction as soon as possible.",
+      "options": {
+        "A": "were satisfying",
+        "B": "satisfied",
+        "C": "were satisfied",
+        "D": "had satisfied"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161768",
+      "question_number": 124,
+      "question_text": "_______you are not attending the conference, the manager would still like you to assist your team with the preparations for your department's presentation.",
+      "options": {
+        "A": "Whether",
+        "B": "Even if",
+        "C": "Before",
+        "D": "As soon as"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161769",
+      "question_number": 125,
+      "question_text": "Our airline is pleased to offer a variety of amenities designed to ensure passenger_______",
+      "options": {
+        "A": "comfort",
+        "B": "comforted",
+        "C": "comfortably",
+        "D": "comfortable"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161770",
+      "question_number": 126,
+      "question_text": "The free service for two months is a one-time offer available_______to new customers who switch their current service to Cypress TV.",
+      "options": {
+        "A": "expensively",
+        "B": "dependently",
+        "C": "exclusively",
+        "D": "defectively"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161771",
+      "question_number": 127,
+      "question_text": "Zantmarket.com shoppers can now see their past purchases_______ the new \"My History\" section of their accounts.",
+      "options": {
+        "A": "in",
+        "B": "against",
+        "C": "surrounding",
+        "D": "onto"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161772",
+      "question_number": 128,
+      "question_text": "After several unsuccessful_______were made to deliver the package to the recipient, we finally had to ship it back to the sender.",
+      "options": {
+        "A": "receipts",
+        "B": "conclusions",
+        "C": "times",
+        "D": "attempts"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161773",
+      "question_number": 129,
+      "question_text": "The seller, Ms. Thompson,_______ agreed to accept a lower offer on the house because it had been on the market for a long period of time.",
+      "options": {
+        "A": "fluently",
+        "B": "inquisitively",
+        "C": "reluctantly",
+        "D": "collectively"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161774",
+      "question_number": 130,
+      "question_text": "In order to participate in the health plan, you must print out the form and return the_______ application by mail to our main office.",
+      "options": {
+        "A": "fulfilled",
+        "B": "replaced",
+        "C": "completed",
+        "D": "closed"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    }
+  ]
+}

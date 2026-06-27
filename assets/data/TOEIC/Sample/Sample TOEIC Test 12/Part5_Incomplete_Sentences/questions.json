@@ -1,0 +1,547 @@
+{
+  "part": 5,
+  "part_name": "Part5_Incomplete_Sentences",
+  "part_id": 9609,
+  "questions": [
+    {
+      "qid": "162145",
+      "question_number": 101,
+      "question_text": "Comments for the store management may______ at any checkout counter or given directly to your cashier.",
+      "options": {
+        "A": "leaving",
+        "B": "be left",
+        "C": "to leave",
+        "D": "be leaving"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162146",
+      "question_number": 102,
+      "question_text": "While many home improvement ______are suitable for do-it-yourselfers, any job involving electricity is best handled by professionals.",
+      "options": {
+        "A": "projector",
+        "B": "projected",
+        "C": "projection",
+        "D": "projects"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162147",
+      "question_number": 103,
+      "question_text": "To receive a copy of______ score report, please submit a request in writing by Friday, June 11.",
+      "options": {
+        "A": "yourself",
+        "B": "yours",
+        "C": "you",
+        "D": "your"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162148",
+      "question_number": 104,
+      "question_text": "The full report on the prototype will not be ______for five days, but a preliminary outline can be seen on the Web site.",
+      "options": {
+        "A": "appropriate",
+        "B": "available",
+        "C": "timely",
+        "D": "failed"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162149",
+      "question_number": 105,
+      "question_text": "______keep up with demand, Ailanthus Design Co. will be hiring an interior design professional at the beginning of next year.",
+      "options": {
+        "A": "Because of",
+        "B": "In order to",
+        "C": "As soon as",
+        "D": "In line with"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162150",
+      "question_number": 106,
+      "question_text": "The stock market closed yesterday afternoon, as investors______ that consumer confidence was fading.",
+      "options": {
+        "A": "worried",
+        "B": "adapted",
+        "C": "performed",
+        "D": "invited"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162151",
+      "question_number": 107,
+      "question_text": "All payment must be made to the financial aid office by Wednesday to______ your spot in the course.",
+      "options": {
+        "A": "exhaust",
+        "B": "surround",
+        "C": "secure",
+        "D": "pose"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162152",
+      "question_number": 108,
+      "question_text": "Imperfect merchandise will be sold at a______ discount to secondhand stores, where it may be advertised as new.",
+      "options": {
+        "A": "steepest",
+        "B": "steep",
+        "C": "steeply",
+        "D": "steeped"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162153",
+      "question_number": 109,
+      "question_text": "Entegech is investing 300 million dollars to build a wind turbine plant on the south side docks in Manchester,______ it is headquartered.",
+      "options": {
+        "A": "why",
+        "B": "what",
+        "C": "that",
+        "D": "where"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162154",
+      "question_number": 110,
+      "question_text": "Houses in the Houston metropolitan area stay on the______ for an average of 90 days before being sold.",
+      "options": {
+        "A": "transfer",
+        "B": "neighborhood",
+        "C": "utility",
+        "D": "market"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162155",
+      "question_number": 111,
+      "question_text": "______a ten-year absence, Elmore Woodward will return as CEO of Woodward, Inc., the company he founded.",
+      "options": {
+        "A": "After",
+        "B": "Versus",
+        "C": "Throughout",
+        "D": "Along"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162156",
+      "question_number": 112,
+      "question_text": "Buffalo Aquarium has closed its popular sea lion habitat to renovate it in keeping with the Wildlife Council's______recommendations.",
+      "options": {
+        "A": "revise",
+        "B": "revised",
+        "C": "to revise",
+        "D": "revises"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162157",
+      "question_number": 113,
+      "question_text": "All Elk Club members are entitled to bring one guest ______month to the fitness center.",
+      "options": {
+        "A": "with",
+        "B": "except",
+        "C": "per",
+        "D": "as"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162158",
+      "question_number": 114,
+      "question_text": "The adoption of FaverQuick technology______ processing speed at the Farmingham plant by nearly 9% over the last year.",
+      "options": {
+        "A": "increasing",
+        "B": "will increase",
+        "C": "increased",
+        "D": "increases"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162159",
+      "question_number": 115,
+      "question_text": "______you receive the fabric samples, it will be too late to register for a booth at the Conway Textile Show.",
+      "options": {
+        "A": "In order that",
+        "B": "Consequently",
+        "C": "By the time",
+        "D": "No later than"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162160",
+      "question_number": 116,
+      "question_text": "The bus pass offers residents a cost-effective means of transportation,______ it is non-refundable and non-replaceable in the event of loss or theft.",
+      "options": {
+        "A": "provided that",
+        "B": "although",
+        "C": "indeed",
+        "D": "in case"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162161",
+      "question_number": 117,
+      "question_text": "If you would like to______the harbor by boat, there are many ferry operators near the docks.",
+      "options": {
+        "A": "oppose",
+        "B": "draw",
+        "C": "refer",
+        "D": "tour"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162162",
+      "question_number": 118,
+      "question_text": "Increased personnel costs have______ caused a hiring freeze in the Broward Corporation for the second year in a row.",
+      "options": {
+        "A": "effectively",
+        "B": "effectiveness",
+        "C": "effective",
+        "D": "effects"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162163",
+      "question_number": 119,
+      "question_text": "Although media coverage tends to focus on the success stories of dot-coms, the______ of Internet start-up companies fail within one year.",
+      "options": {
+        "A": "majority",
+        "B": "amount",
+        "C": "variety",
+        "D": "export"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162164",
+      "question_number": 120,
+      "question_text": "Easy-care plants such as potted palms can bring a natural touch to______  sterile office buildings.",
+      "options": {
+        "A": "otherwise",
+        "B": "differently",
+        "C": "outside",
+        "D": "later"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162165",
+      "question_number": 121,
+      "question_text": "Parthenon Flooring Solutions offers a______ selection of engineered wood flooring as well as wood-look vinyl laminate at every price point.",
+      "options": {
+        "A": "refunded",
+        "B": "varied",
+        "C": "claiming",
+        "D": "late"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162166",
+      "question_number": 122,
+      "question_text": "Recent research has suggested that children do better when offered ______feedback rather than general praise.",
+      "options": {
+        "A": "specifically",
+        "B": "specifics",
+        "C": "specify",
+        "D": "specific"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162167",
+      "question_number": 123,
+      "question_text": "The Committee for Preservation must approve all paint ______ for the historic row houses on Broad Street.",
+      "options": {
+        "A": "chose",
+        "B": "choose",
+        "C": "choices",
+        "D": "choosing"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162168",
+      "question_number": 124,
+      "question_text": "Hometown athlete Maurice Vickers______ Troy's new community activity center for a ribbon-cutting ceremony when it opens.",
+      "options": {
+        "A": "has visited",
+        "B": "visited",
+        "C": "will visit",
+        "D": "had visited"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162169",
+      "question_number": 125,
+      "question_text": "Employees ______ wish to schedule vacation time must contact Human Resources at least two weeks before the proposed time off.",
+      "options": {
+        "A": "who",
+        "B": "these",
+        "C": "those",
+        "D": "which"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162170",
+      "question_number": 126,
+      "question_text": "The Universe X, Smart Mobile's new ______ in the smartphone market, is larger and less portable than its predecessor.",
+      "options": {
+        "A": "return",
+        "B": "portfolio",
+        "C": "register",
+        "D": "offering"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162171",
+      "question_number": 127,
+      "question_text": "Reports of structural flaws in the design for the new bridge convinced the development committee to seek an ______ review from a third-party.",
+      "options": {
+        "A": "introductory",
+        "B": "insignificant",
+        "C": "improper",
+        "D": "external"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162172",
+      "question_number": 128,
+      "question_text": "Mr. Yi has expressed concern______ Norus, Inc.'s use of single-serving coffee pods, citing both environmental and budgetary costs.",
+      "options": {
+        "A": "regarding",
+        "B": "according to",
+        "C": "except",
+        "D": "throughout"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162173",
+      "question_number": 129,
+      "question_text": "The Lakeham Web Design suite offers users the tools to craft their own high-quality Web sites and requires only basic  ______of computer operations.",
+      "options": {
+        "A": "know",
+        "B": "knowing",
+        "C": "knowledge",
+        "D": "known"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "162174",
+      "question_number": 130,
+      "question_text": "The economic value of hiring an assistant is disputable, but an extra pair of hands will  ______improve morale.",
+      "options": {
+        "A": "assure",
+        "B": "assuredly",
+        "C": "assurance",
+        "D": "assured"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    }
+  ]
+}

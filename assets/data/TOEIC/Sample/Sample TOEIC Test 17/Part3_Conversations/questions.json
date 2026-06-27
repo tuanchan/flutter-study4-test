@@ -1,0 +1,901 @@
+{
+  "part": 3,
+  "part_name": "Part3_Conversations",
+  "part_id": 9572,
+  "questions": [
+    {
+      "qid": "161076",
+      "question_number": 32,
+      "question_text": "What problem does the woman mention?",
+      "options": {
+        "A": "She lost her credit card.",
+        "B": "She needs to get a new ID.",
+        "C": "She does not have her pass.",
+        "D": "She cannot find an address."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/32.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161077",
+      "question_number": 33,
+      "question_text": "Where most likely does the man work?",
+      "options": {
+        "A": "At parking lot",
+        "B": "At a car dealership",
+        "C": "At a gas station",
+        "D": "At a mechanic's garage"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/32.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161078",
+      "question_number": 34,
+      "question_text": "What will the man give the woman?",
+      "options": {
+        "A": "A season pass",
+        "B": "Contact numbers",
+        "C": "A neighborhood map",
+        "D": "Proof of payment"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/32.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161079",
+      "question_number": 35,
+      "question_text": "Where most likely are the speakers?",
+      "options": {
+        "A": "At a restaurant",
+        "B": "At an appliance store",
+        "C": "At a clothing shop",
+        "D": "At a manufacturing facility"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/35.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161080",
+      "question_number": 36,
+      "question_text": "What problem does the woman mention?",
+      "options": {
+        "A": "A price was misprinted.",
+        "B": "A component is missing.",
+        "C": "A warranty has expired.",
+        "D": "A display is disorganized."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/35.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161081",
+      "question_number": 37,
+      "question_text": "What does the woman say she will do?",
+      "options": {
+        "A": "Order a replacement part",
+        "B": "Waive a shipping fee",
+        "C": "Call another business",
+        "D": "Provide an extra discount"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/35.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161082",
+      "question_number": 38,
+      "question_text": "What kind of place is the woman calling?",
+      "options": {
+        "A": "A bus station",
+        "B": "A pet shop",
+        "C": "A ferry terminal",
+        "D": "An airport"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/38.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161083",
+      "question_number": 39,
+      "question_text": "What is the purpose of the call?",
+      "options": {
+        "A": "To check a travel schedule",
+        "B": "To request a ticket exchange",
+        "C": "To report a problem",
+        "D": "To change a reservation"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/38.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161084",
+      "question_number": 40,
+      "question_text": "What does the man remind the woman to do?",
+      "options": {
+        "A": "Show proof of health insurance",
+        "B": "Arrive at the site early",
+        "C": "Bring some documentation",
+        "D": "Check the weight of her luggage"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/38.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161085",
+      "question_number": 41,
+      "question_text": "What is the conversation mainly about?",
+      "options": {
+        "A": "A recruitment drive",
+        "B": "A building relocation",
+        "C": "A new client",
+        "D": "A business loan"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/41.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161086",
+      "question_number": 42,
+      "question_text": "What does the man mention about the company?",
+      "options": {
+        "A": "Its workforce has grown.",
+        "B": "Its products are popular.",
+        "C": "Its leadership has changed.",
+        "D": "Its building is modern."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/41.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161087",
+      "question_number": 43,
+      "question_text": "What does the man suggest?",
+      "options": {
+        "A": "Researching the competition",
+        "B": "Taking a site tour",
+        "C": "Requesting a budget increase",
+        "D": "Conducting a survey"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/41.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161088",
+      "question_number": 44,
+      "question_text": "What problem does the man mention?",
+      "options": {
+        "A": "A component is difficult to install.",
+        "B": "A product has been discontinued.",
+        "C": "An order was filled out incorrectly.",
+        "D": "A shipment has not arrived."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/44.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161089",
+      "question_number": 45,
+      "question_text": "Why does the man recommend visiting a Web site?",
+      "options": {
+        "A": "To place an order",
+        "B": "To read a policy",
+        "C": "To open an account",
+        "D": "To request a refund"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/44.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161090",
+      "question_number": 46,
+      "question_text": "What does the woman inquire about?",
+      "options": {
+        "A": "A retail store",
+        "B": "A delivery period",
+        "C": "A product warranty",
+        "D": "A price reduction"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/44.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161091",
+      "question_number": 47,
+      "question_text": "What does the man's company specialize in?",
+      "options": {
+        "A": "Software development",
+        "B": "Employee recruitment",
+        "C": "Financial consulting",
+        "D": "Medical research"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/47.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161092",
+      "question_number": 48,
+      "question_text": "What does the woman want to do on Thursday?",
+      "options": {
+        "A": "Visit the man's office",
+        "B": "Update a database",
+        "C": "Start some training",
+        "D": "Conduct some interviews"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/47.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161093",
+      "question_number": 49,
+      "question_text": "What does the man offer to do?",
+      "options": {
+        "A": "Speak to a manager",
+        "B": "Check a schedule",
+        "C": "Send some résumés",
+        "D": "E-mail an invoice"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/47.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161094",
+      "question_number": 50,
+      "question_text": "Where most likely are the speakers?",
+      "options": {
+        "A": "At a training session",
+        "B": "At a board meeting",
+        "C": "At a job interview",
+        "D": "At an awards ceremony"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/50.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161095",
+      "question_number": 51,
+      "question_text": "What achievement does the man describe?",
+      "options": {
+        "A": "Improving employee productivity",
+        "B": "Increasing a company's sales",
+        "C": "Hiring a marketing specialist",
+        "D": "Reducing distribution costs"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/50.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161096",
+      "question_number": 52,
+      "question_text": "What does the man propose?",
+      "options": {
+        "A": "Using newspapers to share coupons",
+        "B": "Targeting some current clients",
+        "C": "Decreasing product prices",
+        "D": "Conducting a consumer survey"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/50.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161097",
+      "question_number": 53,
+      "question_text": "Who most likely are the speakers?",
+      "options": {
+        "A": "Appliance salespeople",
+        "B": "Building inspectors",
+        "C": "Interior designers",
+        "D": "Equipment suppliers"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/53.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161098",
+      "question_number": 54,
+      "question_text": "What does the woman mean when she says, \"That'll make a big difference\"?",
+      "options": {
+        "A": "She wants additional workers to help.",
+        "B": "She hopes her recommendation is accepted.",
+        "C": "She is unsure about a final price.",
+        "D": "She needs to find out some measurements."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/53.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161099",
+      "question_number": 55,
+      "question_text": "What does the man say he will prepare?",
+      "options": {
+        "A": "A final invoice",
+        "B": "Some company brochures",
+        "C": "An updated contract",
+        "D": "Some product samples"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/53.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161100",
+      "question_number": 56,
+      "question_text": "What is the conversation mainly about?",
+      "options": {
+        "A": "An industry conference",
+        "B": "A recruitment drive",
+        "C": "An awards dinner",
+        "D": "A retirement banquet"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/56.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161101",
+      "question_number": 57,
+      "question_text": "What are the speakers having trouble doing?",
+      "options": {
+        "A": "Arranging transportation",
+        "B": "Selecting a venue",
+        "C": "Staying within a budget",
+        "D": "Making a decision"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/56.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161102",
+      "question_number": 58,
+      "question_text": "What does the man think the speakers should do?",
+      "options": {
+        "A": "Meet with a supervisor",
+        "B": "Reschedule a meeting",
+        "C": "Make an announcement",
+        "D": "Contact a business"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/56.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161103",
+      "question_number": 59,
+      "question_text": "What does the woman say she is willing to do?",
+      "options": {
+        "A": "Try on a sweater",
+        "B": "Finish a shift early",
+        "C": "Offer assistance",
+        "D": "Inspect a storeroom"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/59.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161104",
+      "question_number": 60,
+      "question_text": "What does the man mean when he says, \"The changing rooms are always a mess\"?",
+      "options": {
+        "A": "More changing rooms are needed.",
+        "B": "He wants the woman to tidy up an area.",
+        "C": "The store is busier than usual today.",
+        "D": "He is disappointed with the customers."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/59.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161105",
+      "question_number": 61,
+      "question_text": "What will the man probably do next?",
+      "options": {
+        "A": "Check a schedule",
+        "B": "Organize some clothing",
+        "C": "Unpack some boxes",
+        "D": "Call a coworker"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/59.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161106",
+      "question_number": 62,
+      "question_text": "What do the speakers suggest about the woman's department?",
+      "options": {
+        "A": "Its workers need more training.",
+        "B": "It will be combined with another team.",
+        "C": "It does not have enough employees.",
+        "D": "Its schedule needs to be changed."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/62.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image366.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_011.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161107",
+      "question_number": 63,
+      "question_text": "Look at the graphic. In which room is Ms. Harper staying?",
+      "options": {
+        "A": "Room 215",
+        "B": "Room 246",
+        "C": "Room 320",
+        "D": "Room 334"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/62.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image366.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_011.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161108",
+      "question_number": 64,
+      "question_text": "What does the man say he will do?",
+      "options": {
+        "A": "Provide some free meals",
+        "B": "Change a policy",
+        "C": "Give a room discount",
+        "D": "Meet with employees"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/62.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image366.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_011.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161109",
+      "question_number": 65,
+      "question_text": "What does the man want to celebrate?",
+      "options": {
+        "A": "An anniversary",
+        "B": "A retirement",
+        "C": "A promotion",
+        "D": "A birthday"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/65.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image313.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_012.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161110",
+      "question_number": 66,
+      "question_text": "What does the woman recommend doing?",
+      "options": {
+        "A": "Writing a personal message",
+        "B": "Buying an additional gift",
+        "C": "Purchasing express delivery",
+        "D": "Using a variety of colors"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/65.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image313.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_012.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161111",
+      "question_number": 67,
+      "question_text": "Look at the graphic. What is the man eligible to receive?",
+      "options": {
+        "A": "A free plastic vase",
+        "B": "A free glass vase",
+        "C": "Free extra flowers",
+        "D": "Free delivery"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/65.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image313.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_012.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161112",
+      "question_number": 68,
+      "question_text": "What are the speakers doing?",
+      "options": {
+        "A": "Making building repairs",
+        "B": "Cleaning some offices",
+        "C": "Inspecting the building",
+        "D": "Installing some equipment"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/68.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image36.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_013.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "161113",
+      "question_number": 69,
+      "question_text": "Look at the graphic. According to the man, which office had a problem?",
+      "options": {
+        "A": "Tukwila Enterprises",
+        "B": "Tech Limited",
+        "C": "Young & Associates",
+        "D": "RTJ Insurance"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/68.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image36.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_013.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "161114",
+      "question_number": 70,
+      "question_text": "What does the woman suggest?",
+      "options": {
+        "A": "Using some different materials",
+        "B": "Contacting a building owner",
+        "C": "Placing a supply request",
+        "D": "Finishing work for the day"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test2/68.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image36.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_013.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "part": 1,
+  "part_name": "Part1_Photographs",
+  "part_id": 3139,
+  "questions": [
+    {
+      "qid": "24381",
+      "question_number": 1,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q1.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/db53a8ecd4c544c7df0503cd26663c67eeb6d141.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) One of the women is handing some paper to the man.\n(B) They are all using laptops.\n(C) The lady is typing on the laptop.\n(D) The man is presenting in the office.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": [
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24382",
+      "question_number": 2,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q2.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/860e10cc27754e70466674e9294d7b205481a978.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) The waiter is writing in his notepad.\n(B) The man is drinking a cup of coffee.\n(C) The woman is ordering some food.\n(D) The waiter is talking to the man.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": [
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24383",
+      "question_number": 3,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q3.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/cefabdbd570ade54f235fbab8cc1eae92939bce0.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "(A) There are cleaners in the lecture hall.\n(B) The lecture hall is occupied.\n(C) There are many people in the lecture hall.\n(D) The lecture hall is unoccupied.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": [
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24384",
+      "question_number": 4,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q4.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/e328c2bf092f3e8918de056442a6efbdbd7cff65.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) The man is holding the umbrella with his hand.\n(B) The woman is strolling along the path.\n(C) They are boarding the train.\n(D) They are lined up against the wall.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": [
+        "images/img_006.jpg"
+      ]
+    },
+    {
+      "qid": "24385",
+      "question_number": 5,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q5.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/dba9ef785eee4f6c2bb6b27719836af3f11cc7fe.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) The woman is boiling water in the pot.\n(B) The woman is putting pepper into the pot.\n(C) The woman is pouring oil into the pan.\n(D) The woman is wearing a chef's hat.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": [
+        "images/img_005.jpg"
+      ]
+    },
+    {
+      "qid": "24386",
+      "question_number": 6,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test8_audios/q6.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/a2c41beff97972bc67fd04247be59dd784240943.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) They are signing a contract.\n(B) They are shaking hands with each other.\n(C) They are sitting next to each other.\n(D) They are sharing business cards with each other.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": [
+        "images/img_002.jpg"
+      ]
+    }
+  ]
+}

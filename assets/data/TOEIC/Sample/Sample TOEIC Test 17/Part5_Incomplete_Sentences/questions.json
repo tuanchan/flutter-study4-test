@@ -1,0 +1,547 @@
+{
+  "part": 5,
+  "part_name": "Part5_Incomplete_Sentences",
+  "part_id": 9574,
+  "questions": [
+    {
+      "qid": "161145",
+      "question_number": 101,
+      "question_text": "Ms. Vardy's trip to China had to be canceled unexpectedly because her visa was issued______",
+      "options": {
+        "A": "lately",
+        "B": "latest",
+        "C": "lateness",
+        "D": "late"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161146",
+      "question_number": 102,
+      "question_text": "Some market experts are able______which products are likely to be successful upon release.",
+      "options": {
+        "A": "to be determined",
+        "B": "to determine",
+        "C": "determines",
+        "D": "determining"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161147",
+      "question_number": 103,
+      "question_text": "When workers arrive at the factory, they must put on their safety gear______report to the production line supervisor.",
+      "options": {
+        "A": "and",
+        "B": "both",
+        "C": "so",
+        "D": "as"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161148",
+      "question_number": 104,
+      "question_text": "______volunteers to clean the staff break room during the lunch break will be allowed to go home one hour earlier than usual.",
+      "options": {
+        "A": "Whatever",
+        "B": "Another",
+        "C": "Whoever",
+        "D": "Someone"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161149",
+      "question_number": 105,
+      "question_text": "At this year's International Film Awards Show, acceptance speeches will be______to three minutes.",
+      "options": {
+        "A": "commenced",
+        "B": "restricted",
+        "C": "allowed",
+        "D": "eliminated"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161150",
+      "question_number": 106,
+      "question_text": "Please place the badge in the box by the door______the museum exit.",
+      "options": {
+        "A": "as regards",
+        "B": "due to",
+        "C": "next to",
+        "D": "in between"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161151",
+      "question_number": 107,
+      "question_text": "Rona No-crease Cleaning Solution should be applied only______garments made of 100 percent cotton.",
+      "options": {
+        "A": "to",
+        "B": "ever",
+        "C": "beside",
+        "D": "without"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161152",
+      "question_number": 108,
+      "question_text": "Due to its current financial problems, Onirus Software will not be releasing any new software in the ______future.",
+      "options": {
+        "A": "foresee",
+        "B": "foresaw",
+        "C": "foresees",
+        "D": "foreseeable"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161153",
+      "question_number": 109,
+      "question_text": "Common______offered to executives by Botrego Corporation include a company car and subsidized housing.",
+      "options": {
+        "A": "referrals",
+        "B": "applications",
+        "C": "requests",
+        "D": "benefits"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161154",
+      "question_number": 110,
+      "question_text": "In the event______inclement weather, the Stovington Charity Golf Tournament will be postponed until next weekend.",
+      "options": {
+        "A": "still",
+        "B": "of",
+        "C": "from",
+        "D": "at"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161155",
+      "question_number": 111,
+      "question_text": "The Chief Technician will arrive at the factory at 2 P.M. today to______the damage caused to the packing machine.",
+      "options": {
+        "A": "prevent",
+        "B": "withstand",
+        "C": "result",
+        "D": "assess"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161156",
+      "question_number": 112,
+      "question_text": "Out of all of next year's______, we should primarily focus on reducing our expenditures by 15 percent.",
+      "options": {
+        "A": "target",
+        "B": "targets",
+        "C": "being targeted",
+        "D": "targeted"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161157",
+      "question_number": 113,
+      "question_text": "Please______all staff members that parking permits must be visibly displayed on parked vehicles at all times.",
+      "options": {
+        "A": "allocate",
+        "B": "recruit",
+        "C": "attain",
+        "D": "remind"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161158",
+      "question_number": 114,
+      "question_text": "A recent journal article indicates that conducting on-the-job training______helps to keep employees productive and alert.",
+      "options": {
+        "A": "repeat",
+        "B": "repeated",
+        "C": "repeatedly",
+        "D": "repetition"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161159",
+      "question_number": 115,
+      "question_text": "With regret, those who______Nairn Manufacturing within the past month will not be eligible for the Employee of the Quarter Award.",
+      "options": {
+        "A": "are joined",
+        "B": "will be joining",
+        "C": "have joined",
+        "D": "would join"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161160",
+      "question_number": 116,
+      "question_text": "In addition to being_____to division supervisor, Mr. Smalling will also receive a company car.",
+      "options": {
+        "A": "promoting",
+        "B": "promoted",
+        "C": "promotion",
+        "D": "promote"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161161",
+      "question_number": 117,
+      "question_text": "The quality assurance team uses a process______of several methodical steps.",
+      "options": {
+        "A": "attached",
+        "B": "consisting",
+        "C": "beneficial",
+        "D": "associated"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161162",
+      "question_number": 118,
+      "question_text": "As per company policy, each staff member is entitled to a 20-minute break______ in the morning and in the afternoon.",
+      "options": {
+        "A": "guideline",
+        "B": "deadline",
+        "C": "period",
+        "D": "course"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161163",
+      "question_number": 119,
+      "question_text": "As expected, Pistone Technology Group reported impressive quarterly figures,______ surpassing the previous quarter's earnings.",
+      "options": {
+        "A": "easily",
+        "B": "ease",
+        "C": "easy",
+        "D": "easing"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161164",
+      "question_number": 120,
+      "question_text": "Digital Digest Magazine has awarded its highest______in technical performance to the Mobium 6 smartphone.",
+      "options": {
+        "A": "hesitation",
+        "B": "restriction",
+        "C": "rating",
+        "D": "prevalence"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161165",
+      "question_number": 121,
+      "question_text": "We are asking______who is a fan of Trident Audio products to join our focus group and market research study.",
+      "options": {
+        "A": "every",
+        "B": "individual",
+        "C": "person",
+        "D": "anyone"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161166",
+      "question_number": 122,
+      "question_text": "Due to the renovation of the reception area, staff must access the building through the east wing entrance______the main entrance.",
+      "options": {
+        "A": "as per",
+        "B": "in case of",
+        "C": "as opposed to",
+        "D": "in response to"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161167",
+      "question_number": 123,
+      "question_text": "This equipment is to be used______as instructed by your fitness instructor.",
+      "options": {
+        "A": "overly",
+        "B": "only",
+        "C": "lively",
+        "D": "longingly"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161168",
+      "question_number": 124,
+      "question_text": "For______purposes, guests must allow the hotel's front desk staff to make a copy of their passports.",
+      "options": {
+        "A": "secured",
+        "B": "secures",
+        "C": "securely",
+        "D": "security"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161169",
+      "question_number": 125,
+      "question_text": "Preliminary research says that language barriers will make it impossible to sell most of our______toys abroad.",
+      "options": {
+        "A": "educate",
+        "B": "educated",
+        "C": "educational",
+        "D": "educationally"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161170",
+      "question_number": 126,
+      "question_text": "Ms. Dennings was unable to finish her proposal______schedule due to an unexpected increase in her workload.",
+      "options": {
+        "A": "ahead of",
+        "B": "in time",
+        "C": "except for",
+        "D": "aside from"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161171",
+      "question_number": 127,
+      "question_text": "Industry analysts predict that rising oil prices will make gas price increases of up to 20 percent ______in some Western countries.",
+      "options": {
+        "A": "obtainable",
+        "B": "possible",
+        "C": "returnable",
+        "D": "consumable"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161172",
+      "question_number": 128,
+      "question_text": "The CEO is reluctant to slow down production of the LD20 and LD35, as______laptop models are still selling at a fairly consistent rate.",
+      "options": {
+        "A": "them",
+        "B": "theirs",
+        "C": "these",
+        "D": "there"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161173",
+      "question_number": 129,
+      "question_text": "At the weekly meeting, Ms. Jacobson described the advertising campaign that______created in an effort to target younger consumers.",
+      "options": {
+        "A": "hers",
+        "B": "her",
+        "C": "herself",
+        "D": "she"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "161174",
+      "question_number": 130,
+      "question_text": "As soon as Muldoon Grill & Restaurant______its menu, the chefs started having difficulty cooking the wider range of dishes.",
+      "options": {
+        "A": "collaborated",
+        "B": "expanded",
+        "C": "seasoned",
+        "D": "reduced"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    }
+  ]
+}

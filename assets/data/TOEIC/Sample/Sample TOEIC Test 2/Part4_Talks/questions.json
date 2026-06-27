@@ -1,0 +1,703 @@
+{
+  "part": 4,
+  "part_name": "Part4_Talks",
+  "part_id": 760,
+  "questions": [
+    {
+      "qid": "9462",
+      "question_number": 71,
+      "question_text": "Where does the speaker work?",
+      "options": {
+        "A": "At a retail store.",
+        "B": "At a bank.",
+        "C": "At a gift shop.",
+        "D": "At a shipping company."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_71_73.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9463",
+      "question_number": 72,
+      "question_text": "What does the speaker apologize for?",
+      "options": {
+        "A": "A delivery mistake.",
+        "B": "An incorrect charge.",
+        "C": "A scheduling error.",
+        "D": "A defective product."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_71_73.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9464",
+      "question_number": 73,
+      "question_text": "What does the speaker ask the listener to do?",
+      "options": {
+        "A": "Return a call.",
+        "B": "Renew his credit card.",
+        "C": "Get rid of the recently delivered card.",
+        "D": "Sign an application form."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_71_73.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9465",
+      "question_number": 74,
+      "question_text": "Where is the announcement being made?",
+      "options": {
+        "A": "In a subway station .",
+        "B": "In a conference hall.",
+        "C": "In a shopping mall.",
+        "D": "In a baggage claim area."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_74_76.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9466",
+      "question_number": 75,
+      "question_text": "What are the listeners asked to do?",
+      "options": {
+        "A": "Proceed to the checkout immediately.",
+        "B": "Register for a workshop.",
+        "C": "Search for a missing item.",
+        "D": "Visit a different location."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_74_76.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9467",
+      "question_number": 76,
+      "question_text": "Why should Ms. Goya go to the front desk?",
+      "options": {
+        "A": "To pay a membership fee.",
+        "B": "To recover a lost item.",
+        "C": "To receive a voucher.",
+        "D": "To return an item."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_74_76.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9468",
+      "question_number": 77,
+      "question_text": "What business created the message?",
+      "options": {
+        "A": "A glassware factory.",
+        "B": "A pharmacy.",
+        "C": "An eyeglasses store.",
+        "D": "An insurance company."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_77_79.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9469",
+      "question_number": 78,
+      "question_text": "According to the speaker, what service does the business offer?",
+      "options": {
+        "A": "Free eye examinations.",
+        "B": "Online purchases.",
+        "C": "Special discounts for regular customers.",
+        "D": "Free delivery on large orders."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_77_79.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9470",
+      "question_number": 79,
+      "question_text": "Why would listeners press 2?",
+      "options": {
+        "A": "To cancel an order .",
+        "B": "To change delivery information.",
+        "C": "To schedule an appointment .",
+        "D": "To leave a message."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_77_79.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9471",
+      "question_number": 80,
+      "question_text": "What special feature of the new laptop does the speaker mention?",
+      "options": {
+        "A": "It is the lightest in the market.",
+        "B": "It has a built-in high-definition camera.",
+        "C": "It is water-resistant.",
+        "D": "It is convenient to carry."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_80_82.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9472",
+      "question_number": 81,
+      "question_text": "How can customers purchase the new laptop?",
+      "options": {
+        "A": "By accessing a website.",
+        "B": "By stopping by the speaker's office.",
+        "C": "By visiting a local store.",
+        "D": "By calling a customer service hotline."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_80_82.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9473",
+      "question_number": 82,
+      "question_text": "What can customers receive this week?",
+      "options": {
+        "A": "An additional battery.",
+        "B": "A carrying case.",
+        "C": "A portable speaker.",
+        "D": "A small printer."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_80_82.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9474",
+      "question_number": 83,
+      "question_text": "What is the reason for the meeting?",
+      "options": {
+        "A": "To announce a new partnership.",
+        "B": "To introduce a new manager.",
+        "C": "To propose a budget plan.",
+        "D": "To announce his retirement."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_83_85.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9475",
+      "question_number": 84,
+      "question_text": "What does the woman imply when she says \"And why wouldn't we?\"",
+      "options": {
+        "A": "To suggest the partnership is good.",
+        "B": "To review some materials.",
+        "C": "To recommend a new method.",
+        "D": "To offer a training program."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_83_85.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9476",
+      "question_number": 85,
+      "question_text": "What does the woman suggest the studio staff do?",
+      "options": {
+        "A": "Go on vacation.",
+        "B": "Continue using the old equipment.",
+        "C": "Produce a movie.",
+        "D": "Study the new equipment."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_83_85.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9477",
+      "question_number": 86,
+      "question_text": "What problem does the speaker mention?",
+      "options": {
+        "A": "A shipment was missed.",
+        "B": "The order was wrong.",
+        "C": "The center will have no hot water.",
+        "D": "The hot water is working."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_86_88.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9478",
+      "question_number": 87,
+      "question_text": "What does the speaker imply when he says, \"you might want to hold off until later\"?",
+      "options": {
+        "A": "Members of the center should come in the afternoon.",
+        "B": "Members of the center shouldn't come.",
+        "C": "There will be a meeting in the morning.",
+        "D": "The center is closed in the afternoon."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_86_88.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9479",
+      "question_number": 88,
+      "question_text": "What does the speaker say he will do?",
+      "options": {
+        "A": "Send a text message.",
+        "B": "Send an email.",
+        "C": "Make a phone call.",
+        "D": "Post a letter."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_86_88.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9480",
+      "question_number": 89,
+      "question_text": "Where does the speaker work?",
+      "options": {
+        "A": "At a market.",
+        "B": "At a clinic.",
+        "C": "At a restaurant.",
+        "D": "At a factory."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_89_91.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9481",
+      "question_number": 90,
+      "question_text": "What problem does the speaker describe?",
+      "options": {
+        "A": "Extra items were delivered.",
+        "B": "The delivery is late.",
+        "C": "The business was closed.",
+        "D": "There is a special event planned."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_89_91.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9482",
+      "question_number": 91,
+      "question_text": "What does the woman mean when she says \"I have to finish the kitchen inventory by 11:00 A.M.\"?",
+      "options": {
+        "A": "She would like a response soon.",
+        "B": "She doesn't need to know soon.",
+        "C": "She needs some help with the new menu.",
+        "D": "They have the right ingredients."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_89_91.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "9483",
+      "question_number": 92,
+      "question_text": "What are the listeners training to be?",
+      "options": {
+        "A": "Airline attendants.",
+        "B": "Military soldiers.",
+        "C": "Assembly line workers.",
+        "D": "Computer programmers."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_92_94.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_92_94.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "9484",
+      "question_number": 93,
+      "question_text": "According to the speaker, what will the listeners enjoy doing?",
+      "options": {
+        "A": "Learning their job.",
+        "B": "Assembling products.",
+        "C": "Producing quality materials.",
+        "D": "Going to company events."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_92_94.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_92_94.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "9485",
+      "question_number": 94,
+      "question_text": "Look at the graphic. On what day will the listeners meet with the company president?",
+      "options": {
+        "A": "Monday.",
+        "B": "Tuesday.",
+        "C": "Wednesday.",
+        "D": "Thursday."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_92_94.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_92_94.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "9486",
+      "question_number": 95,
+      "question_text": "Why is Alright Ales worried?",
+      "options": {
+        "A": "They have a new competitor.",
+        "B": "They are nervous about their new beers.",
+        "C": "They are not in the top 5 of the market share in Northcut.",
+        "D": "They will have to cut staff."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_95_97.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_95_97.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "9487",
+      "question_number": 96,
+      "question_text": "What will the company likely do with the results of the survey?",
+      "options": {
+        "A": "Change the label of the Red Ale.",
+        "B": "Work on the Belgium Ale.",
+        "C": "Begin marketing the chosen beers.",
+        "D": "Start working on a new style of beer."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_95_97.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_95_97.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "9488",
+      "question_number": 97,
+      "question_text": "Look at the graphic. What beer is least likely to be part of Alright Ales' new product line?",
+      "options": {
+        "A": "Wheat Ale.",
+        "B": "Dark Ale.",
+        "C": "Red Ale.",
+        "D": "Belgium Style."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_95_97.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_95_97.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "9489",
+      "question_number": 98,
+      "question_text": "What is indicated at the orientation?",
+      "options": {
+        "A": "Toys will be a boring job.",
+        "B": "Big Toys has a large selection of products.",
+        "C": "Their inventory system is confusing.",
+        "D": "The managers will be very critical of mistakes."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_98_100.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_98_100.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "9490",
+      "question_number": 99,
+      "question_text": "Look at the graphic. Where will the trainees spend most of their time during the training exercise? .",
+      "options": {
+        "A": "Zone 1.",
+        "B": "Zone 2.",
+        "C": "Zone 3.",
+        "D": "Zone 4."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_98_100.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_98_100.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "9491",
+      "question_number": 100,
+      "question_text": "How quickly should the trainees complete their exercise?",
+      "options": {
+        "A": "2 hours.",
+        "B": "45 minutes or less.",
+        "C": "1 1/2 hours.",
+        "D": "1 hour or less ."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/tez_media/sound/eco_toeic_1000_test_5_98_100.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/tez_media/img/eco_toeic_1000_test_5_eco_toeic_1000_test_5_98_100.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    }
+  ]
+}

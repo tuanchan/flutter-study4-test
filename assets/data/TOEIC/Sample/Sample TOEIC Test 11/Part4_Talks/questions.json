@@ -1,0 +1,703 @@
+{
+  "part": 4,
+  "part_name": "Part4_Talks",
+  "part_id": 9601,
+  "questions": [
+    {
+      "qid": "161915",
+      "question_number": 71,
+      "question_text": "According to the news report, what will the weather be like this weekend?",
+      "options": {
+        "A": "Hot and dry",
+        "B": "Inclement",
+        "C": "Stormy",
+        "D": "Pleasant"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/71.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161916",
+      "question_number": 72,
+      "question_text": "According to the speaker, what can listeners see on the Web site?",
+      "options": {
+        "A": "Travel updates",
+        "B": "Holiday images",
+        "C": "A sports game",
+        "D": "A radar map"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/71.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161917",
+      "question_number": 73,
+      "question_text": "Who most likely is Alyssa Wilcox?",
+      "options": {
+        "A": "A school teacher",
+        "B": "A weather reporter",
+        "C": "A professional athlete",
+        "D": "A radio announcer"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/71.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161918",
+      "question_number": 74,
+      "question_text": "What kind of doctors are Doctors Parker and Morris?",
+      "options": {
+        "A": "Dentists",
+        "B": "Eye doctors",
+        "C": "Veterinarians",
+        "D": "Pediatricians"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/74.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161919",
+      "question_number": 75,
+      "question_text": "According to the message, why should a listener call back during business hours?",
+      "options": {
+        "A": "To be placed on a waiting list",
+        "B": "To speak with a doctor",
+        "C": "To change an appointment",
+        "D": "To request health records"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/74.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161920",
+      "question_number": 76,
+      "question_text": "Who should press 1 for an answering service?",
+      "options": {
+        "A": "Someone who wants to talk to a receptionist",
+        "B": "Anyone who wants to install an automated service",
+        "C": "People with questions about billing",
+        "D": "Current patients of the doctors"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/74.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161921",
+      "question_number": 77,
+      "question_text": "What is the speaker explaining?",
+      "options": {
+        "A": "New models of appliances",
+        "B": "Terms of a store credit card",
+        "C": "Special deals on appliances",
+        "D": "Currently unavailable stock"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/77.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161922",
+      "question_number": 78,
+      "question_text": "What item is new at Morton's Department Store?",
+      "options": {
+        "A": "A blender",
+        "B": "A toaster oven",
+        "C": "A washing machine",
+        "D": "A vacuum cleaner"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/77.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161923",
+      "question_number": 79,
+      "question_text": "How can listeners get 10 percent off?",
+      "options": {
+        "A": "Buying a model from last year",
+        "B": "Buying a refurbished model",
+        "C": "Spending $150 or more",
+        "D": "Paying in cash"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/77.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161924",
+      "question_number": 80,
+      "question_text": "What field does Dr. Farrell most likely work in?",
+      "options": {
+        "A": "Client retention",
+        "B": "Employee recruitment",
+        "C": "Product development",
+        "D": "Organizational psychology"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/80.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161925",
+      "question_number": 81,
+      "question_text": "Why does the speaker say, \"You won't find a more knowledgeable authority on these topics\"?",
+      "options": {
+        "A": "To give a warning",
+        "B": "To express praise",
+        "C": "To request clarification",
+        "D": "To show frustration"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/80.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161926",
+      "question_number": 82,
+      "question_text": "What will Dr. Farrell do after his lecture?",
+      "options": {
+        "A": "Take a tour of the office",
+        "B": "Answer audience questions",
+        "C": "Schedule a follow-up lecture",
+        "D": "Read from his upcoming book"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/80.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161927",
+      "question_number": 83,
+      "question_text": "Where most likely is the announcement being made?",
+      "options": {
+        "A": "At a shoe company",
+        "B": "At a clothing shop",
+        "C": "At a sporting goods store",
+        "D": "At a stadium"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/83.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161928",
+      "question_number": 84,
+      "question_text": "What can customers do in the Lockhart store?",
+      "options": {
+        "A": "Join a loyalty program",
+        "B": "Receive a consultation",
+        "C": "Use a promotional coupon",
+        "D": "Pick up samples"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/83.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161929",
+      "question_number": 85,
+      "question_text": "What special deal is Lockhart offering?",
+      "options": {
+        "A": "A free delivery",
+        "B": "A customization service",
+        "C": "An online discount",
+        "D": "An extended warranty period"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/83.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161930",
+      "question_number": 86,
+      "question_text": "When will the training sessions be held?",
+      "options": {
+        "A": "On March 15",
+        "B": "On March 30",
+        "C": "On April 15",
+        "D": "On April 30"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/86.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161931",
+      "question_number": 87,
+      "question_text": "Why should the listeners contact the speaker?",
+      "options": {
+        "A": "To assist with the upgrade",
+        "B": "To check on their hourly rates",
+        "C": "To get a manual for the new system",
+        "D": "To schedule a make-up training session"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/86.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161932",
+      "question_number": 88,
+      "question_text": "According to the speaker, what is better about the new system?",
+      "options": {
+        "A": "It is more powerful.",
+        "B": "It is easier to use.",
+        "C": "It is less expensive.",
+        "D": "It contains more items."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/86.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161933",
+      "question_number": 89,
+      "question_text": "How did the speaker place his order?",
+      "options": {
+        "A": "In person",
+        "B": "By phone",
+        "C": "Online",
+        "D": "By mail"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/89.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161934",
+      "question_number": 90,
+      "question_text": "What does the speaker imply when he says, \"there's a race on Saturday\"?",
+      "options": {
+        "A": "He would like to invite the listener to an event.",
+        "B": "He wants to relax on a weekend.",
+        "C": "He has a deadline for a product delivery.",
+        "D": "He would like to cancel an appointment."
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/89.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161935",
+      "question_number": 91,
+      "question_text": "What does the speaker request that Marcie do?",
+      "options": {
+        "A": "Mail some coupons",
+        "B": "Confirm his new address",
+        "C": "Attend an event",
+        "D": "Return his call"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/89.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161936",
+      "question_number": 92,
+      "question_text": "Where is this announcement taking place?",
+      "options": {
+        "A": "In a subway station",
+        "B": "In an airport",
+        "C": "At a bus station",
+        "D": "On a train platform"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/92.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image90.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161937",
+      "question_number": 93,
+      "question_text": "Look at the graphic. What color is the bus that passengers should take?",
+      "options": {
+        "A": "Red",
+        "B": "Yellow",
+        "C": "Green",
+        "D": "Blue"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/92.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image90.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161938",
+      "question_number": 94,
+      "question_text": "According to the speaker, what should passengers show to a staff member?",
+      "options": {
+        "A": "Meal receipts",
+        "B": "Customs forms",
+        "C": "Transportation tickets",
+        "D": "Proof of identification"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/92.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image90.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161939",
+      "question_number": 95,
+      "question_text": "According to the speaker, what did consumers like best about Healthy Crisps?",
+      "options": {
+        "A": "Their taste",
+        "B": "Their package's size",
+        "C": "Their price",
+        "D": "Their package's color"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/95.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image233.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161940",
+      "question_number": 96,
+      "question_text": "Look at the graphic. What area will the speaker discuss in the afternoon?",
+      "options": {
+        "A": "Wholesale bulk ordering",
+        "B": "Online shopping",
+        "C": "Collectible gift boxes",
+        "D": "Seasonal promotions"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/95.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image233.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161941",
+      "question_number": 97,
+      "question_text": "What will the speaker probably do next?",
+      "options": {
+        "A": "Show a video",
+        "B": "Order a meal",
+        "C": "Sample some products",
+        "D": "Distribute some summaries"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/95.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image233.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161942",
+      "question_number": 98,
+      "question_text": "What kind of company is Baratrax Associates?",
+      "options": {
+        "A": "A construction company",
+        "B": "An accounting firm",
+        "C": "An employment agency",
+        "D": "A stationery supply store"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/98.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image72.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "161943",
+      "question_number": 99,
+      "question_text": "What will most likely happen at the company next week?",
+      "options": {
+        "A": "An award ceremonies",
+        "B": "A media conference",
+        "C": "Building renovations",
+        "D": "Staff workshops"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/98.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image72.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    },
+    {
+      "qid": "161944",
+      "question_number": 100,
+      "question_text": "Look at the graphic. Who most likely would a job candidate speak to?",
+      "options": {
+        "A": "Yuri Yoshida",
+        "B": "Jin-Hyun Sang",
+        "C": "Sung Won",
+        "D": "Yong-Hyun Kim"
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test6/98.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/ybm/img/ybm1/image72.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    }
+  ]
+}

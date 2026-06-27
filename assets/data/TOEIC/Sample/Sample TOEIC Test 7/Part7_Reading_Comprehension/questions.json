@@ -1,0 +1,1275 @@
+{
+  "part": 7,
+  "part_name": "Part7_Reading_Comprehension",
+  "part_id": 3159,
+  "questions": [
+    {
+      "qid": "24920",
+      "question_number": 147,
+      "question_text": "What is indicated about TriStar Sports Gear?",
+      "options": {
+        "A": "It is a family business.",
+        "B": "It is located next to a school.",
+        "C": "It holds a sale every year.",
+        "D": "It mainly sells weight training equipment."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/9a18decce4319016bc774c19922917c0c4ff4413.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_012.jpg"
+      ]
+    },
+    {
+      "qid": "24921",
+      "question_number": 148,
+      "question_text": "How can customers receive a discount on athletic shoes?",
+      "options": {
+        "A": "By buying more than two pairs",
+        "B": "By visiting on July 1",
+        "C": "By placing an order online",
+        "D": "By presenting a flyer"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/9a18decce4319016bc774c19922917c0c4ff4413.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_012.jpg"
+      ]
+    },
+    {
+      "qid": "24922",
+      "question_number": 149,
+      "question_text": "What kind of movie did Phyllis think the group was going to see?",
+      "options": {
+        "A": "Horror",
+        "B": "Sci Fi",
+        "C": "Comedy",
+        "D": "Romance"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/a4af4ab49094891b527b70792602f1e5b36307cd.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_015.jpg"
+      ]
+    },
+    {
+      "qid": "24923",
+      "question_number": 150,
+      "question_text": "What does Jason mean when he texts, \"I'm in!\"",
+      "options": {
+        "A": "He wants to see the horror movie they agreed on.",
+        "B": "He wants to be in a comedy movie.",
+        "C": "He wants to be included in the group.",
+        "D": "He wants to stay in his house tonight."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/a4af4ab49094891b527b70792602f1e5b36307cd.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_015.jpg"
+      ]
+    },
+    {
+      "qid": "24924",
+      "question_number": 151,
+      "question_text": "What is mentioned about the event?",
+      "options": {
+        "A": "It is sponsored by the Egyptian government.",
+        "B": "It will feature an artifact exhibition.",
+        "C": "It will be held in Egypt.",
+        "D": "It is already sold out."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/c0d66ca86eea5d0d9e1722ffca92db64bdc06df1.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.jpg"
+      ]
+    },
+    {
+      "qid": "24925",
+      "question_number": 152,
+      "question_text": "What can be found on the library's Web site?",
+      "options": {
+        "A": "An events calendar",
+        "B": "A detailed map of the area",
+        "C": "Facts about ancient Egypt",
+        "D": "A guide to Egyptian food"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/c0d66ca86eea5d0d9e1722ffca92db64bdc06df1.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.jpg"
+      ]
+    },
+    {
+      "qid": "24926",
+      "question_number": 153,
+      "question_text": "What most likely is Spring Valley Center?",
+      "options": {
+        "A": "A department store",
+        "B": "A conference center",
+        "C": "A logistics company",
+        "D": "A business park"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/bac2b326eb879a35c4e7bfd8ceaeca5c9264bbc4.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.jpg"
+      ]
+    },
+    {
+      "qid": "24927",
+      "question_number": 154,
+      "question_text": "Why is the event being held?",
+      "options": {
+        "A": "To attract new employees to a company",
+        "B": "To schedule a sales conference",
+        "C": "To advertise commercial rental space",
+        "D": "To announce the opening of a shopping center"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/bac2b326eb879a35c4e7bfd8ceaeca5c9264bbc4.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.jpg"
+      ]
+    },
+    {
+      "qid": "24928",
+      "question_number": 155,
+      "question_text": "What is the article about?",
+      "options": {
+        "A": "The tension at the border",
+        "B": "The competition between neighboring residents",
+        "C": "Cross border shopping expeditions",
+        "D": "The opening of a new Cashco branch in the near future"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/44b9264265c3853c9b74c05c85ce4be867bf814d.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_006.jpg"
+      ]
+    },
+    {
+      "qid": "24929",
+      "question_number": 156,
+      "question_text": "What is implied about Canadian residents?",
+      "options": {
+        "A": "They want a Cashco branch.",
+        "B": "They dislike Americans coming to shop.",
+        "C": "They don't like going to America.",
+        "D": "They have to travel far to get to a Cashco."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/44b9264265c3853c9b74c05c85ce4be867bf814d.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_006.jpg"
+      ]
+    },
+    {
+      "qid": "24930",
+      "question_number": 157,
+      "question_text": "In which of the positions marked [1], [2], [3] and [4] does the following sentence best belong? \"A spokesperson for wholesale giant, Cashco, confirmed on Monday that a branch will finally open in Lockland next month.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/44b9264265c3853c9b74c05c85ce4be867bf814d.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_006.jpg"
+      ]
+    },
+    {
+      "qid": "24931",
+      "question_number": 158,
+      "question_text": "Why most likely would someone register for the event?",
+      "options": {
+        "A": "To learn about staying fit",
+        "B": "To win a cash prize",
+        "C": "To apply for a job",
+        "D": "To contribute to the community"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/12cf3e50d73dde04abb8d87c43338e383923156b.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24932",
+      "question_number": 159,
+      "question_text": "According to the article, who is not allowed to participate in the event?",
+      "options": {
+        "A": "Senior citizens",
+        "B": "Students with no student ID cards",
+        "C": "Unaccompanied children",
+        "D": "Foreign tourists"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/12cf3e50d73dde04abb8d87c43338e383923156b.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24933",
+      "question_number": 160,
+      "question_text": "What is the main goal of the Centerville County Shelter?",
+      "options": {
+        "A": "To build affordable housing",
+        "B": "To provide basic necessities",
+        "C": "To train professional athletes",
+        "D": "To educate community members"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/12cf3e50d73dde04abb8d87c43338e383923156b.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24934",
+      "question_number": 161,
+      "question_text": "What is indicated about Winner's Ale?",
+      "options": {
+        "A": "It is an old variety of beer.",
+        "B": "People don't know about it yet.",
+        "C": "It is delicious.",
+        "D": "It is cheap."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/d9095ecb5fbd56191f0cc9893e1f5a136b368d5f.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.jpg"
+      ]
+    },
+    {
+      "qid": "24935",
+      "question_number": 162,
+      "question_text": "What will the group most likely do next?",
+      "options": {
+        "A": "Report to corporate about Jeff",
+        "B": "Go to the victory parade",
+        "C": "See a movie",
+        "D": "Go dancing and drink Winner's Ale"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/d9095ecb5fbd56191f0cc9893e1f5a136b368d5f.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.jpg"
+      ]
+    },
+    {
+      "qid": "24936",
+      "question_number": 163,
+      "question_text": "What does Molly mean when she says, \"off the record\"",
+      "options": {
+        "A": "An unreleased song",
+        "B": "A record is being kept of their events.",
+        "C": "They won't go and work officially.",
+        "D": "There is a clear recording of all events and they want it off."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/d9095ecb5fbd56191f0cc9893e1f5a136b368d5f.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.jpg"
+      ]
+    },
+    {
+      "qid": "24937",
+      "question_number": 164,
+      "question_text": "What is suggested about Jeff?",
+      "options": {
+        "A": "He takes good notes.",
+        "B": "He likes to drink.",
+        "C": "He likes to talk.",
+        "D": "He loves parades."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/d9095ecb5fbd56191f0cc9893e1f5a136b368d5f.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.jpg"
+      ]
+    },
+    {
+      "qid": "24938",
+      "question_number": 165,
+      "question_text": "What is indicated about Lichtenberg Air?",
+      "options": {
+        "A": "It is asking passengers to keep a baggage limit.",
+        "B": "It is responding to customer complaints.",
+        "C": "It has not increased its baggage fees for a decade.",
+        "D": "It has added new destinations."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/6ba987b474806dbce58b2a6013f4a306e0986393.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_010.jpg"
+      ]
+    },
+    {
+      "qid": "24939",
+      "question_number": 166,
+      "question_text": "What is suggested about passengers?",
+      "options": {
+        "A": "They are allowed to bring electronics.",
+        "B": "They can take one bag onto the plane without any charge.",
+        "C": "They must pay the increased airline ticket price from October 1.",
+        "D": "They can get a 20 percent discount next month."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/6ba987b474806dbce58b2a6013f4a306e0986393.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_010.jpg"
+      ]
+    },
+    {
+      "qid": "24940",
+      "question_number": 167,
+      "question_text": "According to the notice, what will happen when the price of fuel drops?",
+      "options": {
+        "A": "The stock price for Lichtenberg Air will increase.",
+        "B": "Passengers will be offered gift certificates.",
+        "C": "More flight attendants will be employed.",
+        "D": "The extra charge will be waived."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/6ba987b474806dbce58b2a6013f4a306e0986393.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_010.jpg"
+      ]
+    },
+    {
+      "qid": "24941",
+      "question_number": 168,
+      "question_text": "What can be inferred about Ms. Lynch?",
+      "options": {
+        "A": "She lives in Salem, Oregon.",
+        "B": "She can speak a second language.",
+        "C": "She is a motivational speaker.",
+        "D": "She is a conference organizer."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/9bd29115a85f14901fb48e89c839e1877bf1ef25.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.jpg"
+      ]
+    },
+    {
+      "qid": "24942",
+      "question_number": 169,
+      "question_text": "What is the purpose of the conference?",
+      "options": {
+        "A": "To attract foreign investment",
+        "B": "To share teaching methods",
+        "C": "To set curriculum standards",
+        "D": "To establish a charitable foundation"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/9bd29115a85f14901fb48e89c839e1877bf1ef25.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.jpg"
+      ]
+    },
+    {
+      "qid": "24943",
+      "question_number": 170,
+      "question_text": "When must speakers return borrowed supplies?",
+      "options": {
+        "A": "April 4",
+        "B": "April 10",
+        "C": "July 12",
+        "D": "July 16"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/9bd29115a85f14901fb48e89c839e1877bf1ef25.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.jpg"
+      ]
+    },
+    {
+      "qid": "24944",
+      "question_number": 171,
+      "question_text": "What is Ms. Lynch asked to inform Mr. Klein about?",
+      "options": {
+        "A": "When she will arrive",
+        "B": "What supplies she will need",
+        "C": "What room she will use",
+        "D": "Who will accompany her"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/9bd29115a85f14901fb48e89c839e1877bf1ef25.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.jpg"
+      ]
+    },
+    {
+      "qid": "24945",
+      "question_number": 172,
+      "question_text": "Why did Ms. Noonan send a letter to Mr. Jean?",
+      "options": {
+        "A": "To give him details about the job interview place and time",
+        "B": "To give him information about his first day of work",
+        "C": "To provide information about available places for rent",
+        "D": "To confirm whether he would accept the job"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/e12919415bd08090d9451c16b89d7a9004a44afa.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_021.jpg"
+      ]
+    },
+    {
+      "qid": "24946",
+      "question_number": 173,
+      "question_text": "What did Ms. Noonan sent with the letter?",
+      "options": {
+        "A": "Telephone numbers",
+        "B": "A copy of the contract",
+        "C": "Contact information of company employees",
+        "D": "A schedule"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/e12919415bd08090d9451c16b89d7a9004a44afa.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_021.jpg"
+      ]
+    },
+    {
+      "qid": "24947",
+      "question_number": 174,
+      "question_text": "The phrase \"settle into\" in the second paragraph is closest in meaning to:",
+      "options": {
+        "A": "Look for",
+        "B": "Explore",
+        "C": "Become comfortable in",
+        "D": "Navigate within"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/e12919415bd08090d9451c16b89d7a9004a44afa.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_021.jpg"
+      ]
+    },
+    {
+      "qid": "24948",
+      "question_number": 175,
+      "question_text": "In which of the positions marked [1], [2], [3] and [4] does the following sentence belong? \"Your laboratory manager will give you further details after the first day.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/e12919415bd08090d9451c16b89d7a9004a44afa.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_021.jpg"
+      ]
+    },
+    {
+      "qid": "24949",
+      "question_number": 176,
+      "question_text": "According to the Web page, what must scholarship recipients do?",
+      "options": {
+        "A": "Keep track of monthly expenses",
+        "B": "Write a research paper",
+        "C": "Submit an annual report",
+        "D": "Take an entrance examination"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/82de6308101a061ff3d54fc80f094ece8ca297f3.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/1dca031339c4893dfb65216e746b5b4d9209299c.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_011.jpg",
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24950",
+      "question_number": 177,
+      "question_text": "What is indicated about the scholarship applications?",
+      "options": {
+        "A": "They will be received by mid-April.",
+        "B": "They will be accepted only if requirements are met.",
+        "C": "They will be reviewed and selected by German professors.",
+        "D": "They must be submitted online."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/82de6308101a061ff3d54fc80f094ece8ca297f3.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/1dca031339c4893dfb65216e746b5b4d9209299c.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_011.jpg",
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24951",
+      "question_number": 178,
+      "question_text": "In the Web page, the word \"proficiency\" in paragraph 1, line 6, is closest in meaning to",
+      "options": {
+        "A": "system",
+        "B": "practice",
+        "C": "experience",
+        "D": "mastery"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/82de6308101a061ff3d54fc80f094ece8ca297f3.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/1dca031339c4893dfb65216e746b5b4d9209299c.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_011.jpg",
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24952",
+      "question_number": 179,
+      "question_text": "What is the purpose of the e-mail?",
+      "options": {
+        "A": "To confirm a departure date",
+        "B": "To schedule an interview",
+        "C": "To give some information to a scholarship winner",
+        "D": "To enroll in required courses in a university in Germany"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/82de6308101a061ff3d54fc80f094ece8ca297f3.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/1dca031339c4893dfb65216e746b5b4d9209299c.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_011.jpg",
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24953",
+      "question_number": 180,
+      "question_text": "What is suggested about Mr. Porter?",
+      "options": {
+        "A": "He worked at the Blackrock Foundation.",
+        "B": "He is an entrepreneur working in Germany.",
+        "C": "He has a good command of German.",
+        "D": "He wants to be a language instructor."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/82de6308101a061ff3d54fc80f094ece8ca297f3.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/1dca031339c4893dfb65216e746b5b4d9209299c.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_011.jpg",
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24954",
+      "question_number": 181,
+      "question_text": "According to the invoice, what amount is due by April 1?",
+      "options": {
+        "A": "$20",
+        "B": "$90",
+        "C": "$95",
+        "D": "$190"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/f88ede1b165c7066a06fab37cfbf03f012f69b99.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/2b8380444d9614fa89e2849bbd27d4c88ee20a67.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_023.jpg",
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24955",
+      "question_number": 182,
+      "question_text": "What service was NOT provided to Randall Auto Body?",
+      "options": {
+        "A": "Window care",
+        "B": "Floor care",
+        "C": "Furniture care",
+        "D": "Carpet care"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/f88ede1b165c7066a06fab37cfbf03f012f69b99.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/2b8380444d9614fa89e2849bbd27d4c88ee20a67.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_023.jpg",
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24956",
+      "question_number": 183,
+      "question_text": "Why did Ms. Collins write a letter?",
+      "options": {
+        "A": "The cleaning service missed an appointment.",
+        "B": "She was overcharged for a service.",
+        "C": "The cleaning service added an extra fee to her bill.",
+        "D": "She would like to renew her contract."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/f88ede1b165c7066a06fab37cfbf03f012f69b99.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/2b8380444d9614fa89e2849bbd27d4c88ee20a67.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_023.jpg",
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24957",
+      "question_number": 184,
+      "question_text": "What is implied about Sunny Day Cleaning?",
+      "options": {
+        "A": "They provide decent service.",
+        "B": "They are often late to appointments.",
+        "C": "They frequently overcharge their clients.",
+        "D": "They offer late payment options."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/f88ede1b165c7066a06fab37cfbf03f012f69b99.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/2b8380444d9614fa89e2849bbd27d4c88ee20a67.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_023.jpg",
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24958",
+      "question_number": 185,
+      "question_text": "What did Ms. Collins send besides her letter?",
+      "options": {
+        "A": "A coupon for auto repairs",
+        "B": "A copy of an email",
+        "C": "A signed contract",
+        "D": "A check for the amount due"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/f88ede1b165c7066a06fab37cfbf03f012f69b99.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/2b8380444d9614fa89e2849bbd27d4c88ee20a67.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_023.jpg",
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24959",
+      "question_number": 186,
+      "question_text": "How are Jordan Mills and Michael Owens similar?",
+      "options": {
+        "A": "Both started technology companies.",
+        "B": "Both wanted an efficient way to commute.",
+        "C": "Both were employed in public transportation.",
+        "D": "Both won awards for their achievements ."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/e71157b6863e1918c20ca231cac6b76e0409890a.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/6a11d588f02dce93d34758c2b8781ead56934f3b.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/1bfdfa0d2ba89024c2bb330612622381b23a590f.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_022.jpg",
+        "images/img_009.jpg",
+        "images/img_002.jpg"
+      ]
+    },
+    {
+      "qid": "24960",
+      "question_number": 187,
+      "question_text": "What is indicated about Freewheel?",
+      "options": {
+        "A": "It started out small.",
+        "B": "It is an international company.",
+        "C": "It employs bus drivers.",
+        "D": "It is good for the environment."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/e71157b6863e1918c20ca231cac6b76e0409890a.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/6a11d588f02dce93d34758c2b8781ead56934f3b.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/1bfdfa0d2ba89024c2bb330612622381b23a590f.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_022.jpg",
+        "images/img_009.jpg",
+        "images/img_002.jpg"
+      ]
+    },
+    {
+      "qid": "24961",
+      "question_number": 188,
+      "question_text": "What is most likely true about Michael Owens?",
+      "options": {
+        "A": "He dislikes driving.",
+        "B": "He owns a taxi company.",
+        "C": "He wants to expand his business.",
+        "D": "He has met Jordan Mills."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/e71157b6863e1918c20ca231cac6b76e0409890a.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/6a11d588f02dce93d34758c2b8781ead56934f3b.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/1bfdfa0d2ba89024c2bb330612622381b23a590f.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_022.jpg",
+        "images/img_009.jpg",
+        "images/img_002.jpg"
+      ]
+    },
+    {
+      "qid": "24962",
+      "question_number": 189,
+      "question_text": "The word \"respite\" in the title of the article is closest in meaning to:",
+      "options": {
+        "A": "Employment",
+        "B": "Immunity",
+        "C": "A refund",
+        "D": "A break"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/e71157b6863e1918c20ca231cac6b76e0409890a.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/6a11d588f02dce93d34758c2b8781ead56934f3b.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/1bfdfa0d2ba89024c2bb330612622381b23a590f.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_022.jpg",
+        "images/img_009.jpg",
+        "images/img_002.jpg"
+      ]
+    },
+    {
+      "qid": "24963",
+      "question_number": 190,
+      "question_text": "What is the certificate awarding?",
+      "options": {
+        "A": "The best drivers",
+        "B": "Environmental efforts",
+        "C": "A good idea",
+        "D": "The highest earning company"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/e71157b6863e1918c20ca231cac6b76e0409890a.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/6a11d588f02dce93d34758c2b8781ead56934f3b.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/1bfdfa0d2ba89024c2bb330612622381b23a590f.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_022.jpg",
+        "images/img_009.jpg",
+        "images/img_002.jpg"
+      ]
+    },
+    {
+      "qid": "24964",
+      "question_number": 191,
+      "question_text": "What job does Mr. Alberts have?",
+      "options": {
+        "A": "President",
+        "B": "HR Manager",
+        "C": "CEO",
+        "D": "Account Director"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/dda7c948317659b1e5b06e579b93c04000a2533f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/c54248df0df03a27f09e6e36a78d5d8441db89db.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/9fa4393e04822b8e5b0a915c391aa7be9a71f223.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_020.jpg",
+        "images/img_018.jpg",
+        "images/img_014.jpg"
+      ]
+    },
+    {
+      "qid": "24965",
+      "question_number": 192,
+      "question_text": "What is indicated about Action Services?",
+      "options": {
+        "A": "They care about art.",
+        "B": "They are concerned about the environment.",
+        "C": "They need to sell more packages.",
+        "D": "Their old delivery serve delivered packages to the wrong address."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/dda7c948317659b1e5b06e579b93c04000a2533f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/c54248df0df03a27f09e6e36a78d5d8441db89db.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/9fa4393e04822b8e5b0a915c391aa7be9a71f223.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_020.jpg",
+        "images/img_018.jpg",
+        "images/img_014.jpg"
+      ]
+    },
+    {
+      "qid": "24966",
+      "question_number": 193,
+      "question_text": "According to the e-mails, what can you infer?",
+      "options": {
+        "A": "Emergent Solutions offers cheaper shipping costs than Express Corp.",
+        "B": "Emergent Solutions will likely not be efficient.",
+        "C": "Emergent Solutions has a business ethics at odds with Action Services.",
+        "D": "Action Services is in debt."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/dda7c948317659b1e5b06e579b93c04000a2533f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/c54248df0df03a27f09e6e36a78d5d8441db89db.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/9fa4393e04822b8e5b0a915c391aa7be9a71f223.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_020.jpg",
+        "images/img_018.jpg",
+        "images/img_014.jpg"
+      ]
+    },
+    {
+      "qid": "24967",
+      "question_number": 194,
+      "question_text": "Why did Action Services contact Emergent Solutions?",
+      "options": {
+        "A": "They needed new customers.",
+        "B": "They were spending too much on shipping.",
+        "C": "They wanted to expand their operation.",
+        "D": "They wanted to ship internationally."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/dda7c948317659b1e5b06e579b93c04000a2533f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/c54248df0df03a27f09e6e36a78d5d8441db89db.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/9fa4393e04822b8e5b0a915c391aa7be9a71f223.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_020.jpg",
+        "images/img_018.jpg",
+        "images/img_014.jpg"
+      ]
+    },
+    {
+      "qid": "24968",
+      "question_number": 195,
+      "question_text": "What kind of business is Action Services?",
+      "options": {
+        "A": "Technology consultants",
+        "B": "Leadership experts",
+        "C": "Hotel and resort specialists",
+        "D": "Florist and novelty supplier"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/dda7c948317659b1e5b06e579b93c04000a2533f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/c54248df0df03a27f09e6e36a78d5d8441db89db.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/9fa4393e04822b8e5b0a915c391aa7be9a71f223.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_020.jpg",
+        "images/img_018.jpg",
+        "images/img_014.jpg"
+      ]
+    },
+    {
+      "qid": "24969",
+      "question_number": 196,
+      "question_text": "Where is most likely true about James and Aaron?",
+      "options": {
+        "A": "They are competitors.",
+        "B": "They are related.",
+        "C": "They are married.",
+        "D": "They are friends."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/3c2702e4e427d038572db263c1bbb2e373d89b25.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/68a9ac175d9f292080f330613e482fda58a1083a.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/5e407f6c5455812c6962e5f9eb90f3e1da25ad00.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_005.jpg",
+        "images/img_008.jpg",
+        "images/img_007.jpg"
+      ]
+    },
+    {
+      "qid": "24970",
+      "question_number": 197,
+      "question_text": "What is indicated about Aaron?",
+      "options": {
+        "A": "He is not very good at his job these days.",
+        "B": "The owner loves him.",
+        "C": "There are problems in the main office.",
+        "D": "He will keep his job after the evaluations come in."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/3c2702e4e427d038572db263c1bbb2e373d89b25.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/68a9ac175d9f292080f330613e482fda58a1083a.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/5e407f6c5455812c6962e5f9eb90f3e1da25ad00.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_005.jpg",
+        "images/img_008.jpg",
+        "images/img_007.jpg"
+      ]
+    },
+    {
+      "qid": "24971",
+      "question_number": 198,
+      "question_text": "According to the information provided, what is true about James?",
+      "options": {
+        "A": "He has done very well at work.",
+        "B": "He needs more sales.",
+        "C": "He wants to work with James.",
+        "D": "He will become a barber."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/3c2702e4e427d038572db263c1bbb2e373d89b25.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/68a9ac175d9f292080f330613e482fda58a1083a.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/5e407f6c5455812c6962e5f9eb90f3e1da25ad00.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_005.jpg",
+        "images/img_008.jpg",
+        "images/img_007.jpg"
+      ]
+    },
+    {
+      "qid": "24972",
+      "question_number": 199,
+      "question_text": "What is the problem with the sales leads James gave to Aaron?",
+      "options": {
+        "A": "They are rated too highly.",
+        "B": "They are worth too much money.",
+        "C": "He doesn't know the contacts.",
+        "D": "They are in a field he is struggling in."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/3c2702e4e427d038572db263c1bbb2e373d89b25.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/68a9ac175d9f292080f330613e482fda58a1083a.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/5e407f6c5455812c6962e5f9eb90f3e1da25ad00.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_005.jpg",
+        "images/img_008.jpg",
+        "images/img_007.jpg"
+      ]
+    },
+    {
+      "qid": "24973",
+      "question_number": 200,
+      "question_text": "What is the job that Mr. Jones most likely has?",
+      "options": {
+        "A": "Human resource agent",
+        "B": "Sales Executive",
+        "C": "Owner",
+        "D": "Associate Secretary"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/3c2702e4e427d038572db263c1bbb2e373d89b25.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/68a9ac175d9f292080f330613e482fda58a1083a.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/5e407f6c5455812c6962e5f9eb90f3e1da25ad00.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_005.jpg",
+        "images/img_008.jpg",
+        "images/img_007.jpg"
+      ]
+    }
+  ]
+}

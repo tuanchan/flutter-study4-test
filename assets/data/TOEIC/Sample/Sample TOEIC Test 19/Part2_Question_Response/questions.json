@@ -1,0 +1,532 @@
+{
+  "part": 2,
+  "part_name": "Part2_Question_Response",
+  "part_id": 9585,
+  "questions": [
+    {
+      "qid": "161445",
+      "question_number": 7,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/7.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "What time is the staff meeting this afternoon?\n(A) Right after lunch.\n(B) I had a nice time.\n(C) Down the hall on the left.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_023.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161446",
+      "question_number": 8,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/8.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Who is going to attend Ms. Lennon’s retirement party?\n(A) She isn’t too tired.\n(B) Let’s get together again soon.\n(C) Everyone except Bill.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_024.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161447",
+      "question_number": 9,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/9.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "How long is the drive to New York from here?\n(A) Every other weekend.\n(B) About five hours.\n(C) It’s a great place to visit.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_025.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161448",
+      "question_number": 10,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/10.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Did you know that John got a promotion?\n(A) Yes, it’s a motion picture.\n(B) No, I didn’t know he was hiring.\n(C) Yes, I heard about it this morning.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161449",
+      "question_number": 11,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/11.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "You work in the editing department, don’t you?\n(A) Yeah, I’ve been there for ten years.\n(B) It’s the latest edition.\n(C) No, I’m leaving the department store.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161450",
+      "question_number": 12,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/12.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Can we postpone the sales meeting until next Friday?\n(A) The post office was closed on Friday.\n(B) Here are the ticket sales results.\n(C} You’d better ask Ms. Garcia.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161451",
+      "question_number": 13,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/13.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "When is your next business trip?\n(A) In two weeks.\n(B) An orientation seminar.\n(C) With my colleagues.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161452",
+      "question_number": 14,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/14.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Where are the ink cartridges we just bought?\n(A) The office supply store is closed today.\n(B) Look in the desk drawer.\n(C) Do you have enough money?",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161453",
+      "question_number": 15,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/15.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "How will we get home from the convention center?\n(A) We can take a taxi.\n(B) Did you reserve exhibit space?\n(C) I got home at eight o’clock.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161454",
+      "question_number": 16,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/16.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Whose sunglasses are these?\n(A) Not mine.\n(B) Thanks, I’m really thirsty.\n(C) On the conference table.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_007.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161455",
+      "question_number": 17,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/17.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Could you please tell me where the children’s department is?\n(A) The kids are playing outside.\n(B) It begins at two o’clock.\n(C) Take the elevator to the second floor.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_008.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161456",
+      "question_number": 18,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/18.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Why was your appointment canceled?\n(A) I have to be there before noon.\n(B) Because you try to be punctual.\n(C) Dr. Nelson got an emergency call.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_009.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161457",
+      "question_number": 19,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/19.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Is there any coffee in the lounge?\n(A) Yes, I just made a fresh pot.\n(B) Lunges are good for your body.\n(C) Yes, I have an extra copy.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_010.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161458",
+      "question_number": 20,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/20.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "What does your sister do for a living?\n(A) She lives in Orlando.\n(B) She’s a bank executive.\n(C) She will be moving soon.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_011.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161459",
+      "question_number": 21,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/21.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "The hotel is near the airport, isn’t it?\n(A) I hope so.\n(B) The hotel stay cost a lot of money.\n(C) The air ticket was sold yesterday.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_012.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161460",
+      "question_number": 22,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/22.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Do you want to start working on the new project now or later?\n(A) Actually, I started it this morning.\n(B) I have to work late, too.\n(C) I’m glad to hear the good news.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_013.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161461",
+      "question_number": 23,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/23.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Where should I put this box of file folders?\n(A) The computer files are easy to find.\n(B) Will it fit on the bottom shelf?\n(C) They sell them at the local stationery store.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_014.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161462",
+      "question_number": 24,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/24.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Should we review the contract once more before signing it?\n(A) Yes, I saw the sign above the graphs.\n(B) No, I couldn’t reach him.\n(C) Yes, I think that would be a wise thing to do.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_015.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161463",
+      "question_number": 25,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/25.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "When is your office manager planning to relocate?\n(A) We need more space.\n(B) As soon as she finds the right place.\n(C) She manages the Human Resources Department.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_016.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161464",
+      "question_number": 26,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/26.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "I have to call my landlord about the heating system.\n(A) My brother’s rent has been increased.\n(B) Are you still having problems?\n(C) The weather will be rainy this time of year.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_017.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161465",
+      "question_number": 27,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/27.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Would you like to reserve a compact car or a mid-sized?\n(A) Whichever is cheaper.\n(B) I parked in the garage.\n(C) Yes, that would be fine.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_018.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161466",
+      "question_number": 28,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/28.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Why don’t you invite your friend Marcus to our office party?\n(A) No, he doesn’t.\n(B) Sure. I will turn it off.\n(C) That’s a great idea.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_019.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161467",
+      "question_number": 29,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/29.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "Our new business cards have finally been delivered.\n(A) Yes, I got mine yesterday.\n(B) The cars are efficient for work.\n(C) Twice a week.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_020.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161468",
+      "question_number": 30,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/30.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "Don’t you need to set up the overhead projector for your presentation?\n(A) A few people were present.\n(B) No, I’m wearing a suit.\n(C) Thanks, I almost forgot about that.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_021.mp3"
+      ],
+      "image_files": []
+    },
+    {
+      "qid": "161469",
+      "question_number": 31,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test4/31.mp3"
+      ],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "Why hasn’t Tony arrived yet?\n(A) About an hour ago.\n(B) He’s probably stuck in traffic.\n(C) The arrival date has been moved up.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_022.mp3"
+      ],
+      "image_files": []
+    }
+  ]
+}

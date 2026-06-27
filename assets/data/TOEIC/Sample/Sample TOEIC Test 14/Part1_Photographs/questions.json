@@ -1,0 +1,163 @@
+{
+  "part": 1,
+  "part_name": "Part1_Photographs",
+  "part_id": 9619,
+  "questions": [
+    {
+      "qid": "162470",
+      "question_number": 1,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test9/1.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image92.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "(A) She’s driving a car.\n(B) She’s replacing a tire.\n(C) She’s polishing a side-view mirror.\n(D) She’s wiping a windshield.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": [
+        "images/img_006.png"
+      ]
+    },
+    {
+      "qid": "162471",
+      "question_number": 2,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test9/2.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image336.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "(A) A table is being fixed.\n(B) A sofa is being moved into a room.\n(C)Curtains are drawn shut.\n(D) Armchairs are placed on a floor.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "162472",
+      "question_number": 3,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test9/3.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image87.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) A man is holding a fishing rod.\n(B) A man is steering a boat.\n(C) A man is boarding a ship.\n(D) A man is diving into a pool.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": [
+        "images/img_005.png"
+      ]
+    },
+    {
+      "qid": "162473",
+      "question_number": 4,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test9/4.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image375.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) They’re wearing hard hats.\n(B) They’re building a house.\n(C) They’re using some tools.\n(D) They’re operating heavy machinery.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": [
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "162474",
+      "question_number": 5,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test9/5.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image122.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) A phone call is being made.\n(B) A car door is being opened.\n(C) Two men are sitting near a vehicle.\n(D) A man is repairing a headlight.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "162475",
+      "question_number": 6,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test9/6.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image230.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) Meals are being cooked by chefs.\n(B) Lamps are hanging above a counter.\n(C) A cashier is handing a receipt.\n(D) A menu is being shown to customers.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    }
+  ]
+}

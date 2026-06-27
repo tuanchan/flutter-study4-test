@@ -1,0 +1,1275 @@
+{
+  "part": 7,
+  "part_name": "Part7_Reading_Comprehension",
+  "part_id": 3145,
+  "questions": [
+    {
+      "qid": "24720",
+      "question_number": 147,
+      "question_text": "Where would the information most likely appear?",
+      "options": {
+        "A": "In an instruction manual",
+        "B": "On a product receipt",
+        "C": "In a promotional flyer",
+        "D": "In a telephone directory"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/08e443e4cffc1735e752bc13fe0b99b97c78adda.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24721",
+      "question_number": 148,
+      "question_text": "What is mentioned as a convenient feature of the product?",
+      "options": {
+        "A": "Its simple set-up procedure",
+        "B": "Its long warranty period",
+        "C": "Its compatibility with other devices",
+        "D": "Its detailed instructions"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/08e443e4cffc1735e752bc13fe0b99b97c78adda.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24722",
+      "question_number": 149,
+      "question_text": "What is suggested about Mr. Hewitt?",
+      "options": {
+        "A": "He is late for a lunch appointment.",
+        "B": "He has accepted a new position.",
+        "C": "He is in a taxi .",
+        "D": "He is on his way to a presentation."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/c0ba3eb614ecd342a58d21cbde93141440330ace.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.jpg"
+      ]
+    },
+    {
+      "qid": "24723",
+      "question_number": 150,
+      "question_text": "At 12:14, what does Mr. Hewitt mean when he writes, \"Exactly\"?",
+      "options": {
+        "A": "He would like to know where they're having lunch.",
+        "B": "He is looking forward to meeting Anderson & Wright.",
+        "C": "He is on his way back to the office.",
+        "D": "That he would also like Anderson & Wright to join the project."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/c0ba3eb614ecd342a58d21cbde93141440330ace.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_019.jpg"
+      ]
+    },
+    {
+      "qid": "24724",
+      "question_number": 151,
+      "question_text": "How would Mr. Tepper's latest book most likely be classified?",
+      "options": {
+        "A": "Romance",
+        "B": "Historical fiction",
+        "C": "Fantasy",
+        "D": "Poetry"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2dd6d311548015d3aaebd810a8990280c0232c7e.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_006.jpg"
+      ]
+    },
+    {
+      "qid": "24725",
+      "question_number": 152,
+      "question_text": "Where are copies available this week?",
+      "options": {
+        "A": "At all major bookstores",
+        "B": "On a Web site",
+        "C": "At a literary event",
+        "D": "In select public libraries"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2dd6d311548015d3aaebd810a8990280c0232c7e.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_006.jpg"
+      ]
+    },
+    {
+      "qid": "24726",
+      "question_number": 153,
+      "question_text": "What is the purpose of the e-mail?",
+      "options": {
+        "A": "To offer a discounted subscription rate",
+        "B": "To advertise a new online shopping mall",
+        "C": "To introduce a digital publication",
+        "D": "To remind some subscribers to renew their subscription"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/6e22ea1b461e6e01e20292380c502dab68474ac2.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.jpg"
+      ]
+    },
+    {
+      "qid": "24727",
+      "question_number": 154,
+      "question_text": "What can subscribers find in a paper edition in July?",
+      "options": {
+        "A": "A discount coupon",
+        "B": "A special supplement",
+        "C": "An exclusive interview",
+        "D": "An access code"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/6e22ea1b461e6e01e20292380c502dab68474ac2.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_013.jpg"
+      ]
+    },
+    {
+      "qid": "24728",
+      "question_number": 155,
+      "question_text": "What is the purpose of the article?",
+      "options": {
+        "A": "To report changes in public transportation",
+        "B": "To describe the city during the holidays",
+        "C": "To inform the public about traffic delays",
+        "D": "To advertise new shopping centers"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/7d27a5da493ece85a1bdbea02702f5f167c16d3b.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_015.jpg"
+      ]
+    },
+    {
+      "qid": "24729",
+      "question_number": 156,
+      "question_text": "What is suggested about Mr. Reiner?",
+      "options": {
+        "A": "He is happy with the mayor.",
+        "B": "He may stage a protest.",
+        "C": "He seems satisfied with the working conditions.",
+        "D": "He would like some time off for the holidays ."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/7d27a5da493ece85a1bdbea02702f5f167c16d3b.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_015.jpg"
+      ]
+    },
+    {
+      "qid": "24730",
+      "question_number": 157,
+      "question_text": "What is stated about the city during the holiday season?",
+      "options": {
+        "A": "It closes down for the holidays.",
+        "B": "Many visitors come from out of town.",
+        "C": "More taxi drivers lose their business.",
+        "D": "The citizens travel to other cities."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/7d27a5da493ece85a1bdbea02702f5f167c16d3b.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_015.jpg"
+      ]
+    },
+    {
+      "qid": "24731",
+      "question_number": 158,
+      "question_text": "In which of the positions marked [1], [2], [3] and [4] does the following sentence belong? \"Overall, the city seems prepared for the influx of tourists and holiday shoppers as Christmas draws near.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/7d27a5da493ece85a1bdbea02702f5f167c16d3b.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_015.jpg"
+      ]
+    },
+    {
+      "qid": "24732",
+      "question_number": 159,
+      "question_text": "What is the focus of the channel?",
+      "options": {
+        "A": "Food",
+        "B": "Sports",
+        "C": "Nature",
+        "D": "Childen"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/336e68a95ee91b3c7d6c69f76e85eea639aade82.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_007.jpg"
+      ]
+    },
+    {
+      "qid": "24733",
+      "question_number": 160,
+      "question_text": "According to the schedule, who is a scientist?",
+      "options": {
+        "A": "Pat Russell",
+        "B": "Dan Reed",
+        "C": "Kerry Peterson",
+        "D": "Ken Ruskin"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/336e68a95ee91b3c7d6c69f76e85eea639aade82.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_007.jpg"
+      ]
+    },
+    {
+      "qid": "24734",
+      "question_number": 161,
+      "question_text": "Which program will teach viewers about survival skills?",
+      "options": {
+        "A": "Anatomy of a Dinosaur",
+        "B": "Amazing Sights of Africa",
+        "C": "Blue Ocean",
+        "D": "Rocky"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/336e68a95ee91b3c7d6c69f76e85eea639aade82.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_007.jpg"
+      ]
+    },
+    {
+      "qid": "24735",
+      "question_number": 162,
+      "question_text": "What is the discussion mainly about?",
+      "options": {
+        "A": "Those who can't attend a party",
+        "B": "The best caterers",
+        "C": "Becoming vegan",
+        "D": "Ordering food for a party"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/85b4d68da9db65d665cee561b6a979b8a8e9c1ca.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.jpg"
+      ]
+    },
+    {
+      "qid": "24736",
+      "question_number": 163,
+      "question_text": "At 5:39, what does Patrick Stone mean by I'm going to take a pass this year?",
+      "options": {
+        "A": "He'll stop by for a short time.",
+        "B": "He'll decline this time.",
+        "C": "He can't make it.",
+        "D": "He wants to get a free pass."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/85b4d68da9db65d665cee561b6a979b8a8e9c1ca.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.jpg"
+      ]
+    },
+    {
+      "qid": "24737",
+      "question_number": 164,
+      "question_text": "What is mentioned about Four-Leaf Catering?",
+      "options": {
+        "A": "It offers vegan food.",
+        "B": "It has only vegan options.",
+        "C": "It has catered previous office parties.",
+        "D": "It specializes in special orders."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/85b4d68da9db65d665cee561b6a979b8a8e9c1ca.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.jpg"
+      ]
+    },
+    {
+      "qid": "24738",
+      "question_number": 165,
+      "question_text": "What will Eva Sanderson most likely do next?",
+      "options": {
+        "A": "Work on the menu",
+        "B": "Contact the caterers",
+        "C": "Confirm a meeting",
+        "D": "Order some lunch"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/85b4d68da9db65d665cee561b6a979b8a8e9c1ca.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_016.jpg"
+      ]
+    },
+    {
+      "qid": "24739",
+      "question_number": 166,
+      "question_text": "What did Ms. Sullivan do on March 13?",
+      "options": {
+        "A": "Purchased a home security system",
+        "B": "Returned a product",
+        "C": "Signed up for Internet service",
+        "D": "Made an appointment"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/47b7920ecfd7e16aa16194cd4ee2d52005652c16.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_009.jpg"
+      ]
+    },
+    {
+      "qid": "24740",
+      "question_number": 167,
+      "question_text": "What is suggested about Ms. Sullivan?",
+      "options": {
+        "A": "She teaches a computer training class.",
+        "B": "She had trouble installing some software.",
+        "C": "She will have access to watching movies.",
+        "D": "She has recently moved in."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/47b7920ecfd7e16aa16194cd4ee2d52005652c16.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_009.jpg"
+      ]
+    },
+    {
+      "qid": "24741",
+      "question_number": 168,
+      "question_text": "What is indicated about Midas Touch Internet Provider?",
+      "options": {
+        "A": "It dispatches its employees for installation work.",
+        "B": "It sells computer accessories.",
+        "C": "Its headquarters are located in Parsons.",
+        "D": "It offers Web site developing services."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/47b7920ecfd7e16aa16194cd4ee2d52005652c16.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_009.jpg"
+      ]
+    },
+    {
+      "qid": "24742",
+      "question_number": 169,
+      "question_text": "What is suggested about Marion?",
+      "options": {
+        "A": "It will restore an old building soon.",
+        "B": "It has closed a park for repairs.",
+        "C": "It is planning a music festival.",
+        "D": "Its population is decreasing."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/dabecb01400c7a1112bbe81286876e71149c3e32.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_021.jpg"
+      ]
+    },
+    {
+      "qid": "24743",
+      "question_number": 170,
+      "question_text": "What is the purpose of Marion Hall?",
+      "options": {
+        "A": "To serve as a play center for children",
+        "B": "To hold city council meetings",
+        "C": "To offer public education classes",
+        "D": "To provide cultural events"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/dabecb01400c7a1112bbe81286876e71149c3e32.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_021.jpg"
+      ]
+    },
+    {
+      "qid": "24744",
+      "question_number": 171,
+      "question_text": "What will happen in April?",
+      "options": {
+        "A": "A famous speaker will give a presentation.",
+        "B": "A new mayor will be elected.",
+        "C": "Some public facilities will be improved.",
+        "D": "A new play will be performed."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/dabecb01400c7a1112bbe81286876e71149c3e32.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_021.jpg"
+      ]
+    },
+    {
+      "qid": "24745",
+      "question_number": 172,
+      "question_text": "What is true about CC Wheel Delivery?",
+      "options": {
+        "A": "A contract of theirs has just been canceled.",
+        "B": "Legal action is being taking against them.",
+        "C": "The president of CC Wheel delivery has stepped down.",
+        "D": "Two of their trucks were in an accident."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2174e8af02a6d295893c3f802f7203c943018aa6.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24746",
+      "question_number": 173,
+      "question_text": "What is indicated about the company that the speaker works for?",
+      "options": {
+        "A": "It is financially insecure.",
+        "B": "It has recently been created",
+        "C": "It will be closing.",
+        "D": "It is a delivery company."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2174e8af02a6d295893c3f802f7203c943018aa6.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24747",
+      "question_number": 174,
+      "question_text": "Why does the man wish to stop working with CC Wheel Delivery?",
+      "options": {
+        "A": "To protect his company from financial damage",
+        "B": "To cut production costs over the next four months",
+        "C": "To lower the price of an individual product",
+        "D": "To avoid legal trouble in the future"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2174e8af02a6d295893c3f802f7203c943018aa6.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24748",
+      "question_number": 175,
+      "question_text": "In which of the marked positions [1], [2], [3], or [4] does this sentence best belong? \"Yes, we've worked with them for a long time.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2174e8af02a6d295893c3f802f7203c943018aa6.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24749",
+      "question_number": 176,
+      "question_text": "What is the main purpose of the article?",
+      "options": {
+        "A": "To publicize an upcoming book",
+        "B": "To provide advice for professional chefs",
+        "C": "To advertise a new restaurant",
+        "D": "To describe a television show"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/06b52904e52de88a077b8beb769069959a5ef87e.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/be8c371e7966c01afdffd3711337e82821026582.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_002.jpg",
+        "images/img_018.jpg"
+      ]
+    },
+    {
+      "qid": "24750",
+      "question_number": 177,
+      "question_text": "According to Ms. Lee, what is the secret to successful cooking?",
+      "options": {
+        "A": "Following a recipe book",
+        "B": "Using quality ingredients",
+        "C": "Balancing all the flavors",
+        "D": "Choosing the correct spices"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/06b52904e52de88a077b8beb769069959a5ef87e.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/be8c371e7966c01afdffd3711337e82821026582.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_002.jpg",
+        "images/img_018.jpg"
+      ]
+    },
+    {
+      "qid": "24751",
+      "question_number": 178,
+      "question_text": "What is the first thing to do in order to become a fan club member?",
+      "options": {
+        "A": "Access a Web site",
+        "B": "Call a hotline",
+        "C": "Visit Ms. Lee's restaurant",
+        "D": "Purchase a book"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/06b52904e52de88a077b8beb769069959a5ef87e.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/be8c371e7966c01afdffd3711337e82821026582.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_002.jpg",
+        "images/img_018.jpg"
+      ]
+    },
+    {
+      "qid": "24752",
+      "question_number": 179,
+      "question_text": "In the e-mail, what does Suzie Sanders say about the article?",
+      "options": {
+        "A": "It was written by a famous journalist.",
+        "B": "It was featured on a popular cooking Web site.",
+        "C": "It helped increase fan club membership.",
+        "D": "It contained excerpts from Ms. Lee's book."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/06b52904e52de88a077b8beb769069959a5ef87e.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/be8c371e7966c01afdffd3711337e82821026582.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_002.jpg",
+        "images/img_018.jpg"
+      ]
+    },
+    {
+      "qid": "24753",
+      "question_number": 180,
+      "question_text": "What is suggested about next month's newsletter?",
+      "options": {
+        "A": "It will be mailed behind schedule.",
+        "B": "It will feature a column about healthy eating habits",
+        "C": "It will contain an article on desserts.",
+        "D": "It will include a copy of Ms. Lee's book."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/06b52904e52de88a077b8beb769069959a5ef87e.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/be8c371e7966c01afdffd3711337e82821026582.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_002.jpg",
+        "images/img_018.jpg"
+      ]
+    },
+    {
+      "qid": "24754",
+      "question_number": 181,
+      "question_text": "What is indicated about the Titus Conference Center?",
+      "options": {
+        "A": "It recently improved its facilities.",
+        "B": "It demands full payment at the time of reservation.",
+        "C": "It is located next to an international airport.",
+        "D": "It currently has no vacancies for the month."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2203ca918c9a296bb0b80e5b59e98febe3d3173e.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/5ab997cbe4ee1247e04b9f8da9e37aab04edbf36.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_005.jpg",
+        "images/img_011.jpg"
+      ]
+    },
+    {
+      "qid": "24755",
+      "question_number": 182,
+      "question_text": "What is NOT mentioned as a benefit of using the Titus Conference Center?",
+      "options": {
+        "A": "Convenient transportation",
+        "B": "Complimentary meals",
+        "C": "A printing service",
+        "D": "Presentation supplies"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2203ca918c9a296bb0b80e5b59e98febe3d3173e.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/5ab997cbe4ee1247e04b9f8da9e37aab04edbf36.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_005.jpg",
+        "images/img_011.jpg"
+      ]
+    },
+    {
+      "qid": "24756",
+      "question_number": 183,
+      "question_text": "When will Ms. Rose most likely arrive at the Titus Conference Center?",
+      "options": {
+        "A": "On August 7",
+        "B": "On August 14",
+        "C": "On August 15",
+        "D": "On August 16"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2203ca918c9a296bb0b80e5b59e98febe3d3173e.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/5ab997cbe4ee1247e04b9f8da9e37aab04edbf36.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_005.jpg",
+        "images/img_011.jpg"
+      ]
+    },
+    {
+      "qid": "24757",
+      "question_number": 184,
+      "question_text": "What is the main purpose of the second e-mail?",
+      "options": {
+        "A": "To reserve tickets for an upcoming conference",
+        "B": "To request help in making a payment",
+        "C": "To confirm a reservation",
+        "D": "To inquire about payment options"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2203ca918c9a296bb0b80e5b59e98febe3d3173e.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/5ab997cbe4ee1247e04b9f8da9e37aab04edbf36.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_005.jpg",
+        "images/img_011.jpg"
+      ]
+    },
+    {
+      "qid": "24758",
+      "question_number": 185,
+      "question_text": "What does Ms. Rose suggest about the Titus Conference Center?",
+      "options": {
+        "A": "It will be their first time working together.",
+        "B": "It will relocate in August.",
+        "C": "It has several locations in the country.",
+        "D": "It failed to satisfy some guests last year."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/2203ca918c9a296bb0b80e5b59e98febe3d3173e.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/5ab997cbe4ee1247e04b9f8da9e37aab04edbf36.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_005.jpg",
+        "images/img_011.jpg"
+      ]
+    },
+    {
+      "qid": "24759",
+      "question_number": 186,
+      "question_text": "What is indicated about Carl Ennens?",
+      "options": {
+        "A": "He is a senior in high school",
+        "B": "He is a junior in college",
+        "C": "He will graduate in two years",
+        "D": "He is a senior in college"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/79e407ec4141246c36656710d63858f98c9d9d2f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/f1d3280a7aa7e84d219135586ad2a47682fa7023.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/69d15e955fd12d5c44aa378af267c2fe1a4f5d19.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_014.jpg",
+        "images/img_023.jpg",
+        "images/img_012.jpg"
+      ]
+    },
+    {
+      "qid": "24760",
+      "question_number": 187,
+      "question_text": "What is indicated about Dr. Alcobar?",
+      "options": {
+        "A": "Nobody knows who he is.",
+        "B": "People do not appreciate his opinion.",
+        "C": "He is respected by John Masterson.",
+        "D": "He has done a lot of prominent research."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/79e407ec4141246c36656710d63858f98c9d9d2f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/f1d3280a7aa7e84d219135586ad2a47682fa7023.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/69d15e955fd12d5c44aa378af267c2fe1a4f5d19.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_014.jpg",
+        "images/img_023.jpg",
+        "images/img_012.jpg"
+      ]
+    },
+    {
+      "qid": "24761",
+      "question_number": 188,
+      "question_text": "In the second e-mail, the term \"headquarters\" in the fourth line, is closest in meaning to what word or term?",
+      "options": {
+        "A": "base",
+        "B": "main office",
+        "C": "warehouse",
+        "D": "distribution center"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/79e407ec4141246c36656710d63858f98c9d9d2f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/f1d3280a7aa7e84d219135586ad2a47682fa7023.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/69d15e955fd12d5c44aa378af267c2fe1a4f5d19.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_014.jpg",
+        "images/img_023.jpg",
+        "images/img_012.jpg"
+      ]
+    },
+    {
+      "qid": "24762",
+      "question_number": 189,
+      "question_text": "According to the memorandum, what will Carl Ennens be expected to do?",
+      "options": {
+        "A": "fluid dynamic research",
+        "B": "cook",
+        "C": "help wherever is needed",
+        "D": "watch and learn"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/79e407ec4141246c36656710d63858f98c9d9d2f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/f1d3280a7aa7e84d219135586ad2a47682fa7023.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/69d15e955fd12d5c44aa378af267c2fe1a4f5d19.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_014.jpg",
+        "images/img_023.jpg",
+        "images/img_012.jpg"
+      ]
+    },
+    {
+      "qid": "24763",
+      "question_number": 190,
+      "question_text": "What position does John Masterson have in the company?",
+      "options": {
+        "A": "Chief Executive Officer",
+        "B": "Chief Financial Officer",
+        "C": "Sales Executive",
+        "D": "Owner"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/79e407ec4141246c36656710d63858f98c9d9d2f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/f1d3280a7aa7e84d219135586ad2a47682fa7023.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/69d15e955fd12d5c44aa378af267c2fe1a4f5d19.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_014.jpg",
+        "images/img_023.jpg",
+        "images/img_012.jpg"
+      ]
+    },
+    {
+      "qid": "24764",
+      "question_number": 191,
+      "question_text": "What does Dr. Keenan suggest about Xtreme 7?",
+      "options": {
+        "A": "It is the most effective cream on the market.",
+        "B": "It is worth the high price tag.",
+        "C": "It is both effective and cheap.",
+        "D": "It is the only cream that doctors would recommend."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/5a510dc2676d421bbfc91624490b767c56d88717.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/eddf83413ea91259e53f5e9585c7f91722c04ee7.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/023af8925fa28dad4492233aaa159b563b130977.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_010.jpg",
+        "images/img_022.jpg",
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24765",
+      "question_number": 192,
+      "question_text": "What is suggested about Brand-X?",
+      "options": {
+        "A": "Products are currently only available in Europe.",
+        "B": "It is Europe's most popular brand.",
+        "C": "It is a luxury skincare company.",
+        "D": "The company was first launched 10 years ago."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/5a510dc2676d421bbfc91624490b767c56d88717.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/eddf83413ea91259e53f5e9585c7f91722c04ee7.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/023af8925fa28dad4492233aaa159b563b130977.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_010.jpg",
+        "images/img_022.jpg",
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24766",
+      "question_number": 193,
+      "question_text": "According to the article, what does Brand-X plan to do?",
+      "options": {
+        "A": "Sell more products in Europe",
+        "B": "Expand outside of Europe",
+        "C": "Develop a makeup line",
+        "D": "Build a factory in America"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/5a510dc2676d421bbfc91624490b767c56d88717.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/eddf83413ea91259e53f5e9585c7f91722c04ee7.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/023af8925fa28dad4492233aaa159b563b130977.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_010.jpg",
+        "images/img_022.jpg",
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24767",
+      "question_number": 194,
+      "question_text": "What is indicated in the advertisement?",
+      "options": {
+        "A": "All positions don't require previous work experience.",
+        "B": "Applicants must be bilingual.",
+        "C": "Experience in certain fields can lead to management positions.",
+        "D": "The available positions are only temporary."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/5a510dc2676d421bbfc91624490b767c56d88717.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/eddf83413ea91259e53f5e9585c7f91722c04ee7.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/023af8925fa28dad4492233aaa159b563b130977.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_010.jpg",
+        "images/img_022.jpg",
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24768",
+      "question_number": 195,
+      "question_text": "For what position was Jacqueline most likely hired?",
+      "options": {
+        "A": "Management",
+        "B": "Dermatology",
+        "C": "Marketing",
+        "D": "Customer Service"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/5a510dc2676d421bbfc91624490b767c56d88717.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/eddf83413ea91259e53f5e9585c7f91722c04ee7.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/023af8925fa28dad4492233aaa159b563b130977.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_010.jpg",
+        "images/img_022.jpg",
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24769",
+      "question_number": 196,
+      "question_text": "How did Laurie Wheeler learn about Action?",
+      "options": {
+        "A": "From a friend",
+        "B": "Through a client",
+        "C": "In a newspaper",
+        "D": "Searching the Internet"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/b23734d3b6e1364149502d4e14ae93a068aef313.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/d52e27fa77bc7963d87460783d81572165f4628f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/3811f8cde6f98a080fe28eb6858da410f43b47d1.jpg"
+      ],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.jpg",
+        "images/img_020.jpg",
+        "images/img_008.jpg"
+      ]
+    },
+    {
+      "qid": "24770",
+      "question_number": 197,
+      "question_text": "What is indicated about Action?",
+      "options": {
+        "A": "They do not promote a religion.",
+        "B": "They are Christian.",
+        "C": "They are just building their brand.",
+        "D": "They are moving to a new location."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/b23734d3b6e1364149502d4e14ae93a068aef313.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/d52e27fa77bc7963d87460783d81572165f4628f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/3811f8cde6f98a080fe28eb6858da410f43b47d1.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.jpg",
+        "images/img_020.jpg",
+        "images/img_008.jpg"
+      ]
+    },
+    {
+      "qid": "24771",
+      "question_number": 198,
+      "question_text": "According to the graphic, what is NOT mentioned as an option for customers?",
+      "options": {
+        "A": "Off Site courses",
+        "B": "Classes for 10",
+        "C": "A 4 hour course",
+        "D": "Courses to build positivity"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/b23734d3b6e1364149502d4e14ae93a068aef313.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/d52e27fa77bc7963d87460783d81572165f4628f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/3811f8cde6f98a080fe28eb6858da410f43b47d1.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.jpg",
+        "images/img_020.jpg",
+        "images/img_008.jpg"
+      ]
+    },
+    {
+      "qid": "24772",
+      "question_number": 199,
+      "question_text": "What course will Laurie Wheeler likely sign up for?",
+      "options": {
+        "A": "Stay in the Moment!",
+        "B": "New You Everyday",
+        "C": "Stay Positive for the Team!",
+        "D": "Blessed are We All"
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/b23734d3b6e1364149502d4e14ae93a068aef313.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/d52e27fa77bc7963d87460783d81572165f4628f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/3811f8cde6f98a080fe28eb6858da410f43b47d1.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.jpg",
+        "images/img_020.jpg",
+        "images/img_008.jpg"
+      ]
+    },
+    {
+      "qid": "24773",
+      "question_number": 200,
+      "question_text": "What is indicated about Competitive Excellence?",
+      "options": {
+        "A": "They are struggling with employee sales.",
+        "B": "The mood in the office is not good.",
+        "C": "They are having a booming year of sales.",
+        "D": "They want to try to change their business focus."
+      },
+      "audio_urls": [],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/b23734d3b6e1364149502d4e14ae93a068aef313.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/d52e27fa77bc7963d87460783d81572165f4628f.jpg",
+        "https://s4-media1.study4.com/media/gg_imgs/test/3811f8cde6f98a080fe28eb6858da410f43b47d1.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": [
+        "images/img_017.jpg",
+        "images/img_020.jpg",
+        "images/img_008.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "part": 1,
+  "part_name": "Part1_Photographs",
+  "part_id": 3160,
+  "questions": [
+    {
+      "qid": "24325",
+      "question_number": 1,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test7_audios/q1.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/8c23c1fbac5503b79e403ed9bb1859a1d9c24517.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) They are drinking cups of coffee.\n(B) He is pointing at some information.\n(C) The man is writing something on the document.\n(D) All of the women are looking at the man.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": [
+        "images/img_006.jpg"
+      ]
+    },
+    {
+      "qid": "24326",
+      "question_number": 2,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test7_audios/q2.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/8ac7db21893995147777ceb9aa98734b42d07033.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) He is mixing the snow.\n(B) He is making snow for skiing.\n(C) He is clearing some snow with a snow blower.\n(D) He is cleaning the road with a broom.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": [
+        "images/img_005.jpg"
+      ]
+    },
+    {
+      "qid": "24327",
+      "question_number": 3,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test7_audios/q3.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/62a4e44e188f5b125b45003dfd44ae51deac4449.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) The cars are being transported in a truck.\n(B) The cars are being fixed.\n(C) There are many people in the cars.\n(D) There are cars on the top level of the truck.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": [
+        "images/img_004.jpg"
+      ]
+    },
+    {
+      "qid": "24328",
+      "question_number": 4,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test7_audios/q4.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/5a74ece787cab07b38aae03ee8346c3d289c9f73.jpg"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) She is pumping gas into the car.\n(B) She is paying for the gas.\n(C) She is changing the oil in her car.\n(D) She is putting air into her tires.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": [
+        "images/img_003.jpg"
+      ]
+    },
+    {
+      "qid": "24329",
+      "question_number": 5,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test7_audios/q5.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/3776a82cc536e748f9e1bb4fac9171e6548995d2.jpg"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) They are fixing the computer.\n(B) They are pointing at the computer screen.\n(C) They are both holding documents.\n(D) They are pointing at each other.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": [
+        "images/img_001.jpg"
+      ]
+    },
+    {
+      "qid": "24330",
+      "question_number": 6,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/economy1000/test7_audios/q6.mp3"
+      ],
+      "image_urls": [
+        "https://s4-media1.study4.com/media/gg_imgs/test/53e212718998ab25ebfdab97492045971e1289b8.jpg"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) She is wearing long pants.\n(B) She is paying the bill.\n(C) Her reflection is in the mirror.\n(D) She is looking at her reflection.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": [
+        "images/img_002.jpg"
+      ]
+    }
+  ]
+}

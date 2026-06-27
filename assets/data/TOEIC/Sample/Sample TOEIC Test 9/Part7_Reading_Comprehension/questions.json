@@ -1,0 +1,979 @@
+{
+  "part": 7,
+  "part_name": "Part7_Reading_Comprehension",
+  "part_id": 742,
+  "questions": [
+    {
+      "qid": "8938",
+      "question_number": 147,
+      "question_text": "What is mentioned about the magazine?",
+      "options": {
+        "A": "It is a literary journal.",
+        "B": "It includes a recipe book as a supplement.",
+        "C": "It provides travel advice.",
+        "D": "It has an online version."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8939",
+      "question_number": 148,
+      "question_text": "What is suggested about the competition?",
+      "options": {
+        "A": "It is sponsored by professional photographers.",
+        "B": "It awards a complimentary vacation to the winner.",
+        "C": "It accepts digital photos only.",
+        "D": "It features photos of Scotland."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8940",
+      "question_number": 149,
+      "question_text": "Who most likely is Liz Bradley?",
+      "options": {
+        "A": "An intern",
+        "B": "A receptionist",
+        "C": "A business partner",
+        "D": "An executive"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8941",
+      "question_number": 150,
+      "question_text": "Why was Michael Steel added to the conversation?",
+      "options": {
+        "A": "To have him give an update about the missing reports",
+        "B": "To inform him about the upcoming meeting",
+        "C": "To let him know about the deadline",
+        "D": "To scold him for his lack of punctuality"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8942",
+      "question_number": 151,
+      "question_text": "What does Michael imply when he says he \"had to scour the database to locate the backup material\"?",
+      "options": {
+        "A": "He took his time writing the report.",
+        "B": "He had to back up all the information first.",
+        "C": "He needed time to find the missing data.",
+        "D": "The computer was out of order."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8943",
+      "question_number": 152,
+      "question_text": "What is being advertised?",
+      "options": {
+        "A": "An insurance company",
+        "B": "A window manufacturer",
+        "C": "A landscaping company",
+        "D": "A window cleaning service provider"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8944",
+      "question_number": 153,
+      "question_text": "What is indicated about Turner & Co.?",
+      "options": {
+        "A": "It is a family-run business.",
+        "B": "Its branches are located nationwide.",
+        "C": "It is an eco-friendly company.",
+        "D": "It has recently hired experienced employees."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8945",
+      "question_number": 154,
+      "question_text": "Why was the message sent?",
+      "options": {
+        "A": "To ask for a favor",
+        "B": "To postpone a deadline",
+        "C": "To cancel a meeting",
+        "D": "To request a document"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8946",
+      "question_number": 155,
+      "question_text": "What is indicated about Mr. Bell?",
+      "options": {
+        "A": "He is unable to attend a meeting.",
+        "B": "He expects profits to increase.",
+        "C": "He is trying to meet a deadline.",
+        "D": "He was recently hired."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8947",
+      "question_number": 156,
+      "question_text": "What is indicated about B&G?",
+      "options": {
+        "A": "They have stores around the world.",
+        "B": "They only sell items designed by Bucci.",
+        "C": "The company has a few branches in Korea.",
+        "D": "Their products usually sell out within hours."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8948",
+      "question_number": 157,
+      "question_text": "What is reported about the Bucci and B&G collaboration?",
+      "options": {
+        "A": "It took years to put together.",
+        "B": "It was only sold in select stores.",
+        "C": "It's one of the most profitable collaborations for the company.",
+        "D": "It will only be a one-time event."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8949",
+      "question_number": 158,
+      "question_text": "In which of the positions marked [1], [2], [3] and [4] does the following sentence belong? \"This is a first for the company since all previous limited designer edition lines were simply a one-time partnership.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8950",
+      "question_number": 159,
+      "question_text": "What is the purpose of the memo?",
+      "options": {
+        "A": "To suggest a budget proposal",
+        "B": "To solicit feedback",
+        "C": "To revise incorrect information",
+        "D": "To announce survey results"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8951",
+      "question_number": 160,
+      "question_text": "Who most likely is Mr. Nugent?",
+      "options": {
+        "A": "A medical doctor",
+        "B": "A product developer",
+        "C": "An investment analyst",
+        "D": "A personnel employee"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8952",
+      "question_number": 161,
+      "question_text": "According to the memo, what will Ms. Paine probably do soon after February 24?",
+      "options": {
+        "A": "Announce a merger",
+        "B": "Hire a medical specialist",
+        "C": "Participate in a tour",
+        "D": "Schedule a meeting"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8953",
+      "question_number": 162,
+      "question_text": "What kind of business does the client most likely own?",
+      "options": {
+        "A": "A clothing shop",
+        "B": "A furniture company",
+        "C": "A shoe store",
+        "D": "A handbag business"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8954",
+      "question_number": 163,
+      "question_text": "According to the conversation, whose department must complete the work first?",
+      "options": {
+        "A": "Karen Norman's",
+        "B": "Neil Park's",
+        "C": "Lauren Nichols'",
+        "D": "Kevin Harding's"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8955",
+      "question_number": 164,
+      "question_text": "At 3:31, why does Lauren Nichols say \"We're currently working on the Jenk and Cenk twin's orders\"?",
+      "options": {
+        "A": "To inform everyone that they have their own clients",
+        "B": "To explain why they refuse to help",
+        "C": "To imply that they are busy with another project",
+        "D": "To make everyone speed up their work"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8956",
+      "question_number": 165,
+      "question_text": "What will Penny Jones most likely tell Mr. Patrick?",
+      "options": {
+        "A": "That his order will be finished two weeks later",
+        "B": "That his request can be fulfilled",
+        "C": "That his order will cost him extra money",
+        "D": "That there may be a delay to his order"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8957",
+      "question_number": 166,
+      "question_text": "What is being announced?",
+      "options": {
+        "A": "A renovation project",
+        "B": "A store expansion",
+        "C": "A change in operating hours",
+        "D": "A work schedule"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8958",
+      "question_number": 167,
+      "question_text": "When most likely is the construction NOT being performed?",
+      "options": {
+        "A": "On Monday",
+        "B": "On Wednesday",
+        "C": "On Saturday",
+        "D": "On Sunday"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8959",
+      "question_number": 168,
+      "question_text": "Why are customers asked to go to Patch Street?",
+      "options": {
+        "A": "To find a place to park",
+        "B": "To visit a new store location",
+        "C": "To take part in a promotional event",
+        "D": "To receive a sample"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8960",
+      "question_number": 169,
+      "question_text": "What is indicated about the Palmer Standard Cabin Yacht?",
+      "options": {
+        "A": "It is a fishing boat.",
+        "B": "Its original paint color has been changed.",
+        "C": "It can accommodate a group of people.",
+        "D": "It is currently being repaired."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8961",
+      "question_number": 170,
+      "question_text": "What is NOT mentioned as a feature of the Palmer Standard Cabin Yacht?",
+      "options": {
+        "A": "Capability to play music",
+        "B": "A lightweight construction material",
+        "C": "Ample sleeping accommodations",
+        "D": "A fuel-efficient engine"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8962",
+      "question_number": 171,
+      "question_text": "What most likely is true about Mr. Thompson?",
+      "options": {
+        "A": "He will give a boat tour to a potential buyer.",
+        "B": "He has young children.",
+        "C": "He works at a shipyard.",
+        "D": "He wants to sell the warranty separately."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8963",
+      "question_number": 172,
+      "question_text": "Why was a letter sent to Mr. Kang?",
+      "options": {
+        "A": "To remind him to send in his travel journals",
+        "B": "To explain about a new subscription plan",
+        "C": "To inquire about his travel plans",
+        "D": "To determine his qualifications for a position"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8964",
+      "question_number": 173,
+      "question_text": "What did Ms. Adams send with the letter?",
+      "options": {
+        "A": "A travel itinerary",
+        "B": "A new contract",
+        "C": "An application form",
+        "D": "A revised schedule"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8965",
+      "question_number": 174,
+      "question_text": "The term \"at no extra cost\" is closest in meaning to:",
+      "options": {
+        "A": "For a small fee",
+        "B": "With a donation",
+        "C": "Quite easily",
+        "D": "For free"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8966",
+      "question_number": 175,
+      "question_text": "In which of the positions marked [1], [2], [3] and [4] does the following sentence belong? \"Your subscription expires next month, but we invite you to consider joining our VIP membership.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8967",
+      "question_number": 176,
+      "question_text": "Who most likely is Mr. Dell?",
+      "options": {
+        "A": "A designer",
+        "B": "A salesperson",
+        "C": "A customer",
+        "D": "A manufacturer"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8968",
+      "question_number": 177,
+      "question_text": "What is implied about Ms. Fleck?",
+      "options": {
+        "A": "She is a long-term customer of Taylor Fabrics.",
+        "B": "She is a professional fashion designer.",
+        "C": "She is a former employee of Taylor Fabrics.",
+        "D": "She will be partially paid back for her purchase."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8969",
+      "question_number": 178,
+      "question_text": "Why did Ms. Fleck send the e-mail?",
+      "options": {
+        "A": "Her credit card was incorrectly charged.",
+        "B": "She wants to return an item.",
+        "C": "She received the incorrect quantity of an item.",
+        "D": "One of her orders had the wrong pattern."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8970",
+      "question_number": 179,
+      "question_text": "Which fabric will Ms. Fleck need more of to make a dress?",
+      "options": {
+        "A": "Fabric 10",
+        "B": "Fabric 38",
+        "C": "Fabric 41",
+        "D": "Fabric 48"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8971",
+      "question_number": 180,
+      "question_text": "How should Taylor Fabrics customer service contact Ms. Fleck?",
+      "options": {
+        "A": "By text message",
+        "B": "By voice mail",
+        "C": "By e-mail",
+        "D": "By letter"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8972",
+      "question_number": 181,
+      "question_text": "What is indicated about the Belmont Historical Society?",
+      "options": {
+        "A": "It does not allow children into some events.",
+        "B": "It is run by the city of Belmont.",
+        "C": "It was founded by Linda Cameron.",
+        "D": "It will hold its events at several places."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8973",
+      "question_number": 182,
+      "question_text": "What most likely is Mr. Tate currently teaching?",
+      "options": {
+        "A": "Environmental conditions of the Arctic",
+        "B": "Early American history",
+        "C": "American folk music",
+        "D": "Modern photography"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8974",
+      "question_number": 183,
+      "question_text": "What is NOT mentioned as being available on the Belmont Historical Society website?",
+      "options": {
+        "A": "Information about scheduled events",
+        "B": "Member registration",
+        "C": "Rental details",
+        "D": "Descriptions of previous events"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8975",
+      "question_number": 184,
+      "question_text": "In the e-mail, the word \"introductory\" is closest in meaning to",
+      "options": {
+        "A": "basic",
+        "B": "required",
+        "C": "profound",
+        "D": "optional"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8976",
+      "question_number": 185,
+      "question_text": "What does Mr. Tate request?",
+      "options": {
+        "A": "A signed copy of a book",
+        "B": "A detailed survey",
+        "C": "A chance to meet a speaker",
+        "D": "A group discount"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8977",
+      "question_number": 186,
+      "question_text": "What is suggested about Newton Library?",
+      "options": {
+        "A": "It recently renovated its facilities.",
+        "B": "It will hold a fundraising event soon.",
+        "C": "It offers educational activities for various ages.",
+        "D": "It is closed on Mondays."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8978",
+      "question_number": 187,
+      "question_text": "What event is most suited for film students?",
+      "options": {
+        "A": "Story Play",
+        "B": "Youth Creative Writing Workshop",
+        "C": "A Trip to the Past",
+        "D": "Never Too Late to Learn"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8979",
+      "question_number": 188,
+      "question_text": "In the first e-mail, the word \"held\" is closest in meaning to",
+      "options": {
+        "A": "carried",
+        "B": "attended",
+        "C": "delayed",
+        "D": "conducted"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8980",
+      "question_number": 189,
+      "question_text": "Why can't Richard White send students an e-mail?",
+      "options": {
+        "A": "He doesn't have their e-mails.",
+        "B": "It is not his job.",
+        "C": "He does not have the time.",
+        "D": "The library is not equipped with that kind of technology."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8981",
+      "question_number": 190,
+      "question_text": "What is Richard White's solution to the problem of informing Linda's students about the room change?",
+      "options": {
+        "A": "He can e-mail them.",
+        "B": "He can direct them to the right room when they enter.",
+        "C": "He will post a sign.",
+        "D": "He will draw them a map with directions."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8982",
+      "question_number": 191,
+      "question_text": "What does Ms. Mason suggest doing?",
+      "options": {
+        "A": "Keeping within a budget for recreational activities",
+        "B": "Appointing a new manager of human resources",
+        "C": "Increasing the number of temporary employees",
+        "D": "Scheduling more outdoor activities compared to last year"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8983",
+      "question_number": 192,
+      "question_text": "What date does Ms. Mason suggest for this year's new activity?",
+      "options": {
+        "A": "July 6",
+        "B": "July 22",
+        "C": "August 6",
+        "D": "August 19"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8984",
+      "question_number": 193,
+      "question_text": "In what section of the website would the article most likely appear?",
+      "options": {
+        "A": "Economy",
+        "B": "Leisure",
+        "C": "Entertainment",
+        "D": "Politics"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8985",
+      "question_number": 194,
+      "question_text": "Based upon the Bicycle Tour Sign-up Sheet, what can we infer about the upcoming bicycle tour?",
+      "options": {
+        "A": "It will be cancelled.",
+        "B": "There will be two groups, one for beginners, one for advanced.",
+        "C": "There will be only one group.",
+        "D": "They will stop along the way for a group meal and photo."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8986",
+      "question_number": 195,
+      "question_text": "What will Barbara Blaster most likely do on the bicycle tour?",
+      "options": {
+        "A": "She will become bored and quit the tour.",
+        "B": "She will complain that more people should sign up as advanced.",
+        "C": "She will join a faster-paced group of more experienced bikers.",
+        "D": "She will stay with the group to participate in group activities."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8987",
+      "question_number": 196,
+      "question_text": "What problem with the original shipment does Ms. Nelson report?",
+      "options": {
+        "A": "It was damaged.",
+        "B": "It does not fit.",
+        "C": "It arrived late.",
+        "D": "It has not reached its destination."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8988",
+      "question_number": 197,
+      "question_text": "In the e-mail from Debra Clarke, the phrase \"as per\" is closest in meaning to",
+      "options": {
+        "A": "regardless of",
+        "B": "except for",
+        "C": "rather than",
+        "D": "according to"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8989",
+      "question_number": 198,
+      "question_text": "What is indicated about Ms. Nelson?",
+      "options": {
+        "A": "She recently moved to Denver.",
+        "B": "She ordered a gift for a friend.",
+        "C": "She has a Four Seasons Apparel Outlet membership.",
+        "D": "She waited too long to request a refund."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8990",
+      "question_number": 199,
+      "question_text": "What problem with the replacement shipment does Ms. Nelson report?",
+      "options": {
+        "A": "The size was incorrect.",
+        "B": "The design was incorrect.",
+        "C": "The size and design were incorrect.",
+        "D": "Too much money was refunded to her from her original purchase."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "8991",
+      "question_number": 200,
+      "question_text": "When will Ms. Nelson return her Winter Festival sweater?",
+      "options": {
+        "A": "When she receives her correct order and the shipping refund.",
+        "B": "When she has time.",
+        "C": "When her husband is happy with his sweater.",
+        "D": "When Four Seasons apologizes for her inconvenience."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    }
+  ]
+}

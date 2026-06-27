@@ -1,0 +1,979 @@
+{
+  "part": 7,
+  "part_name": "Part7_Reading_Comprehension",
+  "part_id": 763,
+  "questions": [
+    {
+      "qid": "9538",
+      "question_number": 147,
+      "question_text": "Where most likely would this calendar be seen?",
+      "options": {
+        "A": "In the sports section of a newspaper",
+        "B": "In a welcome packet for a cooking class",
+        "C": "On the wall in a gym facility",
+        "D": "In a program for a sports tournament"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9539",
+      "question_number": 148,
+      "question_text": "Which activities take place in the same room?",
+      "options": {
+        "A": "Yoga and kickboxing",
+        "B": "Marathon training and cycling",
+        "C": "Yoga and nutrition advice",
+        "D": "Cycling and fitness training"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9540",
+      "question_number": 149,
+      "question_text": "What is suggested about Mr. Sanchez?",
+      "options": {
+        "A": "He works for an accounting company.",
+        "B": "He is related to Ted Galeznic.",
+        "C": "He was recently married.",
+        "D": "He will visit Chicago on Friday."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9541",
+      "question_number": 150,
+      "question_text": "At 9:11, what does Ms. Knight mean when she writes, \"I can reach out to them\"?",
+      "options": {
+        "A": "She can thank them.",
+        "B": "She can contact them.",
+        "C": "She can visit them.",
+        "D": "She can assist them."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9542",
+      "question_number": 151,
+      "question_text": "When is Mr. Sato scheduled to arrive at Mr. Brown's company?",
+      "options": {
+        "A": "On March 28",
+        "B": "On March 29",
+        "C": "On March 30",
+        "D": "On March 31"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9543",
+      "question_number": 152,
+      "question_text": "Who most likely will contact Mr. Brown?",
+      "options": {
+        "A": "Employees who want to transfer to the accounting department",
+        "B": "Employees who need additional information",
+        "C": "Employees who need a deadline extension",
+        "D": "Employees who disagree about a merger"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9544",
+      "question_number": 153,
+      "question_text": "Who most likely are the invitation recipients?",
+      "options": {
+        "A": "Directors for building companies",
+        "B": "Members of an association",
+        "C": "Architects for the local government",
+        "D": "Award ceremony nominees"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9545",
+      "question_number": 154,
+      "question_text": "How can attendance be confirmed?",
+      "options": {
+        "A": "By calling the Merriton Hotel",
+        "B": "By e-mailing Barry Humphreys",
+        "C": "By visiting Alex Dashwood",
+        "D": "By contacting a coordinator"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9546",
+      "question_number": 155,
+      "question_text": "What is the purpose of the article?",
+      "options": {
+        "A": "To advertise the products of a shop",
+        "B": "To explain the details of a new business venture",
+        "C": "To discuss the history of a family business",
+        "D": "To explain the prices of the products"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9547",
+      "question_number": 156,
+      "question_text": "What is indicated about Northshore Creamery?",
+      "options": {
+        "A": "It was purchased by a large corporation.",
+        "B": "It became famous in town because of a movie.",
+        "C": "It is the pride and joy of the locals.",
+        "D": "It doesn't have enough money to expand."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9548",
+      "question_number": 157,
+      "question_text": "In which of the positions marked [1], [2], [3] and [4] does the following sentence belong? \"Now, the family is ready to open two new franchises in neighboring cities and, within 5 years, plan to open 6 new shops around the country.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9549",
+      "question_number": 158,
+      "question_text": "What is the announcement mainly about?",
+      "options": {
+        "A": "The formation of a new employment union",
+        "B": "The creation of a financial oversight committee",
+        "C": "The launch of a recruitment effort",
+        "D": "The start of a change in local legislation"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9550",
+      "question_number": 159,
+      "question_text": "When is the group due to begin work?",
+      "options": {
+        "A": "At the beginning of May",
+        "B": "At the end of the year",
+        "C": "At the beginning of the summer",
+        "D": "At the end of this month"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9551",
+      "question_number": 160,
+      "question_text": "What should interested parties do to get involved?",
+      "options": {
+        "A": "Sign a petition",
+        "B": "Attend a meeting",
+        "C": "Send an e-mail",
+        "D": "Fill out a form"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9552",
+      "question_number": 161,
+      "question_text": "At 2:16, what does Margaret Lee mean when she writes \"There's no problem on our end\"?",
+      "options": {
+        "A": "Her team can achieve their goals.",
+        "B": "Her team can help the other teams.",
+        "C": "Their project will take some time.",
+        "D": "The problems will be minimal."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9553",
+      "question_number": 162,
+      "question_text": "For what type of company does Janet Logan work?",
+      "options": {
+        "A": "A shoe shop",
+        "B": "A clothing manufacturer",
+        "C": "A fashion magazine",
+        "D": "A menswear boutique"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9554",
+      "question_number": 163,
+      "question_text": "According to the discussion, which department needs the most time?",
+      "options": {
+        "A": "Ms. Lee's department",
+        "B": "Mr. Brown's department",
+        "C": "Mr. William's department",
+        "D": "Ms. Logan's department"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9555",
+      "question_number": 164,
+      "question_text": "What will Janet Logan most likely tell Mr. King?",
+      "options": {
+        "A": "That his order will be delayed for a month",
+        "B": "That his order can be completed within two weeks",
+        "C": "That his request will be difficult to achieve",
+        "D": "That his order can be completed early"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9556",
+      "question_number": 165,
+      "question_text": "What is the reason for the change?",
+      "options": {
+        "A": "The company owners want to save money on labor.",
+        "B": "A new recycling center opened near the business.",
+        "C": "The local government changed its regulations.",
+        "D": "Environmentalists in the area requested it."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9557",
+      "question_number": 166,
+      "question_text": "What can be inferred about Unsworthy Manufacturing?",
+      "options": {
+        "A": "It has good relations with local authorities.",
+        "B": "It already recycles its plastic industrial waste.",
+        "C": "It recently increased its workforce.",
+        "D": "It updates its environmental policy regularly."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9558",
+      "question_number": 167,
+      "question_text": "What should supervisors do next week?",
+      "options": {
+        "A": "Attend a workshop on new procedures",
+        "B": "Update the company's website",
+        "C": "Make room for new waste receptacles",
+        "D": "Inform their teams of the changes"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9559",
+      "question_number": 168,
+      "question_text": "Why was the letter written?",
+      "options": {
+        "A": "To describe a policy change",
+        "B": "To introduce a new grocery store",
+        "C": "To advertise a market opening",
+        "D": "To announce election results"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9560",
+      "question_number": 169,
+      "question_text": "What is indicated about Ms. Hammer?",
+      "options": {
+        "A": "She is a vendor at a farmers' market.",
+        "B": "She represents other farmers.",
+        "C": "She owns a family-run farm.",
+        "D": "She is the mayor of Normanville."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9561",
+      "question_number": 170,
+      "question_text": "What problem is mentioned?",
+      "options": {
+        "A": "Inadequate parking spots",
+        "B": "Unfair product pricing",
+        "C": "Lack of quality control",
+        "D": "Inclement weather"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9562",
+      "question_number": 171,
+      "question_text": "What is NOT mentioned as a benefit of shopping at the venue?",
+      "options": {
+        "A": "A boost for the local economy",
+        "B": "Competitive prices",
+        "C": "Healthy produce",
+        "D": "Longer opening hours"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9563",
+      "question_number": 172,
+      "question_text": "What is the purpose of the article?",
+      "options": {
+        "A": "To advertise an event for the holidays",
+        "B": "To warn citizens of increased crimes",
+        "C": "To inform people about lost and found items",
+        "D": "To give information about an auction"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9564",
+      "question_number": 173,
+      "question_text": "What is suggested about Jean King?",
+      "options": {
+        "A": "She searches for lost items.",
+        "B": "She works for the city.",
+        "C": "She is an intern.",
+        "D": "She manages the community center."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9565",
+      "question_number": 174,
+      "question_text": "What is suggested about the lost items?",
+      "options": {
+        "A": "They are not kept indefinitely at the center.",
+        "B": "They are usually claimed by their owners.",
+        "C": "They are destroyed when unclaimed.",
+        "D": "They are generally new items."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "A",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9566",
+      "question_number": 175,
+      "question_text": "In which of the positions marked [1], [2], [3] and [4] does the following sentence best belong? \"Many people do come to claim their missing items, but a vast majority is still left unclaimed.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9567",
+      "question_number": 176,
+      "question_text": "What problem is Tech Life facing?",
+      "options": {
+        "A": "A shortage of employees",
+        "B": "An urgent audit",
+        "C": "A decline in profitability",
+        "D": "A potential competitor"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9568",
+      "question_number": 177,
+      "question_text": "What is mentioned about the shareholders?",
+      "options": {
+        "A": "They are allowed to share financial information.",
+        "B": "They will hold a meeting next week.",
+        "C": "They are demanding more dividends.",
+        "D": "They agreed on the appointment of a new leader."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9569",
+      "question_number": 178,
+      "question_text": "In the article, the word \"optimize\" is closest in meaning to",
+      "options": {
+        "A": "merge",
+        "B": "improve",
+        "C": "analyze",
+        "D": "maintain"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9570",
+      "question_number": 179,
+      "question_text": "Where did Ms. Dyer work previously?",
+      "options": {
+        "A": "In Harrisburg",
+        "B": "In Dallas",
+        "C": "In New York",
+        "D": "In San Francisco"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9571",
+      "question_number": 180,
+      "question_text": "What is Mr. Cross asked to do?",
+      "options": {
+        "A": "Teach a training course",
+        "B": "Meet new employees",
+        "C": "Attend a stockholders' meeting",
+        "D": "Hire new managers"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9572",
+      "question_number": 181,
+      "question_text": "What was the topic of the conference on January 10?",
+      "options": {
+        "A": "How to start a small business",
+        "B": "How to manage finances",
+        "C": "How to lead other people",
+        "D": "How to expand business globally"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9573",
+      "question_number": 182,
+      "question_text": "When most likely will inquiries start being made?",
+      "options": {
+        "A": "At 3:30 P.M.",
+        "B": "At 4:30 P.M.",
+        "C": "At 5:30 P.M.",
+        "D": "At 6:30 P.M."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9574",
+      "question_number": 183,
+      "question_text": "Where will a talk be given at no charge?",
+      "options": {
+        "A": "At Mulligan Elementary School",
+        "B": "At Brookstone University",
+        "C": "At Piedmont Adult Education Center",
+        "D": "At SEM Development Group"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9575",
+      "question_number": 184,
+      "question_text": "What does Ms. O'Neill invite AFC members to do?",
+      "options": {
+        "A": "Attach a receipt",
+        "B": "Fill out a survey",
+        "C": "Prepare a presentation",
+        "D": "Evaluate speakers"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9576",
+      "question_number": 185,
+      "question_text": "What is mentioned about the upcoming conference?",
+      "options": {
+        "A": "It will be held at a new location.",
+        "B": "Its presentations will start later in the day.",
+        "C": "Its attendance fees will be increased.",
+        "D": "It will be broadcast online."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9577",
+      "question_number": 186,
+      "question_text": "What is the purpose of the web page information?",
+      "options": {
+        "A": "To announce a new company policy",
+        "B": "To explain an upcoming relocation",
+        "C": "To inform a user about a charge",
+        "D": "To notify a user of phishing attempts"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9578",
+      "question_number": 187,
+      "question_text": "What is NOT mentioned as being checked using the mobile banking service?",
+      "options": {
+        "A": "Account balances",
+        "B": "Interest rates",
+        "C": "Unresolved transactions",
+        "D": "Account history"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9579",
+      "question_number": 188,
+      "question_text": "What request does Ms. Summers make?",
+      "options": {
+        "A": "That her accounts be frozen",
+        "B": "That her contact information be updated",
+        "C": "That her extra fee be waived",
+        "D": "That her withdrawal limit be increased"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9580",
+      "question_number": 189,
+      "question_text": "In the customer service's e-mail to Suzie Summers, what does Laura Massey think is odd about Suzie's story?",
+      "options": {
+        "A": "Suzie didn't have very much money in her account.",
+        "B": "Suzie didn't file a police report.",
+        "C": "Suzie lost her wallet on June 2 but her card was used at an ATM machine on June 3.",
+        "D": "Suzie does not live in Florida."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9581",
+      "question_number": 190,
+      "question_text": "What does Laura Massey instruct Suzie Summers to do if she wants to get relief from the overdraft fee?",
+      "options": {
+        "A": "Write to the fraud department of Stark Bank",
+        "B": "File a police report and give the case number to Stark Bank",
+        "C": "File a claim against the criminals in the court and give the court number to Stark Bank",
+        "D": "File a case number with the fraud department of Stark Bank"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9582",
+      "question_number": 191,
+      "question_text": "What is one reason the first e-mail was sent?",
+      "options": {
+        "A": "To specify a warranty number",
+        "B": "To ask for a date for a visit",
+        "C": "To confirm an order",
+        "D": "To apologize for a shipping delay"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9583",
+      "question_number": 192,
+      "question_text": "According to the first e-mail, what is true about the refrigerator?",
+      "options": {
+        "A": "It is a newly released model.",
+        "B": "It is no longer covered by the warranty.",
+        "C": "It has a manufacturing defect.",
+        "D": "It is currently on sale."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9584",
+      "question_number": 193,
+      "question_text": "What information does Mr. Lewis request from Ms. Kerry?",
+      "options": {
+        "A": "Her current address",
+        "B": "Her warranty number",
+        "C": "Her refrigerator model",
+        "D": "Her contact information"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9585",
+      "question_number": 194,
+      "question_text": "Why does the technician need to scan the warranty?",
+      "options": {
+        "A": "To make sure it is still covered",
+        "B": "To make sure that the model is correct",
+        "C": "To make sure that there are enough spare parts to make the repairs",
+        "D": "To make sure that the manufacturer covers the repair costs"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9586",
+      "question_number": 195,
+      "question_text": "Why do you think the technician will come on Monday?",
+      "options": {
+        "A": "Because that is the time the technician is available",
+        "B": "Because the technician is too busy on Friday",
+        "C": "Because the housekeeper will be there to let him in",
+        "D": "Because Ms. Kerry is in Arkansas"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9587",
+      "question_number": 196,
+      "question_text": "Why did Mr. West write the first e-mail?",
+      "options": {
+        "A": "To inquire about a service",
+        "B": "To schedule a meeting",
+        "C": "To report on a budget",
+        "D": "To apply for a position"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9588",
+      "question_number": 197,
+      "question_text": "What service does JM Solutions provide?",
+      "options": {
+        "A": "Recruitment and employee training",
+        "B": "Graphic design",
+        "C": "Web programming",
+        "D": "Marketing strategy consultation"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9589",
+      "question_number": 198,
+      "question_text": "According to the second e-mail, how will the profits of the back-to-school sale be spent?",
+      "options": {
+        "A": "On repairing some roads",
+        "B": "On purchasing advertising space",
+        "C": "On paying for JM Solutions' service",
+        "D": "On hiring more employees"
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "B",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9590",
+      "question_number": 199,
+      "question_text": "What is indicated by the third e-mail?",
+      "options": {
+        "A": "The budget for the first quarter of next year looks good.",
+        "B": "JM Solutions has a strong reputation.",
+        "C": "It will be easy for Kingston Sporting Goods to find money in their budget for web development.",
+        "D": "Some items in the budget may lose their funding in order to pay for web development."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "D",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    },
+    {
+      "qid": "9591",
+      "question_number": 200,
+      "question_text": "Why does Kingston Sporting Goods need to allow for $3,200 for web development?",
+      "options": {
+        "A": "They need the best web money can buy.",
+        "B": "They have to expand their business into other territories.",
+        "C": "They have to pay JM Solutions 10% of the overall cost as a deposit.",
+        "D": "They have to negotiate a better price after the deposit."
+      },
+      "audio_urls": [],
+      "image_urls": [],
+      "correct_answer": "C",
+      "transcript": "",
+      "explanation": "",
+      "audio_files": [],
+      "image_files": []
+    }
+  ]
+}

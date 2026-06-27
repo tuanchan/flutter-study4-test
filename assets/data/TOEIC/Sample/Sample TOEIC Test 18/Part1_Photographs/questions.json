@@ -1,0 +1,163 @@
+{
+  "part": 1,
+  "part_name": "Part1_Photographs",
+  "part_id": 9577,
+  "questions": [
+    {
+      "qid": "161270",
+      "question_number": 1,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test3/1.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image192.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "(A) She’s eating some baked goods.\n(B) She’s cleaning the glass.\n(C) She’s pointing at a cupboard.\n(D) She’s looking at a display.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_001.mp3"
+      ],
+      "image_files": [
+        "images/img_004.png"
+      ]
+    },
+    {
+      "qid": "161271",
+      "question_number": 2,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test3/2.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image223.png"
+      ],
+      "correct_answer": "C",
+      "transcript": "(A) A speaker is standing behind a podium.\n(B) A meeting room is being set up.\n(C) People are seated on both sides of a table.\n(D) A man is passing out some documents.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_002.mp3"
+      ],
+      "image_files": [
+        "images/img_005.png"
+      ]
+    },
+    {
+      "qid": "161272",
+      "question_number": 3,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test3/3.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image173.png"
+      ],
+      "correct_answer": "A",
+      "transcript": "(A) Some curtains have been pulled open.\n(B) The floor is completely covered with carpeting.\n(C) A lamp has been placed on a desk.\n(D) Four chairs are stacked in a corner.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_003.mp3"
+      ],
+      "image_files": [
+        "images/img_003.png"
+      ]
+    },
+    {
+      "qid": "161273",
+      "question_number": 4,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test3/4.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/ybm/img/ybm1/image256.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) Some boxes are being labeled.\n(B) Items are being loaded into a truck.\n(C) A man is repairing some equipment.\n(D) A warehouse worker is relaxing on a platform.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_004.mp3"
+      ],
+      "image_files": [
+        "images/img_006.png"
+      ]
+    },
+    {
+      "qid": "161274",
+      "question_number": 5,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test3/5.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/examprep/Question/files/2025/08/31/Screenshot_2025-08-31_at_3.19.09PM.png"
+      ],
+      "correct_answer": "D",
+      "transcript": "(A) A man is bending over to pick up a bottle.\n(B) A woman is writing on a piece of paper.\n(C) Lab coats have been hung on a coat rack.\n(D) Some people are organizing items on shelves.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_005.mp3"
+      ],
+      "image_files": [
+        "images/img_001.png"
+      ]
+    },
+    {
+      "qid": "161275",
+      "question_number": 6,
+      "question_text": "",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "audio_urls": [
+        "https://s4-media1.study4.com/media/ybm/audio/ybm1/test3/6.mp3"
+      ],
+      "image_urls": [
+        "https://study4.com/media/examprep/Question/files/2025/08/31/Screenshot_2025-08-31_at_3.19.30PM.png"
+      ],
+      "correct_answer": "B",
+      "transcript": "(A) Lines have been painted on a road.\n(B) A train is stopped at a station.\n(C) Passengers are getting on a bus.\n(D) A man is walking toward a ticket office.",
+      "explanation": "",
+      "audio_files": [
+        "audio/audio_006.mp3"
+      ],
+      "image_files": [
+        "images/img_002.png"
+      ]
+    }
+  ]
+}
