@@ -555,6 +555,167 @@ class TestSummary {
   });
 }
 
+class RemoteTestCatalog {
+  final Map<String, Map<String, List<String>>> exams;
+  final bool isFallback;
+
+  const RemoteTestCatalog({required this.exams, this.isFallback = false});
+
+  static const RemoteTestCatalog fallback = RemoteTestCatalog(
+    isFallback: true,
+    exams: {
+      'TOEIC': {
+        'Sample': [
+          'Sample TOEIC Test 1',
+          'Sample TOEIC Test 2',
+          'Sample TOEIC Test 3',
+          'Sample TOEIC Test 4',
+          'Sample TOEIC Test 5',
+          'Sample TOEIC Test 6',
+          'Sample TOEIC Test 7',
+          'Sample TOEIC Test 8',
+          'Sample TOEIC Test 9',
+          'Sample TOEIC Test 10',
+          'Sample TOEIC Test 11',
+          'Sample TOEIC Test 12',
+          'Sample TOEIC Test 13',
+          'Sample TOEIC Test 14',
+          'Sample TOEIC Test 15',
+          'Sample TOEIC Test 16',
+          'Sample TOEIC Test 17',
+          'Sample TOEIC Test 18',
+          'Sample TOEIC Test 19',
+          'Sample TOEIC Test 20',
+        ],
+        '2018': [
+          'Practice Set TOEIC 2018 Test 1',
+          'Practice Set TOEIC 2018 Test 2',
+          'Practice Set TOEIC 2018 Test 3',
+          'Practice Set TOEIC 2018 Test 4',
+          'Practice Set TOEIC 2018 Test 5',
+        ],
+        '2019': [
+          'Practice Set TOEIC 2019 Test 1',
+          'Practice Set TOEIC 2019 Test 2',
+          'Practice Set TOEIC 2019 Test 3',
+          'Practice Set TOEIC 2019 Test 4',
+          'Practice Set TOEIC 2019 Test 5',
+          'Practice Set TOEIC 2019 Test 6',
+          'Practice Set TOEIC 2019 Test 7',
+          'Practice Set TOEIC 2019 Test 8',
+          'Practice Set TOEIC 2019 Test 9',
+          'Practice Set TOEIC 2019 Test 10',
+        ],
+        '2020': [
+          'Practice Set TOEIC 2020 Test 1',
+          'Practice Set TOEIC 2020 Test 2',
+          'Practice Set TOEIC 2020 Test 3',
+          'Practice Set TOEIC 2020 Test 4',
+          'Practice Set TOEIC 2020 Test 5',
+          'Practice Set TOEIC 2020 Test 6',
+          'Practice Set TOEIC 2020 Test 7',
+          'Practice Set TOEIC 2020 Test 8',
+          'Practice Set TOEIC 2020 Test 9',
+          'Practice Set TOEIC 2020 Test 10',
+        ],
+        '2021': [
+          'Practice Set TOEIC 2021 Test 1',
+          'Practice Set TOEIC 2021 Test 2',
+          'Practice Set TOEIC 2021 Test 3',
+          'Practice Set TOEIC 2021 Test 4',
+          'Practice Set TOEIC 2021 Test 5',
+        ],
+        '2022': [
+          'Practice Set TOEIC 2022 Test 1',
+          'Practice Set TOEIC 2022 Test 2',
+          'Practice Set TOEIC 2022 Test 3',
+          'Practice Set TOEIC 2022 Test 4',
+          'Practice Set TOEIC 2022 Test 5',
+          'Practice Set TOEIC 2022 Test 6',
+          'Practice Set TOEIC 2022 Test 7',
+          'Practice Set TOEIC 2022 Test 8',
+          'Practice Set TOEIC 2022 Test 9',
+          'Practice Set TOEIC 2022 Test 10',
+        ],
+        '2023': [
+          'Practice Set 2023 TOEIC Test 1',
+          'Practice Set 2023 TOEIC Test 2',
+          'Practice Set 2023 TOEIC Test 3',
+          'Practice Set 2023 TOEIC Test 4',
+          'Practice Set 2023 TOEIC Test 5',
+          'Practice Set 2023 TOEIC Test 6',
+          'Practice Set 2023 TOEIC Test 7',
+          'Practice Set 2023 TOEIC Test 8',
+          'Practice Set 2023 TOEIC Test 9',
+          'Practice Set 2023 TOEIC Test 10',
+        ],
+        '2024': [
+          '2024 Practice Set TOEIC Test 1',
+          '2024 Practice Set TOEIC Test 2',
+          '2024 Practice Set TOEIC Test 3',
+          '2024 Practice Set TOEIC Test 4',
+          '2024 Practice Set TOEIC Test 5',
+          '2024 Practice Set TOEIC Test 6',
+          '2024 Practice Set TOEIC Test 7',
+          '2024 Practice Set TOEIC Test 8',
+          '2024 Practice Set TOEIC Test 9',
+          '2024 Practice Set TOEIC Test 10',
+        ],
+      },
+    },
+  );
+
+  factory RemoteTestCatalog.fromJson(Map<String, dynamic> json) {
+    final parsed = <String, Map<String, List<String>>>{};
+    for (final examEntry in json.entries) {
+      final yearMap = examEntry.value;
+      if (yearMap is! Map) {
+        continue;
+      }
+      final years = <String, List<String>>{};
+      for (final yearEntry in yearMap.entries) {
+        final tests = yearEntry.value;
+        if (tests is! List) {
+          continue;
+        }
+        years[yearEntry.key.toString()] = tests
+            .map((item) => item.toString())
+            .where((item) => item.trim().isNotEmpty)
+            .toList();
+      }
+      if (years.isNotEmpty) {
+        parsed[examEntry.key] = years;
+      }
+    }
+    if (parsed.isEmpty) {
+      return fallback;
+    }
+    return RemoteTestCatalog(exams: parsed);
+  }
+
+  List<String> get examNames {
+    final names = exams.keys.toList()..sort();
+    if (names.remove('TOEIC')) {
+      names.insert(0, 'TOEIC');
+    }
+    return names;
+  }
+
+  List<String> yearsFor(String exam) {
+    final years = (exams[exam] ?? const {}).keys.toList()
+      ..sort((a, b) {
+        if (a == 'Sample') return -1;
+        if (b == 'Sample') return 1;
+        return b.compareTo(a);
+      });
+    return years;
+  }
+
+  List<String> testsFor(String exam, String year) {
+    return exams[exam]?[year] ?? const [];
+  }
+}
+
 class TestLibraryPage extends StatefulWidget {
   const TestLibraryPage({super.key});
 
@@ -1162,105 +1323,6 @@ class Study4Header extends StatelessWidget {
 
   const Study4Header({super.key, this.onRefresh});
 
-  static const Map<String, List<String>> _availableTestsByYear = {
-    'Sample': [
-      'Sample TOEIC Test 1',
-      'Sample TOEIC Test 2',
-      'Sample TOEIC Test 3',
-      'Sample TOEIC Test 4',
-      'Sample TOEIC Test 5',
-      'Sample TOEIC Test 6',
-      'Sample TOEIC Test 7',
-      'Sample TOEIC Test 8',
-      'Sample TOEIC Test 9',
-      'Sample TOEIC Test 10',
-      'Sample TOEIC Test 11',
-      'Sample TOEIC Test 12',
-      'Sample TOEIC Test 13',
-      'Sample TOEIC Test 14',
-      'Sample TOEIC Test 15',
-      'Sample TOEIC Test 16',
-      'Sample TOEIC Test 17',
-      'Sample TOEIC Test 18',
-      'Sample TOEIC Test 19',
-      'Sample TOEIC Test 20',
-    ],
-    '2018': [
-      'Practice Set TOEIC 2018 Test 1',
-      'Practice Set TOEIC 2018 Test 2',
-      'Practice Set TOEIC 2018 Test 3',
-      'Practice Set TOEIC 2018 Test 4',
-      'Practice Set TOEIC 2018 Test 5',
-    ],
-    '2019': [
-      'Practice Set TOEIC 2019 Test 1',
-      'Practice Set TOEIC 2019 Test 2',
-      'Practice Set TOEIC 2019 Test 3',
-      'Practice Set TOEIC 2019 Test 4',
-      'Practice Set TOEIC 2019 Test 5',
-      'Practice Set TOEIC 2019 Test 6',
-      'Practice Set TOEIC 2019 Test 7',
-      'Practice Set TOEIC 2019 Test 8',
-      'Practice Set TOEIC 2019 Test 9',
-      'Practice Set TOEIC 2019 Test 10',
-    ],
-    '2020': [
-      'Practice Set TOEIC 2020 Test 1',
-      'Practice Set TOEIC 2020 Test 2',
-      'Practice Set TOEIC 2020 Test 3',
-      'Practice Set TOEIC 2020 Test 4',
-      'Practice Set TOEIC 2020 Test 5',
-      'Practice Set TOEIC 2020 Test 6',
-      'Practice Set TOEIC 2020 Test 7',
-      'Practice Set TOEIC 2020 Test 8',
-      'Practice Set TOEIC 2020 Test 9',
-      'Practice Set TOEIC 2020 Test 10',
-    ],
-    '2021': [
-      'Practice Set TOEIC 2021 Test 1',
-      'Practice Set TOEIC 2021 Test 2',
-      'Practice Set TOEIC 2021 Test 3',
-      'Practice Set TOEIC 2021 Test 4',
-      'Practice Set TOEIC 2021 Test 5',
-    ],
-    '2022': [
-      'Practice Set TOEIC 2022 Test 1',
-      'Practice Set TOEIC 2022 Test 2',
-      'Practice Set TOEIC 2022 Test 3',
-      'Practice Set TOEIC 2022 Test 4',
-      'Practice Set TOEIC 2022 Test 5',
-      'Practice Set TOEIC 2022 Test 6',
-      'Practice Set TOEIC 2022 Test 7',
-      'Practice Set TOEIC 2022 Test 8',
-      'Practice Set TOEIC 2022 Test 9',
-      'Practice Set TOEIC 2022 Test 10',
-    ],
-    '2023': [
-      'Practice Set 2023 TOEIC Test 1',
-      'Practice Set 2023 TOEIC Test 2',
-      'Practice Set 2023 TOEIC Test 3',
-      'Practice Set 2023 TOEIC Test 4',
-      'Practice Set 2023 TOEIC Test 5',
-      'Practice Set 2023 TOEIC Test 6',
-      'Practice Set 2023 TOEIC Test 7',
-      'Practice Set 2023 TOEIC Test 8',
-      'Practice Set 2023 TOEIC Test 9',
-      'Practice Set 2023 TOEIC Test 10',
-    ],
-    '2024': [
-      '2024 Practice Set TOEIC Test 1',
-      '2024 Practice Set TOEIC Test 2',
-      '2024 Practice Set TOEIC Test 3',
-      '2024 Practice Set TOEIC Test 4',
-      '2024 Practice Set TOEIC Test 5',
-      '2024 Practice Set TOEIC Test 6',
-      '2024 Practice Set TOEIC Test 7',
-      '2024 Practice Set TOEIC Test 8',
-      '2024 Practice Set TOEIC Test 9',
-      '2024 Practice Set TOEIC Test 10',
-    ],
-  };
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -1857,13 +1919,13 @@ class Study4Header extends StatelessWidget {
     }
   }
 
-  void _showVocabExportDialog(BuildContext context) {
+  void _showVocabExportDialog(BuildContext pageContext) {
     showDialog(
-      context: context,
-      builder: (ctx) {
+      context: pageContext,
+      builder: (dialogCtx) {
         return FutureBuilder<List<String>>(
           future: VocabularyManager.getVocabularyFiles(),
-          builder: (context, snapshot) {
+          builder: (futureCtx, snapshot) {
             if (!snapshot.hasData) {
               return const AlertDialog(
                 content: SizedBox(
@@ -1894,7 +1956,7 @@ class Study4Header extends StatelessWidget {
                       height: 300,
                       child: ListView.builder(
                         itemCount: files.length,
-                        itemBuilder: (context, index) {
+                        itemBuilder: (itemCtx, index) {
                           final file = files[index];
                           return ListTile(
                             leading: const Icon(
@@ -1908,14 +1970,24 @@ class Study4Header extends StatelessWidget {
                               color: AppColors.blue,
                             ),
                             onTap: () async {
-                              Navigator.of(ctx).pop();
+                              // Capture the position of the tapped ListTile BEFORE popping the dialog
+                              final box = itemCtx.findRenderObject() as RenderBox?;
+                              final originRect = box != null ? (box.localToGlobal(Offset.zero) & box.size) : null;
+
+                              // Pop the dialog
+                              Navigator.of(dialogCtx).pop();
+
+                              // Wait a safe amount of time for the pop transition to fully complete (500ms)
                               await Future<void>.delayed(
-                                const Duration(milliseconds: 250),
+                                const Duration(milliseconds: 500),
                               );
-                              if (!context.mounted) {
+
+                              if (!pageContext.mounted) {
                                 return;
                               }
-                              await _shareVocabularyFile(context, file);
+
+                              // Call the share method using the pageContext and the pre-calculated originRect
+                              await _shareVocabularyFile(pageContext, file, originRect);
                             },
                           );
                         },
@@ -1923,7 +1995,7 @@ class Study4Header extends StatelessWidget {
                     ),
               actions: [
                 TextButton(
-                  onPressed: () => Navigator.of(ctx).pop(),
+                  onPressed: () => Navigator.of(dialogCtx).pop(),
                   child: const Text('Đóng'),
                 ),
               ],
@@ -1934,7 +2006,7 @@ class Study4Header extends StatelessWidget {
     );
   }
 
-  Future<void> _shareVocabularyFile(BuildContext context, String filename) async {
+  Future<void> _shareVocabularyFile(BuildContext context, String filename, [Rect? originRect]) async {
     File? sourceFile;
     try {
       final dir = await getApplicationDocumentsDirectory();
@@ -1955,12 +2027,18 @@ class Study4Header extends StatelessWidget {
         filename,
       );
 
+      final shareRect = originRect ?? (() {
+        final box = context.findRenderObject() as RenderBox?;
+        return box != null ? (box.localToGlobal(Offset.zero) & box.size) : null;
+      })();
+
       final result = await SharePlus.instance.share(
         ShareParams(
           files: [XFile(exportFile.path, mimeType: 'text/plain')],
           fileNameOverrides: [filename],
           subject: 'Danh sách từ vựng $filename',
           title: 'Export từ vựng',
+          sharePositionOrigin: shareRect,
         ),
       );
 
@@ -1996,21 +2074,34 @@ class Study4Header extends StatelessWidget {
         sourceFile,
         filename,
       );
-      await Clipboard.setData(ClipboardData(text: targetFile.path));
+      
+      try {
+        final content = await sourceFile.readAsString();
+        await Clipboard.setData(ClipboardData(text: content));
+      } catch (clipErr) {
+        debugPrint('Error copying file content to clipboard: $clipErr');
+      }
+
       if (Platform.isWindows) {
         try {
-          await Process.start('explorer.exe', ['/select,', targetFile.path]);
+          final winPath = targetFile.path.replaceAll('/', '\\');
+          await Process.start('explorer.exe', ['/select,$winPath']);
         } catch (e) {
           debugPrint('Error opening exported vocab file: $e');
         }
       }
 
       if (context.mounted) {
-        final message = reason == null
-            ? 'Thiết bị không hỗ trợ share trực tiếp. Đã lưu file và copy đường dẫn: ${targetFile.path}'
-            : 'Share không khả dụng. Đã lưu file và copy đường dẫn: ${targetFile.path}';
+        String message;
+        if (Platform.isIOS) {
+          message = 'Không thể chia sẻ trực tiếp. Đã copy nội dung từ vựng vào bộ nhớ tạm. File txt được lưu trong ứng dụng Tệp (Files) -> Trên iPhone -> Study4 Test Traning -> $filename';
+        } else if (Platform.isWindows) {
+          message = 'Đã lưu file vào thư mục Downloads ($filename) và copy nội dung từ vựng vào clipboard.';
+        } else {
+          message = 'Đã lưu file và copy nội dung từ vựng vào clipboard: ${targetFile.path}';
+        }
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(message), duration: const Duration(seconds: 6)),
+          SnackBar(content: Text(message), duration: const Duration(seconds: 8)),
         );
       }
     } catch (e) {
@@ -2045,319 +2136,249 @@ class Study4Header extends StatelessWidget {
       builder: (ctx) {
         String selectedExam = 'TOEIC';
         String selectedYear = 'Sample';
-        final years = [
-          'Sample',
-          '2018',
-          '2019',
-          '2020',
-          '2021',
-          '2022',
-          '2023',
-          '2024',
-        ];
-        return StatefulBuilder(
-          builder: (context, setStateDialog) {
-            final tests = _availableTestsByYear[selectedYear] ?? [];
-            final maxDialogHeight =
-                MediaQuery.sizeOf(context).height * 0.72;
-            return AlertDialog(
-              title: const Row(
-                children: [
-                  Icon(Icons.cloud_download, color: AppColors.blue),
-                  SizedBox(width: 8),
-                  Text('Import bài kiểm tra'),
-                ],
-              ),
-              content: SizedBox(
-                width: 430,
-                height: maxDialogHeight.clamp(280.0, 430.0).toDouble(),
-                child: Column(
-                  children: [
-                    Row(
+        final catalogFuture = TestDownloader.loadCatalog();
+
+        return FutureBuilder<RemoteTestCatalog>(
+          future: catalogFuture,
+          builder: (context, snapshot) {
+            if (!snapshot.hasData) {
+              return const AlertDialog(
+                content: SizedBox(
+                  height: 120,
+                  child: Center(child: CircularProgressIndicator()),
+                ),
+              );
+            }
+
+            final catalog = snapshot.data!;
+            return StatefulBuilder(
+              builder: (context, setStateDialog) {
+                final exams = catalog.examNames;
+                if (!exams.contains(selectedExam)) {
+                  selectedExam = exams.isNotEmpty ? exams.first : 'TOEIC';
+                }
+
+                final years = catalog.yearsFor(selectedExam);
+                if (!years.contains(selectedYear)) {
+                  selectedYear = years.isNotEmpty ? years.first : 'Sample';
+                }
+
+                final tests = catalog.testsFor(selectedExam, selectedYear);
+                final maxDialogHeight =
+                    MediaQuery.sizeOf(context).height * 0.72;
+
+                return AlertDialog(
+                  title: const Row(
+                    children: [
+                      Icon(Icons.cloud_download, color: AppColors.blue),
+                      SizedBox(width: 8),
+                      Text('Import bài kiểm tra'),
+                    ],
+                  ),
+                  content: SizedBox(
+                    width: 430,
+                    height: maxDialogHeight.clamp(280.0, 430.0).toDouble(),
+                    child: Column(
                       children: [
-                        Expanded(
-                          child: DropdownButtonFormField<String>(
-                            value: selectedExam,
-                            decoration: const InputDecoration(
-                              labelText: 'Đề thi',
-                              isDense: true,
-                              border: OutlineInputBorder(),
-                            ),
-                            items: const [
-                              DropdownMenuItem(
-                                value: 'TOEIC',
-                                child: Text('TOEIC'),
+                        if (catalog.isFallback) ...[
+                          Container(
+                            width: double.infinity,
+                            margin: const EdgeInsets.only(bottom: 10),
+                            padding: const EdgeInsets.all(8),
+                            decoration: BoxDecoration(
+                              color: const Color(0xFFFFF7E6),
+                              borderRadius: BorderRadius.circular(6),
+                              border: Border.all(
+                                color: const Color(0xFFFFD599),
                               ),
-                            ],
-                            onChanged: (value) {
-                              if (value == null) {
-                                return;
-                              }
-                              setStateDialog(() {
-                                selectedExam = value;
-                              });
-                            },
-                          ),
-                        ),
-                        const SizedBox(width: 10),
-                        Expanded(
-                          child: DropdownButtonFormField<String>(
-                            value: selectedYear,
-                            decoration: const InputDecoration(
-                              labelText: 'Năm',
-                              isDense: true,
-                              border: OutlineInputBorder(),
                             ),
-                            items: [
-                              for (final year in years)
-                                DropdownMenuItem(
-                                  value: year,
-                                  child: Text(
-                                    year == 'Sample' ? 'Sample' : year,
-                                  ),
+                            child: const Text(
+                              'Không tải được catalog R2, đang dùng danh sách dự phòng.',
+                              style: TextStyle(
+                                color: Color(0xFF8A5A00),
+                                fontSize: 12,
+                              ),
+                            ),
+                          ),
+                        ],
+                        Row(
+                          children: [
+                            Expanded(
+                              child: DropdownButtonFormField<String>(
+                                value: selectedExam,
+                                decoration: const InputDecoration(
+                                  labelText: 'Đề thi',
+                                  isDense: true,
+                                  border: OutlineInputBorder(),
                                 ),
-                            ],
-                            onChanged: (value) {
-                              if (value == null) {
-                                return;
+                                items: [
+                                  for (final exam in exams)
+                                    DropdownMenuItem(
+                                      value: exam,
+                                      child: Text(exam),
+                                    ),
+                                ],
+                                onChanged: (value) {
+                                  if (value == null) {
+                                    return;
+                                  }
+                                  setStateDialog(() {
+                                    selectedExam = value;
+                                    final examYears =
+                                        catalog.yearsFor(selectedExam);
+                                    selectedYear = examYears.isNotEmpty
+                                        ? examYears.first
+                                        : 'Sample';
+                                  });
+                                },
+                              ),
+                            ),
+                            const SizedBox(width: 10),
+                            Expanded(
+                              child: DropdownButtonFormField<String>(
+                                value: selectedYear,
+                                decoration: const InputDecoration(
+                                  labelText: 'Năm',
+                                  isDense: true,
+                                  border: OutlineInputBorder(),
+                                ),
+                                items: [
+                                  for (final year in years)
+                                    DropdownMenuItem(
+                                      value: year,
+                                      child: Text(
+                                        year == 'Sample' ? 'Sample' : year,
+                                      ),
+                                    ),
+                                ],
+                                onChanged: (value) {
+                                  if (value == null) {
+                                    return;
+                                  }
+                                  setStateDialog(() {
+                                    selectedYear = value;
+                                  });
+                                },
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 14),
+                        Expanded(
+                          child: FutureBuilder<List<bool>>(
+                            future: Future.wait(
+                              tests.map((testName) async {
+                                final docDir =
+                                    await getApplicationDocumentsDirectory();
+                                final infoFile = File(
+                                  '${docDir.path}/$selectedExam/$selectedYear/$testName/test_info.json',
+                                );
+                                return await infoFile.exists();
+                              }),
+                            ),
+                            builder: (context, snapshot) {
+                              if (!snapshot.hasData) {
+                                return const Center(
+                                  child: CircularProgressIndicator(),
+                                );
                               }
-                              setStateDialog(() {
-                                selectedYear = value;
-                              });
+                              if (tests.isEmpty) {
+                                return const Center(
+                                  child: Text('Chưa có bài thi trong mục này.'),
+                                );
+                              }
+
+                              final isDownloadedList = snapshot.data!;
+                              return ListView.builder(
+                                itemCount: tests.length,
+                                itemBuilder: (context, index) {
+                                  final testName = tests[index];
+                                  final isDownloaded = isDownloadedList[index];
+                                  return Card(
+                                    margin: const EdgeInsets.symmetric(
+                                      vertical: 4,
+                                    ),
+                                    color: Colors.white,
+                                    child: ListTile(
+                                      leading: Icon(
+                                        isDownloaded
+                                            ? Icons.check_circle
+                                            : Icons.download_for_offline,
+                                        color: isDownloaded
+                                            ? Colors.green
+                                            : AppColors.blue,
+                                      ),
+                                      title: Text(
+                                        testName,
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                          fontWeight: isDownloaded
+                                              ? FontWeight.normal
+                                              : FontWeight.bold,
+                                          color: isDownloaded
+                                              ? Colors.grey
+                                              : Colors.black,
+                                        ),
+                                      ),
+                                      subtitle: Text(
+                                        isDownloaded
+                                            ? 'Đã tải'
+                                            : 'Nhấn để tải riêng đề này',
+                                      ),
+                                      onTap: isDownloaded
+                                          ? null
+                                          : () async {
+                                              final confirmed =
+                                                  await _confirmDownloadTest(
+                                                context,
+                                                testName,
+                                              );
+                                              if (!confirmed) {
+                                                return;
+                                              }
+                                              if (!context.mounted) {
+                                                return;
+                                              }
+                                              Navigator.of(ctx).pop();
+                                              final success =
+                                                  await showDialog<bool>(
+                                                context: context,
+                                                barrierDismissible: false,
+                                                builder: (context) =>
+                                                    DownloadProgressDialog(
+                                                  year: selectedYear,
+                                                  testNames: [testName],
+                                                ),
+                                              );
+                                              if (success == true &&
+                                                  onRefresh != null) {
+                                                onRefresh!();
+                                              }
+                                            },
+                                    ),
+                                  );
+                                },
+                              );
                             },
                           ),
                         ),
                       ],
                     ),
-                    const SizedBox(height: 14),
-                    Expanded(
-                      child: FutureBuilder<List<bool>>(
-                        future: Future.wait(
-                          tests.map((testName) async {
-                            final docDir =
-                                await getApplicationDocumentsDirectory();
-                            final infoFile = File(
-                              '${docDir.path}/$selectedExam/$selectedYear/$testName/test_info.json',
-                            );
-                            return await infoFile.exists();
-                          }),
-                        ),
-                        builder: (context, snapshot) {
-                          if (!snapshot.hasData) {
-                            return const Center(
-                              child: CircularProgressIndicator(),
-                            );
-                          }
-                          final isDownloadedList = snapshot.data!;
-                          return ListView.builder(
-                            itemCount: tests.length,
-                            itemBuilder: (context, index) {
-                              final testName = tests[index];
-                              final isDownloaded = isDownloadedList[index];
-                              return Card(
-                                margin: const EdgeInsets.symmetric(vertical: 4),
-                                color: Colors.white,
-                                child: ListTile(
-                                  leading: Icon(
-                                    isDownloaded
-                                        ? Icons.check_circle
-                                        : Icons.download_for_offline,
-                                    color: isDownloaded
-                                        ? Colors.green
-                                        : AppColors.blue,
-                                  ),
-                                  title: Text(
-                                    testName,
-                                    style: TextStyle(
-                                      fontSize: 13,
-                                      fontWeight: isDownloaded
-                                          ? FontWeight.normal
-                                          : FontWeight.bold,
-                                      color: isDownloaded
-                                          ? Colors.grey
-                                          : Colors.black,
-                                    ),
-                                  ),
-                                  subtitle: Text(
-                                    isDownloaded
-                                        ? 'Đã tải'
-                                        : 'Nhấn để tải riêng đề này',
-                                  ),
-                                  onTap: isDownloaded
-                                      ? null
-                                      : () async {
-                                          final confirmed =
-                                              await _confirmDownloadTest(
-                                            context,
-                                            testName,
-                                          );
-                                          if (!confirmed) {
-                                            return;
-                                          }
-                                          if (!context.mounted) {
-                                            return;
-                                          }
-                                          Navigator.of(ctx).pop();
-                                          final success =
-                                              await showDialog<bool>(
-                                            context: context,
-                                            barrierDismissible: false,
-                                            builder: (context) =>
-                                                DownloadProgressDialog(
-                                              year: selectedYear,
-                                              testNames: [testName],
-                                            ),
-                                          );
-                                          if (success == true &&
-                                              onRefresh != null) {
-                                            onRefresh!();
-                                          }
-                                        },
-                                ),
-                              );
-                            },
-                          );
-                        },
-                      ),
+                  ),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.of(ctx).pop(),
+                      child: const Text('Hủy'),
                     ),
                   ],
-                ),
-              ),
-              actions: [
-                TextButton(
-                  onPressed: () => Navigator.of(ctx).pop(),
-                  child: const Text('Hủy'),
-                ),
-              ],
+                );
+              },
             );
           },
         );
       },
     );
   }
-
-  void _showImportTestsDialog(BuildContext context, String year) {
-    final tests = _availableTestsByYear[year] ?? [];
-    showDialog(
-      context: context,
-      builder: (ctx) {
-        return FutureBuilder<List<bool>>(
-          future: Future.wait(
-            tests.map((testName) async {
-              final docDir = await getApplicationDocumentsDirectory();
-              final infoFile = File(
-                '${docDir.path}/TOEIC/$year/$testName/test_info.json',
-              );
-              return await infoFile.exists();
-            }),
-          ),
-          builder: (context, snapshot) {
-            if (!snapshot.hasData) {
-              return const AlertDialog(
-                content: SizedBox(
-                  height: 100,
-                  child: Center(child: CircularProgressIndicator()),
-                ),
-              );
-            }
-            final isDownloadedList = snapshot.data!;
-            return AlertDialog(
-              title: Row(
-                children: [
-                  const Icon(Icons.folder_open, color: AppColors.blue),
-                  const SizedBox(width: 8),
-                  Text('Bài thi năm $year'),
-                ],
-              ),
-              content: SizedBox(
-                width: 400,
-                height: 350,
-                child: Column(
-                  children: [
-                    Expanded(
-                      child: ListView.builder(
-                        itemCount: tests.length,
-                        itemBuilder: (context, index) {
-                          final testName = tests[index];
-                          final isDownloaded = isDownloadedList[index];
-                          return ListTile(
-                            leading: Icon(
-                              isDownloaded
-                                  ? Icons.check_circle
-                                  : Icons.download_for_offline,
-                              color: isDownloaded
-                                  ? Colors.green
-                                  : AppColors.blue,
-                            ),
-                            title: Text(
-                              testName,
-                              style: TextStyle(
-                                fontSize: 13,
-                                fontWeight: isDownloaded
-                                    ? FontWeight.normal
-                                    : FontWeight.bold,
-                                color: isDownloaded
-                                    ? Colors.grey
-                                    : Colors.black,
-                              ),
-                            ),
-                            onTap: isDownloaded
-                                ? null
-                                : () async {
-                                    final confirmed =
-                                        await _confirmDownloadTest(
-                                      context,
-                                      testName,
-                                    );
-                                    if (!confirmed) {
-                                      return;
-                                    }
-                                    if (!context.mounted) {
-                                      return;
-                                    }
-                                    Navigator.of(ctx).pop();
-                                    final success = await showDialog<bool>(
-                                      context: context,
-                                      barrierDismissible: false,
-                                      builder: (context) =>
-                                          DownloadProgressDialog(
-                                            year: year,
-                                            testNames: [testName],
-                                          ),
-                                    );
-                                    if (success == true) {
-                                      if (onRefresh != null) {
-                                        onRefresh!();
-                                      }
-                                    }
-                                  },
-                          );
-                        },
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              actions: [
-                TextButton(
-                  onPressed: () {
-                    Navigator.of(ctx).pop();
-                    _showImportYearsDialog(context);
-                  },
-                  child: const Text('Quay lại'),
-                ),
-                TextButton(
-                  onPressed: () => Navigator.of(ctx).pop(),
-                  child: const Text('Đóng'),
-                ),
-              ],
-            );
-          },
-        );
-      },
-    );
-  }
-
   Future<bool> _confirmDownloadTest(
     BuildContext context,
     String testName,
@@ -5641,6 +5662,8 @@ class _HighlightableTextState extends State<HighlightableText> {
     return SelectableText.rich(
       span,
       onSelectionChanged: _onSelectionChanged,
+      contextMenuBuilder: (context, editableTextState) =>
+          const SizedBox.shrink(),
       onTap: widget.onTap,
     );
   }
@@ -6228,6 +6251,17 @@ class PracticeAudioBar extends StatefulWidget {
 }
 
 class _PracticeAudioBarState extends State<PracticeAudioBar> {
+  static const List<double> _playbackRates = [
+    0.5,
+    0.75,
+    0.9,
+    1.0,
+    1.1,
+    1.25,
+    1.5,
+    2.0,
+  ];
+
   AudioPlayer? _audioPlayer;
   StreamSubscription<Duration>? _durationSubscription;
   StreamSubscription<Duration>? _positionSubscription;
@@ -6237,9 +6271,11 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
   Duration _duration = Duration.zero;
   Duration _position = Duration.zero;
   double _volume = 1.0;
+  double _playbackRate = 1.0;
   bool _isMuted = false;
   bool _canPlay = true;
   bool _isLoading = false;
+  bool _settingsMenuOpen = false;
 
   @override
   void initState() {
@@ -6289,6 +6325,7 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
         await player.setSource(DeviceFileSource(cleanPath));
       }
       await player.setVolume(_volume);
+      await player.setPlaybackRate(_playbackRate);
       return player;
     } catch (e) {
       debugPrint('Error loading audio: $e');
@@ -6420,10 +6457,154 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
     }
   }
 
+  Future<void> _setPlaybackRate(double value) async {
+    if (_playbackRate == value) {
+      return;
+    }
+
+    setState(() => _playbackRate = value);
+    try {
+      await _audioPlayer?.setPlaybackRate(value);
+    } catch (e) {
+      debugPrint('Error setting playback rate: $e');
+    }
+  }
+
+  Future<void> _reloadFile() async {
+    if (_isLoading) {
+      return;
+    }
+
+    final shouldResume = _isPlaying;
+    if (PracticeAudioBar.activePlayer == _audioPlayer) {
+      PracticeAudioBar.activePlayer = null;
+    }
+
+    if (mounted) {
+      setState(() {
+        _canPlay = true;
+        _isPlaying = false;
+        _duration = Duration.zero;
+        _position = Duration.zero;
+      });
+    }
+
+    await _disposePlayer();
+
+    if (!mounted) {
+      return;
+    }
+
+    final player = await _ensurePlayer();
+    if (player == null || !shouldResume) {
+      return;
+    }
+
+    try {
+      PracticeAudioBar.activePlayer = player;
+      await player.resume();
+    } catch (e) {
+      debugPrint('Error resuming reloaded audio: $e');
+    }
+  }
+
   String _formatDuration(Duration duration) {
     final minutes = duration.inMinutes.remainder(60).toString().padLeft(2, '0');
     final seconds = duration.inSeconds.remainder(60).toString().padLeft(2, '0');
     return '$minutes:$seconds';
+  }
+
+  String _formatPlaybackRate(double value) {
+    if (value == 1.0) {
+      return 'Normal';
+    }
+    final rate = value == value.roundToDouble()
+        ? value.toInt().toString()
+        : value.toString();
+    return '${rate}x';
+  }
+
+  Widget _buildSpeedRadio(double value) {
+    final selected = _playbackRate == value;
+    return Container(
+      width: 14,
+      height: 14,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        color: selected ? const Color(0xFF00A3E8) : const Color(0xFFE5E7EB),
+      ),
+      child: selected
+          ? Center(
+              child: Container(
+                width: 5,
+                height: 5,
+                decoration: const BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: Colors.white,
+                ),
+              ),
+            )
+          : null,
+    );
+  }
+
+  Widget _buildSettingsMenu() {
+    return MenuAnchor(
+      onOpen: () => setState(() => _settingsMenuOpen = true),
+      onClose: () => setState(() => _settingsMenuOpen = false),
+      menuChildren: [
+        SubmenuButton(
+          menuChildren: _playbackRates
+              .map(
+                (rate) => MenuItemButton(
+                  onPressed: () => _setPlaybackRate(rate),
+                  leadingIcon: _buildSpeedRadio(rate),
+                  child: Text(_formatPlaybackRate(rate)),
+                ),
+              )
+              .toList(),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Text('Speed'),
+              const SizedBox(width: 24),
+              Text(
+                _formatPlaybackRate(_playbackRate),
+                style: const TextStyle(color: AppColors.muted),
+              ),
+            ],
+          ),
+        ),
+        MenuItemButton(onPressed: _reloadFile, child: const Text('Reload File')),
+      ],
+      builder: (context, controller, child) {
+        return IconButton(
+          padding: EdgeInsets.zero,
+          constraints: const BoxConstraints(),
+          style: IconButton.styleFrom(
+            backgroundColor: _settingsMenuOpen
+                ? const Color(0xFF00A3E8)
+                : Colors.transparent,
+            foregroundColor: _settingsMenuOpen
+                ? Colors.white
+                : const Color(0xFF4B5D78),
+            disabledBackgroundColor: const Color(0xFFD5DADF),
+            minimumSize: const Size(30, 30),
+          ),
+          icon: const Icon(Icons.settings, size: 20),
+          tooltip: 'Audio settings',
+          onPressed: _isLoading
+              ? null
+              : () {
+                  if (controller.isOpen) {
+                    controller.close();
+                  } else {
+                    controller.open();
+                  }
+                },
+        );
+      },
+    );
   }
 
   @override
@@ -6520,7 +6701,7 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
             ),
           ),
           const SizedBox(width: 10),
-          const Icon(Icons.settings, color: Color(0xFF4B5D78), size: 21),
+          _buildSettingsMenu(),
         ],
       ),
     );
@@ -7499,6 +7680,20 @@ class TestHistoryManager {
 class TestDownloader {
   static const String r2Host =
       'https://pub-144d4e33ea2b46edbe687c89504ed8b8.r2.dev';
+
+  static Future<RemoteTestCatalog> loadCatalog() async {
+    try {
+      final jsonString = await _fetchString('$r2Host/catalog.json');
+      final decoded = jsonDecode(jsonString);
+      if (decoded is Map<String, dynamic>) {
+        return RemoteTestCatalog.fromJson(decoded);
+      }
+      return RemoteTestCatalog.fallback;
+    } catch (e) {
+      debugPrint('Error loading remote catalog: $e');
+      return RemoteTestCatalog.fallback;
+    }
+  }
 
   static Future<String> _fetchString(String url) async {
     final client = HttpClient();
