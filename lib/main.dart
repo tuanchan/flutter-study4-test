@@ -1163,6 +1163,28 @@ class Study4Header extends StatelessWidget {
   const Study4Header({super.key, this.onRefresh});
 
   static const Map<String, List<String>> _availableTestsByYear = {
+    'Sample': [
+      'Sample TOEIC Test 1',
+      'Sample TOEIC Test 2',
+      'Sample TOEIC Test 3',
+      'Sample TOEIC Test 4',
+      'Sample TOEIC Test 5',
+      'Sample TOEIC Test 6',
+      'Sample TOEIC Test 7',
+      'Sample TOEIC Test 8',
+      'Sample TOEIC Test 9',
+      'Sample TOEIC Test 10',
+      'Sample TOEIC Test 11',
+      'Sample TOEIC Test 12',
+      'Sample TOEIC Test 13',
+      'Sample TOEIC Test 14',
+      'Sample TOEIC Test 15',
+      'Sample TOEIC Test 16',
+      'Sample TOEIC Test 17',
+      'Sample TOEIC Test 18',
+      'Sample TOEIC Test 19',
+      'Sample TOEIC Test 20',
+    ],
     '2018': [
       'Practice Set TOEIC 2018 Test 1',
       'Practice Set TOEIC 2018 Test 2',
@@ -1256,24 +1278,32 @@ class Study4Header extends StatelessWidget {
       ),
       child: Row(
         children: [
-          Image.asset(
-            'assets/toeic/logo/study4_new_logo_sm.png',
-            width: 174,
-            fit: BoxFit.contain,
-            alignment: Alignment.centerLeft,
-            errorBuilder: (context, error, stackTrace) {
-              return const Text(
-                'STUDY4',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 34,
-                  fontWeight: FontWeight.w900,
-                  letterSpacing: 0,
-                ),
-              );
-            },
+          Expanded(
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Image.asset(
+                'assets/toeic/logo/study4_new_logo_sm.png',
+                width: 174,
+                fit: BoxFit.contain,
+                alignment: Alignment.centerLeft,
+                errorBuilder: (context, error, stackTrace) {
+                  return const FittedBox(
+                    fit: BoxFit.scaleDown,
+                    alignment: Alignment.centerLeft,
+                    child: Text(
+                      'STUDY4',
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 34,
+                        fontWeight: FontWeight.w900,
+                        letterSpacing: 0,
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
           ),
-          const Spacer(),
           PopupMenuButton<HeaderMenuAction>(
             color: Colors.white,
             surfaceTintColor: Colors.white,
@@ -1377,87 +1407,236 @@ class Study4Header extends StatelessWidget {
     showDialog(
       context: context,
       builder: (ctx) {
-        final history = TestHistoryManager.history;
-        return AlertDialog(
-          title: const Row(
-            children: [
-              Icon(Icons.history, color: AppColors.blue),
-              SizedBox(width: 8),
-              Text('Lịch sử kiểm tra'),
-            ],
-          ),
-          content: history.isEmpty
-              ? const SizedBox(
-                  width: 320,
-                  height: 100,
-                  child: Center(child: Text('Chưa có lịch sử làm bài.')),
-                )
-              : SizedBox(
-                  width: 400,
-                  height: 350,
-                  child: ListView.builder(
-                    itemCount: history.length,
-                    itemBuilder: (context, index) {
-                      final entry = history[index];
-                      final dateStr =
-                          "${entry.submittedAt.day.toString().padLeft(2, '0')}/${entry.submittedAt.month.toString().padLeft(2, '0')}/${entry.submittedAt.year} ${entry.submittedAt.hour.toString().padLeft(2, '0')}:${entry.submittedAt.minute.toString().padLeft(2, '0')}";
-                      return Card(
-                        margin: const EdgeInsets.symmetric(vertical: 6),
-                        color: Colors.white,
-                        child: Padding(
-                          padding: const EdgeInsets.all(12),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                entry.testName,
-                                style: const TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 14,
-                                ),
-                              ),
-                              const SizedBox(height: 4),
-                              Text(
-                                'Thời gian: $dateStr',
-                                style: const TextStyle(
-                                  fontSize: 12,
-                                  color: Colors.grey,
-                                ),
-                              ),
-                              const SizedBox(height: 4),
-                              Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text(
-                                    'Kết quả: ${entry.correctCount}/${entry.totalQuestions} câu đúng',
-                                    style: const TextStyle(
-                                      color: AppColors.blue,
-                                      fontWeight: FontWeight.w600,
-                                      fontSize: 13,
-                                    ),
+        return StatefulBuilder(
+          builder: (context, setStateDialog) {
+            final history = TestHistoryManager.history;
+            return AlertDialog(
+              title: const Row(
+                children: [
+                  Icon(Icons.history, color: AppColors.blue),
+                  SizedBox(width: 8),
+                  Text('Lịch sử kiểm tra'),
+                ],
+              ),
+              content: history.isEmpty
+                  ? const SizedBox(
+                      width: 320,
+                      height: 100,
+                      child: Center(child: Text('Chưa có lịch sử làm bài.')),
+                    )
+                  : ConstrainedBox(
+                      constraints: const BoxConstraints(maxWidth: 560),
+                      child: SizedBox(
+                        width: double.maxFinite,
+                        height: 360,
+                        child: LayoutBuilder(
+                          builder: (context, constraints) {
+                            final compact = constraints.maxWidth < 470;
+                            return Column(
+                              children: [
+                                _historyTableHeader(compact: compact),
+                                const Divider(height: 1),
+                                Expanded(
+                                  child: ListView.builder(
+                                    itemCount: history.length,
+                                    itemBuilder: (context, index) {
+                                      final entry = history[index];
+                                      return _historyTableRow(
+                                        context,
+                                        entry,
+                                        compact: compact,
+                                        onDeleted: () => setStateDialog(() {}),
+                                      );
+                                    },
                                   ),
-                                  Text(
-                                    'Thời gian làm: ${entry.timeSpent}',
-                                    style: const TextStyle(fontSize: 13),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
+                                ),
+                              ],
+                            );
+                          },
                         ),
-                      );
-                    },
-                  ),
+                      ),
+                    ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.of(ctx).pop(),
+                  child: const Text('Đóng'),
                 ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.of(ctx).pop(),
-              child: const Text('Đóng'),
-            ),
-          ],
+              ],
+            );
+          },
         );
       },
+    );
+  }
+
+  Widget _historyTableHeader({required bool compact}) {
+    const style = TextStyle(fontWeight: FontWeight.w800, fontSize: 14);
+    return Container(
+      color: Colors.white,
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Row(
+        children: [
+          const Expanded(flex: 3, child: Text('Ngày làm', style: style)),
+          const Expanded(flex: 2, child: Text('Kết quả', style: style)),
+          if (!compact)
+            const Expanded(
+              flex: 3,
+              child: Text('Thời gian làm bài', style: style),
+            ),
+          const Expanded(flex: 2, child: Text('', style: style)),
+          SizedBox(width: compact ? 42 : 60),
+        ],
+      ),
+    );
+  }
+
+  Widget _historyTableRow(
+    BuildContext context,
+    TestHistoryEntry entry, {
+    required bool compact,
+    required VoidCallback onDeleted,
+  }) {
+    final dateStr =
+        '${entry.submittedAt.day.toString().padLeft(2, '0')}/${entry.submittedAt.month.toString().padLeft(2, '0')}/${entry.submittedAt.year}';
+    final partBadges = entry.partLabels;
+    return Container(
+      decoration: const BoxDecoration(
+        border: Border(bottom: BorderSide(color: AppColors.border)),
+      ),
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Expanded(
+            flex: 3,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(dateStr),
+                const SizedBox(height: 6),
+                Wrap(
+                  spacing: 4,
+                  runSpacing: 4,
+                  children: [
+                    _historyBadge('Luyện tập'),
+                    for (final label in partBadges.take(3))
+                      _historyBadge(label),
+                    if (partBadges.length > 3)
+                      _historyBadge('+${partBadges.length - 3}'),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          Expanded(
+            flex: 2,
+            child: Text(
+              '${entry.correctCount}/${entry.totalQuestions}',
+              style: const TextStyle(fontWeight: FontWeight.w700),
+            ),
+          ),
+          if (!compact)
+            Expanded(flex: 3, child: Text(entry.normalizedTimeSpent)),
+          Expanded(
+            flex: 2,
+            child: TextButton(
+              style: TextButton.styleFrom(
+                alignment: Alignment.centerLeft,
+                padding: EdgeInsets.zero,
+                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              ),
+              onPressed: () => _showHistoryDetailDialog(context, entry),
+              child: Text(compact ? 'Chi tiết' : 'Xem chi tiết'),
+            ),
+          ),
+          SizedBox(
+            width: compact ? 42 : 60,
+            child: IconButton(
+              padding: EdgeInsets.zero,
+              visualDensity: VisualDensity.compact,
+              tooltip: 'Xóa',
+              color: Colors.redAccent,
+              icon: const Icon(Icons.delete_outline, size: 20),
+              onPressed: () async {
+                final deleted = await _confirmDeleteHistory(context, entry);
+                if (deleted) {
+                  onDeleted();
+                }
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _historyBadge(String text) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 3),
+      decoration: BoxDecoration(
+        color: const Color(0xFFFFAD3B),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      child: Text(
+        text,
+        style: const TextStyle(
+          color: Colors.white,
+          fontSize: 10,
+          fontWeight: FontWeight.w700,
+        ),
+      ),
+    );
+  }
+
+  Future<bool> _confirmDeleteHistory(
+    BuildContext context,
+    TestHistoryEntry entry,
+  ) async {
+    final result = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('Xóa lịch sử?'),
+        content: Text('Bạn muốn xóa kết quả "${entry.testName}"?'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(ctx).pop(false),
+            child: const Text('Hủy'),
+          ),
+          FilledButton(
+            style: FilledButton.styleFrom(
+              backgroundColor: Colors.redAccent,
+              foregroundColor: Colors.white,
+            ),
+            onPressed: () async {
+              await TestHistoryManager.removeEntry(entry);
+              if (ctx.mounted) {
+                Navigator.of(ctx).pop(true);
+              }
+            },
+            child: const Text('Xóa'),
+          ),
+        ],
+      ),
+    );
+    return result ?? false;
+  }
+
+  void _showHistoryDetailDialog(
+    BuildContext context,
+    TestHistoryEntry entry,
+  ) {
+    if (entry.questionResults.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Bản ghi cũ chưa có dữ liệu để mở lại kết quả.'),
+        ),
+      );
+      return;
+    }
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => HistoryResultPage(entry: entry),
+      ),
     );
   }
 
@@ -1482,7 +1661,7 @@ class Study4Header extends StatelessWidget {
                 children: [
                   Icon(Icons.book, color: AppColors.blue),
                   SizedBox(width: 8),
-                  Text('Danh sách file từ vựng'),
+                  Text('file từ vựng'),
                 ],
               ),
               content: files.isEmpty
@@ -1730,16 +1909,13 @@ class Study4Header extends StatelessWidget {
                             ),
                             onTap: () async {
                               Navigator.of(ctx).pop();
-                              final dir =
-                                  await getApplicationDocumentsDirectory();
-                              final filePath = '${dir.path}/$file';
-                              if (await File(filePath).exists()) {
-                                await Share.shareXFiles(
-                                  [XFile(filePath)],
-                                  text:
-                                      'Danh sách từ vựng $file từ ứng dụng STUDY4 Clone',
-                                );
+                              await Future<void>.delayed(
+                                const Duration(milliseconds: 250),
+                              );
+                              if (!context.mounted) {
+                                return;
                               }
+                              await _shareVocabularyFile(context, file);
                             },
                           );
                         },
@@ -1758,54 +1934,303 @@ class Study4Header extends StatelessWidget {
     );
   }
 
+  Future<void> _shareVocabularyFile(BuildContext context, String filename) async {
+    File? sourceFile;
+    try {
+      final dir = await getApplicationDocumentsDirectory();
+      final filePath = '${dir.path}/$filename';
+      sourceFile = File(filePath);
+      if (!await sourceFile.exists()) {
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Không tìm thấy file từ vựng để export.'),
+            ),
+          );
+        }
+        return;
+      }
+      final exportFile = await _copyVocabularyFileForExport(
+        sourceFile,
+        filename,
+      );
+
+      final result = await SharePlus.instance.share(
+        ShareParams(
+          files: [XFile(exportFile.path, mimeType: 'text/plain')],
+          fileNameOverrides: [filename],
+          subject: 'Danh sách từ vựng $filename',
+          title: 'Export từ vựng',
+        ),
+      );
+
+      if (result.status == ShareResultStatus.unavailable) {
+        await _copyVocabularyFileToDownloads(context, sourceFile, filename);
+      }
+    } catch (e) {
+      if (sourceFile != null) {
+        await _copyVocabularyFileToDownloads(
+          context,
+          sourceFile,
+          filename,
+          reason: e.toString(),
+        );
+        return;
+      }
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Export thất bại: $e')),
+        );
+      }
+    }
+  }
+
+  Future<void> _copyVocabularyFileToDownloads(
+    BuildContext context,
+    File sourceFile,
+    String filename, {
+    String? reason,
+  }) async {
+    try {
+      final targetFile = await _copyVocabularyFileForExport(
+        sourceFile,
+        filename,
+      );
+      await Clipboard.setData(ClipboardData(text: targetFile.path));
+      if (Platform.isWindows) {
+        try {
+          await Process.start('explorer.exe', ['/select,', targetFile.path]);
+        } catch (e) {
+          debugPrint('Error opening exported vocab file: $e');
+        }
+      }
+
+      if (context.mounted) {
+        final message = reason == null
+            ? 'Thiết bị không hỗ trợ share trực tiếp. Đã lưu file và copy đường dẫn: ${targetFile.path}'
+            : 'Share không khả dụng. Đã lưu file và copy đường dẫn: ${targetFile.path}';
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(message), duration: const Duration(seconds: 6)),
+        );
+      }
+    } catch (e) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Export thất bại: ${reason ?? e}')),
+        );
+      }
+    }
+  }
+
+  Future<File> _copyVocabularyFileForExport(
+    File sourceFile,
+    String filename,
+  ) async {
+    if (!await sourceFile.exists()) {
+      throw const FileSystemException('Source file does not exist');
+    }
+    final downloadsDir = await getDownloadsDirectory() ??
+        await getApplicationDocumentsDirectory();
+    final targetFile = File('${downloadsDir.path}/$filename');
+    await targetFile.parent.create(recursive: true);
+    if (sourceFile.path != targetFile.path) {
+      await sourceFile.copy(targetFile.path);
+    }
+    return targetFile;
+  }
+
   void _showImportYearsDialog(BuildContext context) {
     showDialog(
       context: context,
       builder: (ctx) {
-        final years = ['2018', '2019', '2020', '2021', '2022', '2023', '2024'];
-        return AlertDialog(
-          title: const Row(
-            children: [
-              Icon(Icons.cloud_download, color: AppColors.blue),
-              SizedBox(width: 8),
-              Text('Chọn năm thi để import'),
-            ],
-          ),
-          content: SizedBox(
-            width: 320,
-            height: 350,
-            child: ListView.builder(
-              itemCount: years.length,
-              itemBuilder: (context, index) {
-                final year = years[index];
-                return Card(
-                  margin: const EdgeInsets.symmetric(vertical: 4),
-                  color: Colors.white,
-                  child: ListTile(
-                    leading: const Icon(
-                      Icons.calendar_today,
-                      color: AppColors.blue,
+        String selectedExam = 'TOEIC';
+        String selectedYear = 'Sample';
+        final years = [
+          'Sample',
+          '2018',
+          '2019',
+          '2020',
+          '2021',
+          '2022',
+          '2023',
+          '2024',
+        ];
+        return StatefulBuilder(
+          builder: (context, setStateDialog) {
+            final tests = _availableTestsByYear[selectedYear] ?? [];
+            final maxDialogHeight =
+                MediaQuery.sizeOf(context).height * 0.72;
+            return AlertDialog(
+              title: const Row(
+                children: [
+                  Icon(Icons.cloud_download, color: AppColors.blue),
+                  SizedBox(width: 8),
+                  Text('Import bài kiểm tra'),
+                ],
+              ),
+              content: SizedBox(
+                width: 430,
+                height: maxDialogHeight.clamp(280.0, 430.0).toDouble(),
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Expanded(
+                          child: DropdownButtonFormField<String>(
+                            value: selectedExam,
+                            decoration: const InputDecoration(
+                              labelText: 'Đề thi',
+                              isDense: true,
+                              border: OutlineInputBorder(),
+                            ),
+                            items: const [
+                              DropdownMenuItem(
+                                value: 'TOEIC',
+                                child: Text('TOEIC'),
+                              ),
+                            ],
+                            onChanged: (value) {
+                              if (value == null) {
+                                return;
+                              }
+                              setStateDialog(() {
+                                selectedExam = value;
+                              });
+                            },
+                          ),
+                        ),
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: DropdownButtonFormField<String>(
+                            value: selectedYear,
+                            decoration: const InputDecoration(
+                              labelText: 'Năm',
+                              isDense: true,
+                              border: OutlineInputBorder(),
+                            ),
+                            items: [
+                              for (final year in years)
+                                DropdownMenuItem(
+                                  value: year,
+                                  child: Text(
+                                    year == 'Sample' ? 'Sample' : year,
+                                  ),
+                                ),
+                            ],
+                            onChanged: (value) {
+                              if (value == null) {
+                                return;
+                              }
+                              setStateDialog(() {
+                                selectedYear = value;
+                              });
+                            },
+                          ),
+                        ),
+                      ],
                     ),
-                    title: Text(
-                      'TOEIC $year',
-                      style: const TextStyle(fontWeight: FontWeight.bold),
+                    const SizedBox(height: 14),
+                    Expanded(
+                      child: FutureBuilder<List<bool>>(
+                        future: Future.wait(
+                          tests.map((testName) async {
+                            final docDir =
+                                await getApplicationDocumentsDirectory();
+                            final infoFile = File(
+                              '${docDir.path}/$selectedExam/$selectedYear/$testName/test_info.json',
+                            );
+                            return await infoFile.exists();
+                          }),
+                        ),
+                        builder: (context, snapshot) {
+                          if (!snapshot.hasData) {
+                            return const Center(
+                              child: CircularProgressIndicator(),
+                            );
+                          }
+                          final isDownloadedList = snapshot.data!;
+                          return ListView.builder(
+                            itemCount: tests.length,
+                            itemBuilder: (context, index) {
+                              final testName = tests[index];
+                              final isDownloaded = isDownloadedList[index];
+                              return Card(
+                                margin: const EdgeInsets.symmetric(vertical: 4),
+                                color: Colors.white,
+                                child: ListTile(
+                                  leading: Icon(
+                                    isDownloaded
+                                        ? Icons.check_circle
+                                        : Icons.download_for_offline,
+                                    color: isDownloaded
+                                        ? Colors.green
+                                        : AppColors.blue,
+                                  ),
+                                  title: Text(
+                                    testName,
+                                    style: TextStyle(
+                                      fontSize: 13,
+                                      fontWeight: isDownloaded
+                                          ? FontWeight.normal
+                                          : FontWeight.bold,
+                                      color: isDownloaded
+                                          ? Colors.grey
+                                          : Colors.black,
+                                    ),
+                                  ),
+                                  subtitle: Text(
+                                    isDownloaded
+                                        ? 'Đã tải'
+                                        : 'Nhấn để tải riêng đề này',
+                                  ),
+                                  onTap: isDownloaded
+                                      ? null
+                                      : () async {
+                                          final confirmed =
+                                              await _confirmDownloadTest(
+                                            context,
+                                            testName,
+                                          );
+                                          if (!confirmed) {
+                                            return;
+                                          }
+                                          if (!context.mounted) {
+                                            return;
+                                          }
+                                          Navigator.of(ctx).pop();
+                                          final success =
+                                              await showDialog<bool>(
+                                            context: context,
+                                            barrierDismissible: false,
+                                            builder: (context) =>
+                                                DownloadProgressDialog(
+                                              year: selectedYear,
+                                              testNames: [testName],
+                                            ),
+                                          );
+                                          if (success == true &&
+                                              onRefresh != null) {
+                                            onRefresh!();
+                                          }
+                                        },
+                                ),
+                              );
+                            },
+                          );
+                        },
+                      ),
                     ),
-                    trailing: const Icon(Icons.arrow_forward_ios, size: 14),
-                    onTap: () {
-                      Navigator.of(ctx).pop();
-                      _showImportTestsDialog(context, year);
-                    },
-                  ),
-                );
-              },
-            ),
-          ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.of(ctx).pop(),
-              child: const Text('Hủy'),
-            ),
-          ],
+                  ],
+                ),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.of(ctx).pop(),
+                  child: const Text('Hủy'),
+                ),
+              ],
+            );
+          },
         );
       },
     );
@@ -1879,6 +2304,17 @@ class Study4Header extends StatelessWidget {
                             onTap: isDownloaded
                                 ? null
                                 : () async {
+                                    final confirmed =
+                                        await _confirmDownloadTest(
+                                      context,
+                                      testName,
+                                    );
+                                    if (!confirmed) {
+                                      return;
+                                    }
+                                    if (!context.mounted) {
+                                      return;
+                                    }
                                     Navigator.of(ctx).pop();
                                     final success = await showDialog<bool>(
                                       context: context,
@@ -1898,49 +2334,6 @@ class Study4Header extends StatelessWidget {
                           );
                         },
                       ),
-                    ),
-                    const Divider(),
-                    ElevatedButton.icon(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: AppColors.blue,
-                        foregroundColor: Colors.white,
-                        minimumSize: const Size(double.infinity, 44),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(8),
-                        ),
-                      ),
-                      icon: const Icon(Icons.cloud_download),
-                      label: const Text('Tải tất cả các đề chưa tải'),
-                      onPressed: () async {
-                        final toDownload = <String>[];
-                        for (int i = 0; i < tests.length; i++) {
-                          if (!isDownloadedList[i]) {
-                            toDownload.add(tests[i]);
-                          }
-                        }
-                        if (toDownload.isEmpty) {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text('Tất cả các đề đã được tải về.'),
-                            ),
-                          );
-                          return;
-                        }
-                        Navigator.of(ctx).pop();
-                        final success = await showDialog<bool>(
-                          context: context,
-                          barrierDismissible: false,
-                          builder: (context) => DownloadProgressDialog(
-                            year: year,
-                            testNames: toDownload,
-                          ),
-                        );
-                        if (success == true) {
-                          if (onRefresh != null) {
-                            onRefresh!();
-                          }
-                        }
-                      },
                     ),
                   ],
                 ),
@@ -1963,6 +2356,36 @@ class Study4Header extends StatelessWidget {
         );
       },
     );
+  }
+
+  Future<bool> _confirmDownloadTest(
+    BuildContext context,
+    String testName,
+  ) async {
+    final result = await showDialog<bool>(
+      context: context,
+      builder: (ctx) {
+        return AlertDialog(
+          title: const Text('Xác nhận tải đề'),
+          content: Text('Bạn muốn tải "$testName" về máy?'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(ctx).pop(false),
+              child: const Text('Hủy'),
+            ),
+            FilledButton(
+              style: FilledButton.styleFrom(
+                backgroundColor: AppColors.blue,
+                foregroundColor: Colors.white,
+              ),
+              onPressed: () => Navigator.of(ctx).pop(true),
+              child: const Text('Tải'),
+            ),
+          ],
+        );
+      },
+    );
+    return result ?? false;
   }
 }
 
@@ -2098,11 +2521,8 @@ class _PracticeInfoState extends State<PracticeInfo> {
           children: [
             const Icon(Icons.access_time, size: 18, color: Colors.black),
             Text(
-              'Thời gian làm bài: 120 phút | ${data.parts.length} phần thi | ${data.totalQuestions} câu hỏi |',
-            ),
-            const Text('4264 bình luận'),
-            const Icon(Icons.group, size: 18, color: Colors.black),
-            const Text('3639759 người đã luyện tập đề thi này'),
+              'Thời gian làm bài: 120 phút | ${data.parts.length} phần thi | ${data.totalQuestions} câu hỏi',
+            )
           ],
         ),
         const SizedBox(height: 12),
@@ -3047,6 +3467,21 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
           .where(_isCorrect)
           .length;
       final timeSpentText = _formatTimer(_completionDuration);
+      final questionResults = [
+        for (final part in _visibleParts)
+          for (final question in part.questions)
+            TestHistoryQuestionResult(
+              partLabel: part.meta.label,
+              number: question.number,
+              qid: question.qid,
+              questionText: question.text,
+              contextText: question.contextText,
+              options: Map<String, String>.from(question.options),
+              correctAnswer: question.answer,
+              selectedAnswer: _answers[question.qid],
+              transcript: question.transcript,
+            ),
+      ];
 
       TestHistoryManager.addEntry(
         TestHistoryEntry(
@@ -3055,6 +3490,7 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
           correctCount: correct,
           totalQuestions: total,
           timeSpent: timeSpentText,
+          questionResults: questionResults,
         ),
       );
     } catch (e) {
@@ -3173,7 +3609,7 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
             Expanded(
               child: Center(
                 child: ConstrainedBox(
-                  constraints: const BoxConstraints(maxWidth: 492),
+                  constraints: const BoxConstraints(maxWidth: 680),
                   child: ListView(
                     key: _pageViewportKey,
                     controller: _pageScrollController,
@@ -3339,13 +3775,16 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
                             onPressed: wrong > 0 ? _retryWrongQuestions : null,
                             child: const Text('Làm lại các câu sai'),
                           ),
-                          const Text(
-                            'Chú ý: Khi làm lại các câu sai, điểm trung bình của bạn sẽ KHÔNG BỊ ẢNH HƯỞNG.',
-                            style: TextStyle(
-                              color: Color(0xFFFF3143),
-                              fontSize: 13,
-                              fontStyle: FontStyle.italic,
-                              fontWeight: FontWeight.w700,
+                          ConstrainedBox(
+                            constraints: const BoxConstraints(maxWidth: 620),
+                            child: const Text(
+                              'Chú ý: Khi làm lại các câu sai, điểm trung bình của bạn sẽ KHÔNG BỊ ẢNH HƯỞNG.',
+                              style: TextStyle(
+                                color: Color(0xFFFF3143),
+                                fontSize: 13,
+                                fontStyle: FontStyle.italic,
+                                fontWeight: FontWeight.w700,
+                              ),
                             ),
                           ),
                         ],
@@ -3623,6 +4062,301 @@ class HighlightToggleRow extends StatelessWidget {
   }
 }
 
+class HistoryResultPage extends StatefulWidget {
+  final TestHistoryEntry entry;
+
+  const HistoryResultPage({super.key, required this.entry});
+
+  @override
+  State<HistoryResultPage> createState() => _HistoryResultPageState();
+}
+
+class _HistoryResultPageState extends State<HistoryResultPage> {
+  late final TestData _data = _buildTestData(widget.entry);
+  late final Map<String, String> _answers = _buildAnswers(widget.entry);
+  int _selectedPartIndex = 0;
+  bool _showResultAnswers = true;
+
+  static TestData _buildTestData(TestHistoryEntry entry) {
+    final grouped = <String, List<TestHistoryQuestionResult>>{};
+    for (final item in entry.questionResults) {
+      grouped.putIfAbsent(item.partLabel, () => []).add(item);
+    }
+
+    final parts = <PartData>[];
+    for (final group in grouped.entries) {
+      final partNumber = _partNumberFromLabel(group.key);
+      final questions = [
+        for (final item in group.value)
+          ToeicQuestion(
+            qid: _historyQuestionKey(item),
+            number: item.number,
+            text: item.questionText,
+            options: item.options,
+            answer: item.correctAnswer,
+            transcript: item.transcript,
+            audioFiles: const [],
+            imageFiles: const [],
+            contextText: item.contextText,
+          ),
+      ];
+      parts.add(
+        PartData(
+          PartMeta(
+            partNumber,
+            'history_part_$partNumber',
+            group.key,
+            questions.length,
+          ),
+          questions,
+        ),
+      );
+    }
+
+    parts.sort((a, b) => a.meta.number.compareTo(b.meta.number));
+    return TestData(root: '', name: entry.testName, parts: parts);
+  }
+
+  static Map<String, String> _buildAnswers(TestHistoryEntry entry) {
+    return {
+      for (final item in entry.questionResults)
+        if (item.selectedAnswer != null)
+          _historyQuestionKey(item): item.selectedAnswer!,
+    };
+  }
+
+  static String _historyQuestionKey(TestHistoryQuestionResult item) {
+    final qid = item.qid.trim();
+    if (qid.isNotEmpty) {
+      return qid;
+    }
+    return 'history_${item.partLabel}_${item.number}';
+  }
+
+  static int _partNumberFromLabel(String label) {
+    final match = RegExp(r'(\d+)').firstMatch(label);
+    return int.tryParse(match?.group(1) ?? '') ?? 0;
+  }
+
+  void _showAnswerDetail(PartData part, ToeicQuestion question) {
+    showDialog(
+      context: context,
+      builder: (context) => AnswerDetailDialog(
+        data: _data,
+        part: part,
+        question: question,
+        selectedAnswer: _answers[question.qid],
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final parts = _data.parts;
+    if (parts.isEmpty) {
+      return const Scaffold(
+        body: SafeArea(
+          child: Column(
+            children: [
+              Study4Header(),
+              Expanded(
+                child: Center(child: Text('Không có dữ liệu kết quả.')),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
+    if (_selectedPartIndex >= parts.length) {
+      _selectedPartIndex = parts.length - 1;
+    }
+
+    final total = widget.entry.totalQuestions;
+    final correct = widget.entry.correctCount;
+    final skipped = widget.entry.questionResults
+        .where((item) => item.selectedAnswer == null)
+        .length;
+    final wrong = total - correct - skipped;
+    final accuracy = total == 0 ? 0.0 : correct * 100 / total;
+
+    return Scaffold(
+      body: SafeArea(
+        child: Column(
+          children: [
+            const Study4Header(),
+            Expanded(
+              child: Center(
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(maxWidth: 680),
+                  child: ListView(
+                    padding: const EdgeInsets.fromLTRB(12, 14, 12, 28),
+                    children: [
+                      Text(
+                        'Kết quả luyện tập: ${widget.entry.testName}',
+                        style: const TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w800,
+                          color: AppColors.text,
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      Wrap(
+                        spacing: 8,
+                        runSpacing: 8,
+                        children: [
+                          for (final part in parts)
+                            Container(
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 9,
+                                vertical: 5,
+                              ),
+                              decoration: BoxDecoration(
+                                color: const Color(0xFFFFAD3B),
+                                borderRadius: BorderRadius.circular(5),
+                              ),
+                              child: Text(
+                                part.meta.label,
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            ),
+                        ],
+                      ),
+                      const SizedBox(height: 14),
+                      Wrap(
+                        spacing: 6,
+                        runSpacing: 8,
+                        children: [
+                          FilledButton(
+                            style: FilledButton.styleFrom(
+                              backgroundColor: AppColors.blue,
+                              foregroundColor: Colors.white,
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 10,
+                                vertical: 10,
+                              ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(3),
+                              ),
+                            ),
+                            onPressed: () =>
+                                setState(() => _showResultAnswers = true),
+                            child: const Text(
+                              'Xem đáp án',
+                              style: TextStyle(fontWeight: FontWeight.w700),
+                            ),
+                          ),
+                          OutlinedButton(
+                            style: OutlinedButton.styleFrom(
+                              foregroundColor: AppColors.text,
+                              side: const BorderSide(color: AppColors.blue),
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 10,
+                                vertical: 10,
+                              ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(3),
+                              ),
+                            ),
+                            onPressed: () => Navigator.of(context).pop(),
+                            child: const Text('Quay lại lịch sử'),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 16),
+                      _ResultSummaryPanel(
+                        correct: correct,
+                        wrong: wrong,
+                        skipped: skipped,
+                        total: total,
+                        accuracy: accuracy,
+                        durationText: widget.entry.timeSpent,
+                      ),
+                      const SizedBox(height: 22),
+                      _ResultCountCards(
+                        correct: correct,
+                        wrong: wrong,
+                        skipped: skipped,
+                      ),
+                      const SizedBox(height: 28),
+                      const Text(
+                        'Phân tích chi tiết',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      PracticePartTabs(
+                        parts: parts,
+                        selectedIndex: _selectedPartIndex,
+                        onSelected: (index) =>
+                            setState(() => _selectedPartIndex = index),
+                      ),
+                      const SizedBox(height: 14),
+                      _ResultAnalysisTable(
+                        parts: [parts[_selectedPartIndex]],
+                        answers: _answers,
+                      ),
+                      const SizedBox(height: 18),
+                      Wrap(
+                        spacing: 6,
+                        runSpacing: 8,
+                        crossAxisAlignment: WrapCrossAlignment.center,
+                        children: [
+                          const Text(
+                            'Đáp án',
+                            style: TextStyle(
+                              fontSize: 15,
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                          OutlinedButton(
+                            style: OutlinedButton.styleFrom(
+                              foregroundColor: AppColors.blue,
+                              side: const BorderSide(color: AppColors.blue),
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 8,
+                                vertical: 8,
+                              ),
+                              minimumSize: const Size(0, 34),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(3),
+                              ),
+                            ),
+                            onPressed: () => setState(
+                              () => _showResultAnswers = !_showResultAnswers,
+                            ),
+                            child: Text(
+                              _showResultAnswers
+                                  ? 'Ẩn chi tiết đáp án'
+                                  : 'Xem chi tiết đáp án',
+                            ),
+                          ),
+                        ],
+                      ),
+                      if (_showResultAnswers) ...[
+                        const SizedBox(height: 22),
+                        _ResultAnswerList(
+                          parts: parts,
+                          answers: _answers,
+                          onDetail: _showAnswerDetail,
+                        ),
+                      ],
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
 class _ResultSummaryPanel extends StatelessWidget {
   final int correct;
   final int wrong;
@@ -3709,42 +4443,54 @@ class _ResultCountCards extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Expanded(
-          child: _card(
-            Icons.check_circle,
-            const Color(0xFF42B875),
-            'Trả lời đúng',
-            correct,
-          ),
-        ),
-        const SizedBox(width: 14),
-        Expanded(
-          child: _card(
-            Icons.cancel,
-            const Color(0xFFE94B55),
-            'Trả lời sai',
-            wrong,
-          ),
-        ),
-        const SizedBox(width: 14),
-        Expanded(
-          child: _card(
-            Icons.remove_circle,
-            const Color(0xFF7C8FA6),
-            'Bỏ qua',
-            skipped,
-          ),
-        ),
-      ],
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final availableWidth = constraints.maxWidth;
+        final spacing = availableWidth < 360 ? 8.0 : 14.0;
+        final cardWidth = availableWidth >= 330
+            ? (availableWidth - spacing * 2) / 3
+            : availableWidth;
+        return Wrap(
+          spacing: spacing,
+          runSpacing: spacing,
+          children: [
+            SizedBox(
+              width: cardWidth,
+              child: _card(
+                Icons.check_circle,
+                const Color(0xFF42B875),
+                'Trả lời đúng',
+                correct,
+              ),
+            ),
+            SizedBox(
+              width: cardWidth,
+              child: _card(
+                Icons.cancel,
+                const Color(0xFFE94B55),
+                'Trả lời sai',
+                wrong,
+              ),
+            ),
+            SizedBox(
+              width: cardWidth,
+              child: _card(
+                Icons.remove_circle,
+                const Color(0xFF7C8FA6),
+                'Bỏ qua',
+                skipped,
+              ),
+            ),
+          ],
+        );
+      },
     );
   }
 
   Widget _card(IconData icon, Color color, String label, int count) {
     return Container(
-      height: 152,
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 18),
+      constraints: const BoxConstraints(minHeight: 156),
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
       decoration: BoxDecoration(
         color: Colors.white,
         border: Border.all(color: AppColors.border),
@@ -3810,87 +4556,121 @@ class _ResultAnalysisTable extends StatelessWidget {
         ? 0.0
         : totalCorrect * 100 / totalQuestions;
 
-    return ScrollConfiguration(
-      behavior: ScrollConfiguration.of(context).copyWith(scrollbars: false),
-      child: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        child: SizedBox(
-          width: 620,
-          child: Column(
-            children: [
-              _analysisHeader(),
-              const Divider(height: 1, color: AppColors.border),
-              for (final row in rows) _analysisRow(row),
-              _analysisRow(
-                _AnalysisRow(
-                  label: 'Total',
-                  total: totalQuestions,
-                  correct: totalCorrect,
-                  wrong: totalWrong,
-                  skipped: totalSkipped,
-                  accuracy: totalAccuracy,
-                ),
-                shaded: true,
-              ),
-            ],
-          ),
-        ),
-      ),
+    final totalRow = _AnalysisRow(
+      label: 'Total',
+      total: totalQuestions,
+      correct: totalCorrect,
+      wrong: totalWrong,
+      skipped: totalSkipped,
+      accuracy: totalAccuracy,
+    );
+
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final compact = constraints.maxWidth < 660;
+        return Column(
+          children: [
+            compact ? _compactAnalysisHeader() : _analysisHeader(),
+            const Divider(height: 1, color: AppColors.border),
+            for (final row in rows)
+              compact ? _compactAnalysisRow(row) : _analysisRow(row),
+            compact
+                ? _compactAnalysisRow(totalRow, shaded: true)
+                : _analysisRow(totalRow, shaded: true),
+          ],
+        );
+      },
     );
   }
 
-  Widget _analysisHeader() {
+  Widget _compactAnalysisHeader() {
     return Container(
+      constraints: const BoxConstraints(minHeight: 56),
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: const Row(
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          SizedBox(
-            width: 190,
+          Expanded(
             child: Text(
               'Phân loại câu hỏi',
               style: TextStyle(fontWeight: FontWeight.w800),
             ),
           ),
           SizedBox(
-            width: 70,
+            width: 118,
             child: Text(
-              'Số câu đúng',
+              'Kết quả',
               textAlign: TextAlign.center,
               style: TextStyle(fontWeight: FontWeight.w800),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _compactAnalysisRow(_AnalysisRow row, {bool shaded = false}) {
+    return Container(
+      color: shaded ? const Color(0xFFF6F7F9) : Colors.white,
+      padding: const EdgeInsets.symmetric(vertical: 10),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Expanded(
+            child: Text(
+              row.label,
+              style: const TextStyle(fontSize: 14, height: 1.35),
             ),
           ),
           SizedBox(
-            width: 70,
-            child: Text(
-              'Số câu sai',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontWeight: FontWeight.w800),
+            width: 118,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Text(
+                  '${row.correct} đúng / ${row.wrong} sai',
+                  textAlign: TextAlign.right,
+                  style: const TextStyle(fontWeight: FontWeight.w700),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  '${row.skipped} bỏ qua - ${row.accuracy.toStringAsFixed(2)}%',
+                  textAlign: TextAlign.right,
+                  style: const TextStyle(
+                    color: AppColors.muted,
+                    fontSize: 12,
+                    height: 1.25,
+                  ),
+                ),
+                const SizedBox(height: 6),
+                _wrongCountBubble(row.wrong),
+              ],
             ),
           ),
-          SizedBox(
-            width: 80,
-            child: Text(
-              'Số câu bỏ qua',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontWeight: FontWeight.w800),
+        ],
+      ),
+    );
+  }
+
+  Widget _analysisHeader() {
+    return Container(
+      constraints: const BoxConstraints(minHeight: 74),
+      padding: const EdgeInsets.symmetric(vertical: 12),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          _analysisCell(
+            flex: 34,
+            child: _analysisHeaderText(
+              'Phân loại câu hỏi',
+              textAlign: TextAlign.left,
             ),
           ),
-          SizedBox(
-            width: 80,
-            child: Text(
-              'Độ chính xác',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontWeight: FontWeight.w800),
-            ),
-          ),
-          SizedBox(
-            width: 80,
-            child: Text(
-              'Danh sách câu',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontWeight: FontWeight.w800),
-            ),
-          ),
+          _analysisCell(flex: 11, child: _analysisHeaderText('Số câu đúng')),
+          _analysisCell(flex: 11, child: _analysisHeaderText('Số câu sai')),
+          _analysisCell(flex: 12, child: _analysisHeaderText('Số câu bỏ qua')),
+          _analysisCell(flex: 14, child: _analysisHeaderText('Độ chính xác')),
+          _analysisCell(flex: 12, child: _analysisHeaderText('Danh sách câu')),
         ],
       ),
     );
@@ -3902,54 +4682,61 @@ class _ResultAnalysisTable extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: Row(
         children: [
-          SizedBox(
-            width: 190,
+          _analysisCell(
+            flex: 34,
             child: Text(
               row.label,
               style: const TextStyle(fontSize: 14, height: 1.35),
             ),
           ),
-          SizedBox(
-            width: 70,
-            child: Text('${row.correct}', textAlign: TextAlign.center),
+          _analysisCell(flex: 11, child: _analysisText('${row.correct}')),
+          _analysisCell(flex: 11, child: _analysisText('${row.wrong}')),
+          _analysisCell(flex: 12, child: _analysisText('${row.skipped}')),
+          _analysisCell(
+            flex: 14,
+            child: _analysisText('${row.accuracy.toStringAsFixed(2)}%'),
           ),
-          SizedBox(
-            width: 70,
-            child: Text('${row.wrong}', textAlign: TextAlign.center),
-          ),
-          SizedBox(
-            width: 80,
-            child: Text('${row.skipped}', textAlign: TextAlign.center),
-          ),
-          SizedBox(
-            width: 80,
-            child: Text(
-              '${row.accuracy.toStringAsFixed(2)}%',
-              textAlign: TextAlign.center,
-            ),
-          ),
-          SizedBox(
-            width: 80,
-            child: Center(
-              child: Container(
-                width: 28,
-                height: 28,
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  border: Border.all(color: const Color(0xFFFF4A55)),
-                ),
-                child: Text(
-                  '${row.wrong}',
-                  style: const TextStyle(
-                    color: Color(0xFFFF4A55),
-                    fontSize: 13,
-                  ),
-                ),
-              ),
-            ),
+          _analysisCell(
+            flex: 12,
+            child: Center(child: _wrongCountBubble(row.wrong)),
           ),
         ],
+      ),
+    );
+  }
+
+  Widget _analysisCell({required int flex, required Widget child}) {
+    return Expanded(flex: flex, child: child);
+  }
+
+  Widget _analysisHeaderText(
+    String text, {
+    TextAlign textAlign = TextAlign.center,
+  }) {
+    return Text(
+      text,
+      textAlign: textAlign,
+      softWrap: true,
+      style: const TextStyle(fontWeight: FontWeight.w800),
+    );
+  }
+
+  Widget _analysisText(String text) {
+    return Text(text, textAlign: TextAlign.center);
+  }
+
+  Widget _wrongCountBubble(int wrong) {
+    return Container(
+      width: 28,
+      height: 28,
+      alignment: Alignment.center,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        border: Border.all(color: const Color(0xFFFF4A55)),
+      ),
+      child: Text(
+        '$wrong',
+        style: const TextStyle(color: Color(0xFFFF4A55), fontSize: 13),
       ),
     );
   }
@@ -6535,12 +7322,68 @@ class _AddVocabularyDialogState extends State<AddVocabularyDialog> {
   }
 }
 
+class TestHistoryQuestionResult {
+  final String partLabel;
+  final int number;
+  final String qid;
+  final String questionText;
+  final String contextText;
+  final Map<String, String> options;
+  final String correctAnswer;
+  final String? selectedAnswer;
+  final String transcript;
+
+  const TestHistoryQuestionResult({
+    required this.partLabel,
+    required this.number,
+    required this.qid,
+    required this.questionText,
+    required this.contextText,
+    required this.options,
+    required this.correctAnswer,
+    required this.selectedAnswer,
+    required this.transcript,
+  });
+
+  factory TestHistoryQuestionResult.fromJson(Map<String, dynamic> json) {
+    final rawOptions = (json['options'] as Map?) ?? {};
+    return TestHistoryQuestionResult(
+      partLabel: (json['partLabel'] ?? '').toString(),
+      number: (json['number'] as num?)?.toInt() ?? 0,
+      qid: (json['qid'] ?? '').toString(),
+      questionText: (json['questionText'] ?? '').toString(),
+      contextText: (json['contextText'] ?? '').toString(),
+      options: rawOptions.map(
+        (key, value) => MapEntry(key.toString(), value.toString()),
+      ),
+      correctAnswer: (json['correctAnswer'] ?? '').toString(),
+      selectedAnswer: json['selectedAnswer']?.toString(),
+      transcript: (json['transcript'] ?? '').toString(),
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'partLabel': partLabel,
+      'number': number,
+      'qid': qid,
+      'questionText': questionText,
+      'contextText': contextText,
+      'options': options,
+      'correctAnswer': correctAnswer,
+      'selectedAnswer': selectedAnswer,
+      'transcript': transcript,
+    };
+  }
+}
+
 class TestHistoryEntry {
   final String testName;
   final DateTime submittedAt;
   final int correctCount;
   final int totalQuestions;
   final String timeSpent;
+  final List<TestHistoryQuestionResult> questionResults;
 
   TestHistoryEntry({
     required this.testName,
@@ -6548,6 +7391,7 @@ class TestHistoryEntry {
     required this.correctCount,
     required this.totalQuestions,
     required this.timeSpent,
+    this.questionResults = const [],
   });
 
   factory TestHistoryEntry.fromJson(Map<String, dynamic> json) {
@@ -6557,6 +7401,10 @@ class TestHistoryEntry {
       correctCount: json['correctCount'] ?? 0,
       totalQuestions: json['totalQuestions'] ?? 0,
       timeSpent: json['timeSpent'] ?? '',
+      questionResults: ((json['questionResults'] as List?) ?? [])
+          .whereType<Map<String, dynamic>>()
+          .map(TestHistoryQuestionResult.fromJson)
+          .toList(),
     );
   }
 
@@ -6567,7 +7415,34 @@ class TestHistoryEntry {
       'correctCount': correctCount,
       'totalQuestions': totalQuestions,
       'timeSpent': timeSpent,
+      'questionResults': questionResults.map((item) => item.toJson()).toList(),
     };
+  }
+
+  String get normalizedTimeSpent {
+    final raw = timeSpent.trim();
+    if (raw.isEmpty) {
+      return '';
+    }
+    final parts = raw.split(':');
+    if (parts.length == 2) {
+      return '0:${parts[0].padLeft(2, '0')}:${parts[1].padLeft(2, '0')}';
+    }
+    if (parts.length == 3) {
+      return '${parts[0]}:${parts[1].padLeft(2, '0')}:${parts[2].padLeft(2, '0')}';
+    }
+    return raw;
+  }
+
+  List<String> get partLabels {
+    final labels = <String>[];
+    for (final item in questionResults) {
+      if (item.partLabel.trim().isEmpty || labels.contains(item.partLabel)) {
+        continue;
+      }
+      labels.add(item.partLabel);
+    }
+    return labels;
   }
 }
 
@@ -6599,6 +7474,15 @@ class TestHistoryManager {
 
   static Future<void> addEntry(TestHistoryEntry entry) async {
     _history.insert(0, entry);
+    await _save();
+  }
+
+  static Future<void> removeEntry(TestHistoryEntry entry) async {
+    _history.removeWhere(
+      (item) =>
+          item.submittedAt == entry.submittedAt &&
+          item.testName == entry.testName,
+    );
     await _save();
   }
 
