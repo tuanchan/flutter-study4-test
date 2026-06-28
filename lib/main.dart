@@ -2138,9 +2138,11 @@ class Study4Header extends StatelessWidget {
     if (!await sourceFile.exists()) {
       throw const FileSystemException('Source file does not exist');
     }
-    final downloadsDir = await getDownloadsDirectory() ??
-        await getApplicationDocumentsDirectory();
-    final targetFile = File('${downloadsDir.path}/$filename');
+    final exportDir = Platform.isIOS
+        ? await getApplicationDocumentsDirectory()
+        : await getDownloadsDirectory() ??
+            await getApplicationDocumentsDirectory();
+    final targetFile = File('${exportDir.path}/$filename');
     await targetFile.parent.create(recursive: true);
     if (sourceFile.path != targetFile.path) {
       await sourceFile.copy(targetFile.path);
