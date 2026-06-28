@@ -170,6 +170,34 @@ class TextHighlightMark {
   }
 }
 
+String buildVocabularyAnalysisSource(
+  ToeicQuestion question, {
+  Map<String, String>? options,
+}) {
+  final transcript = question.transcript.trim();
+  if (transcript.isNotEmpty) {
+    return transcript;
+  }
+
+  final parts = <String>[];
+  void addPart(String value) {
+    final trimmed = value.trim();
+    if (trimmed.isNotEmpty) {
+      parts.add(trimmed);
+    }
+  }
+
+  addPart(question.contextText);
+  addPart(question.text);
+
+  final sourceOptions = options ?? question.options;
+  for (final entry in sourceOptions.entries) {
+    addPart('${entry.key}. ${entry.value}');
+  }
+
+  return parts.join('\n');
+}
+
 class TestData {
   final String root;
   final String name;
@@ -1407,43 +1435,19 @@ class Study4Header extends StatelessWidget {
             itemBuilder: (ctx) => [
               const PopupMenuItem(
                 value: HeaderMenuAction.history,
-                child: Row(
-                  children: [
-                    Icon(Icons.history, color: AppColors.blue, size: 20),
-                    SizedBox(width: 8),
-                    Text('Lịch sử kiểm tra'),
-                  ],
-                ),
+                child: Text('Lịch sử kiểm tra'),
               ),
               const PopupMenuItem(
                 value: HeaderMenuAction.vocabList,
-                child: Row(
-                  children: [
-                    Icon(Icons.book, color: AppColors.blue, size: 20),
-                    SizedBox(width: 8),
-                    Text('Danh sách từ vựng'),
-                  ],
-                ),
+                child: Text('Danh sách từ vựng'),
               ),
               const PopupMenuItem(
                 value: HeaderMenuAction.vocabExport,
-                child: Row(
-                  children: [
-                    Icon(Icons.share, color: AppColors.blue, size: 20),
-                    SizedBox(width: 8),
-                    Text('Export từ vựng'),
-                  ],
-                ),
+                child: Text('Export từ vựng'),
               ),
               const PopupMenuItem(
                 value: HeaderMenuAction.importTests,
-                child: Row(
-                  children: [
-                    Icon(Icons.cloud_download, color: AppColors.blue, size: 20),
-                    SizedBox(width: 8),
-                    Text('Import bài kiểm tra'),
-                  ],
-                ),
+                child: Text('Import bài kiểm tra'),
               ),
             ],
           ),
@@ -1962,37 +1966,45 @@ class Study4Header extends StatelessWidget {
                         itemCount: files.length,
                         itemBuilder: (itemCtx, index) {
                           final file = files[index];
-                          return ListTile(
-                            leading: const Icon(
-                              Icons.share,
-                              color: AppColors.blue,
+                          return Builder(
+                            builder: (tileCtx) => ListTile(
+                              leading: const Icon(
+                                Icons.share,
+                                color: AppColors.blue,
+                              ),
+                              title: Text(file),
+                              trailing: const Icon(
+                                Icons.ios_share,
+                                size: 18,
+                                color: AppColors.blue,
+                              ),
+                              onTap: () async {
+                                final renderObject =
+                                    tileCtx.findRenderObject();
+                                final originRect = renderObject is RenderBox
+                                    ? (renderObject.localToGlobal(
+                                            Offset.zero,
+                                          ) &
+                                          renderObject.size)
+                                    : null;
+
+                                Navigator.of(dialogCtx).pop();
+
+                                await Future<void>.delayed(
+                                  const Duration(milliseconds: 500),
+                                );
+
+                                if (!pageContext.mounted) {
+                                  return;
+                                }
+
+                                await _shareVocabularyFile(
+                                  pageContext,
+                                  file,
+                                  originRect,
+                                );
+                              },
                             ),
-                            title: Text(file),
-                            trailing: const Icon(
-                              Icons.ios_share,
-                              size: 18,
-                              color: AppColors.blue,
-                            ),
-                            onTap: () async {
-                              // Capture the position of the tapped ListTile BEFORE popping the dialog
-                              final box = itemCtx.findRenderObject() as RenderBox?;
-                              final originRect = box != null ? (box.localToGlobal(Offset.zero) & box.size) : null;
-
-                              // Pop the dialog
-                              Navigator.of(dialogCtx).pop();
-
-                              // Wait a safe amount of time for the pop transition to fully complete (500ms)
-                              await Future<void>.delayed(
-                                const Duration(milliseconds: 500),
-                              );
-
-                              if (!pageContext.mounted) {
-                                return;
-                              }
-
-                              // Call the share method using the pageContext and the pre-calculated originRect
-                              await _shareVocabularyFile(pageContext, file, originRect);
-                            },
                           );
                         },
                       ),
@@ -2032,8 +2044,10 @@ class Study4Header extends StatelessWidget {
       );
 
       final shareRect = originRect ?? (() {
-        final box = context.findRenderObject() as RenderBox?;
-        return box != null ? (box.localToGlobal(Offset.zero) & box.size) : null;
+        final renderObject = context.findRenderObject();
+        return renderObject is RenderBox
+            ? (renderObject.localToGlobal(Offset.zero) & renderObject.size)
+            : null;
       })();
 
       final result = await SharePlus.instance.share(
@@ -3146,6 +3160,9 @@ class AnswerRow extends StatefulWidget {
 class _AnswerRowState extends State<AnswerRow> {
   @override
   Widget build(BuildContext context) {
+    final vocabularySource = buildVocabularyAnalysisSource(widget.question);
+    final hasTranscript = widget.question.transcript.trim().isNotEmpty;
+    final hasQuestionText = widget.question.text.trim().isNotEmpty;
     final questionKey = getHighlightKey(
       testName: widget.testName,
       partFolder: widget.partFolder,
@@ -3204,40 +3221,62 @@ class _AnswerRowState extends State<AnswerRow> {
             ),
           ],
         ),
-        if (widget.showTranscript &&
-            widget.question.transcript.trim().isNotEmpty)
+        if (widget.showTranscript && hasTranscript)
           Padding(
             padding: const EdgeInsets.fromLTRB(46, 8, 0, 0),
-            child: HighlightableText(
-              text: widget.question.transcript,
-              enabled: true,
-              marks: HighlightManager.getHighlights(transcriptKey),
-              onChanged: (marks) {
-                setState(() {
-                  HighlightManager.setHighlights(transcriptKey, marks);
-                });
-              },
-              style: const TextStyle(
-                fontSize: 14,
-                height: 1.45,
-                color: AppColors.text,
-              ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                HighlightableText(
+                  text: widget.question.transcript,
+                  enabled: true,
+                  marks: HighlightManager.getHighlights(transcriptKey),
+                  onChanged: (marks) {
+                    setState(() {
+                      HighlightManager.setHighlights(transcriptKey, marks);
+                    });
+                  },
+                  style: const TextStyle(
+                    fontSize: 14,
+                    height: 1.45,
+                    color: AppColors.text,
+                  ),
+                ),
+                const SizedBox(height: 6),
+                ScriptVocabularyAnalysisPanel(
+                  script: vocabularySource,
+                ),
+              ],
             ),
           ),
-        if (widget.question.text.trim().isNotEmpty)
+        if (hasQuestionText)
           Padding(
             padding: const EdgeInsets.fromLTRB(46, 8, 0, 0),
-            child: HighlightableText(
-              text: widget.question.text,
-              enabled: true,
-              marks: HighlightManager.getHighlights(questionKey),
-              onChanged: (marks) {
-                setState(() {
-                  HighlightManager.setHighlights(questionKey, marks);
-                });
-              },
-              style: const TextStyle(fontSize: 14, height: 1.4),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                HighlightableText(
+                  text: widget.question.text,
+                  enabled: true,
+                  marks: HighlightManager.getHighlights(questionKey),
+                  onChanged: (marks) {
+                    setState(() {
+                      HighlightManager.setHighlights(questionKey, marks);
+                    });
+                  },
+                  style: const TextStyle(fontSize: 14, height: 1.4),
+                ),
+                if (!hasTranscript && vocabularySource.isNotEmpty) ...[
+                  const SizedBox(height: 6),
+                  ScriptVocabularyAnalysisPanel(script: vocabularySource),
+                ],
+              ],
             ),
+          ),
+        if (!hasTranscript && !hasQuestionText && vocabularySource.isNotEmpty)
+          Padding(
+            padding: const EdgeInsets.fromLTRB(46, 8, 0, 0),
+            child: ScriptVocabularyAnalysisPanel(script: vocabularySource),
           ),
         const SizedBox(height: 14),
         const Divider(height: 1, color: AppColors.border),
@@ -4948,6 +4987,11 @@ class _AnswerDetailDialogState extends State<AnswerDetailDialog> {
   Widget build(BuildContext context) {
     final question = widget.question;
     final options = _optionsFor(question, widget.part.meta.number);
+    final vocabularySource = buildVocabularyAnalysisSource(
+      question,
+      options: options,
+    );
+    final hasTranscript = question.transcript.trim().isNotEmpty;
     return Dialog(
       insetPadding: const EdgeInsets.symmetric(horizontal: 18, vertical: 24),
       child: ConstrainedBox(
@@ -5102,6 +5146,13 @@ class _AnswerDetailDialogState extends State<AnswerDetailDialog> {
                                   fontSize: 15,
                                 ),
                               ),
+                              if (!hasTranscript &&
+                                  vocabularySource.isNotEmpty) ...[
+                                const SizedBox(height: 6),
+                                ScriptVocabularyAnalysisPanel(
+                                  script: vocabularySource,
+                                ),
+                              ],
                             ],
                           ),
                         ),
@@ -5140,7 +5191,7 @@ class _AnswerDetailDialogState extends State<AnswerDetailDialog> {
                           borderRadius: BorderRadius.circular(4),
                         ),
                         child: HighlightableText(
-                          text: question.transcript.trim().isEmpty
+                          text: !hasTranscript
                               ? 'Chưa có transcript/giải thích cho câu này.'
                               : question.transcript,
                           enabled: true,
@@ -5174,6 +5225,12 @@ class _AnswerDetailDialogState extends State<AnswerDetailDialog> {
                           ),
                         ),
                       ),
+                      if (hasTranscript) ...[
+                        const SizedBox(height: 6),
+                        ScriptVocabularyAnalysisPanel(
+                          script: vocabularySource,
+                        ),
+                      ],
                     ],
                   ],
                 ),
@@ -7261,6 +7318,25 @@ class HighlightManager {
   }
 }
 
+class VocabularyAnalysisItem {
+  final String word;
+  final String meaning;
+  final String phonetic;
+
+  const VocabularyAnalysisItem({
+    required this.word,
+    required this.meaning,
+    this.phonetic = '',
+  });
+
+  String get displayText {
+    if (phonetic.trim().isEmpty) {
+      return '$word:$meaning';
+    }
+    return '$word:$meaning ($phonetic)';
+  }
+}
+
 class GeminiService {
   static String? _apiKey;
   static const String _apiKeyFileName = 'gemini_api_key.txt';
@@ -7352,6 +7428,92 @@ class GeminiService {
       debugPrint('Error calling Gemini API: $e');
     }
     return null;
+  }
+
+  /// Calls Gemini API to extract vocabulary directly from a transcript.
+  static Future<List<VocabularyAnalysisItem>> analyzeVocabularyFromScript(
+    String script,
+  ) async {
+    if (!hasApiKey || script.trim().isEmpty) return const [];
+    try {
+      final url = Uri.parse(
+        'https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=$_apiKey',
+      );
+      final response = await http.post(
+        url,
+        headers: {'Content-Type': 'application/json'},
+        body: jsonEncode({
+          'contents': [
+            {
+              'parts': [
+                {
+                  'text':
+                      'Phân tích transcript TOEIC bên dưới và lấy tất cả từ/cụm từ tiếng Anh xuất hiện trong script có thể học như từ vựng, bỏ trùng lặp. '
+                      'Dịch nghĩa tiếng Việt ngắn gọn và thêm phiên âm IPA nếu có. '
+                      'Chỉ trả về mỗi dòng đúng format word:nghĩa (IPA), không đánh số, không markdown, không giải thích. '
+                      'Ví dụ:\n'
+                      'accept:chấp nhận, đồng ý (əkˈsept)\n'
+                      'advanced:tiên tiến, nâng cao (ədˈvænst)\n\n'
+                      'Script:\n$script',
+                },
+              ],
+            },
+          ],
+          'generationConfig': {
+            'temperature': 0.1,
+            'maxOutputTokens': 2048,
+          },
+        }),
+      );
+
+      if (response.statusCode == 200) {
+        final data = jsonDecode(response.body);
+        final text = data['candidates']?[0]?['content']?['parts']?[0]?['text']
+                ?.toString() ??
+            '';
+        return _parseVocabularyAnalysis(text);
+      } else {
+        debugPrint('Gemini API error: ${response.statusCode} ${response.body}');
+      }
+    } catch (e) {
+      debugPrint('Error analyzing vocabulary with Gemini: $e');
+    }
+    return const [];
+  }
+
+  static List<VocabularyAnalysisItem> _parseVocabularyAnalysis(String text) {
+    final items = <VocabularyAnalysisItem>[];
+    final seen = <String>{};
+    final phoneticPattern = RegExp(r'\(([^()]*)\)\s*$');
+    for (final line in text.split('\n')) {
+      var trimmed = line.trim();
+      if (trimmed.isEmpty) continue;
+      trimmed = trimmed.replaceFirst(RegExp(r'^[-*•\d.)\s]+'), '').trim();
+      final colonIndex = trimmed.indexOf(':');
+      if (colonIndex <= 0 || colonIndex >= trimmed.length - 1) continue;
+
+      final word = trimmed.substring(0, colonIndex).trim();
+      var meaning = trimmed.substring(colonIndex + 1).trim();
+      var phonetic = '';
+      final phoneticMatch = phoneticPattern.firstMatch(meaning);
+      if (phoneticMatch != null) {
+        phonetic = (phoneticMatch.group(1) ?? '').trim();
+        meaning = meaning.substring(0, phoneticMatch.start).trim();
+      }
+      final normalized = word.toLowerCase();
+      if (word.isEmpty || meaning.isEmpty || seen.contains(normalized)) {
+        continue;
+      }
+      seen.add(normalized);
+      items.add(
+        VocabularyAnalysisItem(
+          word: word,
+          meaning: meaning,
+          phonetic: phonetic,
+        ),
+      );
+    }
+    return items;
   }
 
   /// Show the API key settings dialog.
@@ -7509,8 +7671,15 @@ class VocabularyManager {
 
 class AddVocabularyDialog extends StatefulWidget {
   final String initialWord;
+  final String initialMeaning;
+  final String initialPhonetic;
 
-  const AddVocabularyDialog({super.key, required this.initialWord});
+  const AddVocabularyDialog({
+    super.key,
+    required this.initialWord,
+    this.initialMeaning = '',
+    this.initialPhonetic = '',
+  });
 
   @override
   State<AddVocabularyDialog> createState() => _AddVocabularyDialogState();
@@ -7529,8 +7698,13 @@ class _AddVocabularyDialogState extends State<AddVocabularyDialog> {
   void initState() {
     super.initState();
     _wordController = TextEditingController(text: widget.initialWord);
+    _meaningController.text = widget.initialMeaning;
+    _phoneticController.text = widget.initialPhonetic;
     _loadFiles();
-    _autoFillWithGemini();
+    if (widget.initialMeaning.trim().isEmpty &&
+        widget.initialPhonetic.trim().isEmpty) {
+      _autoFillWithGemini();
+    }
   }
 
   Future<void> _loadFiles() async {
@@ -7821,6 +7995,195 @@ class _AddVocabularyDialogState extends State<AddVocabularyDialog> {
           },
           child: const Text('Thêm từ vựng'),
         ),
+      ],
+    );
+  }
+}
+
+class ScriptVocabularyAnalysisPanel extends StatefulWidget {
+  final String script;
+
+  const ScriptVocabularyAnalysisPanel({super.key, required this.script});
+
+  @override
+  State<ScriptVocabularyAnalysisPanel> createState() =>
+      _ScriptVocabularyAnalysisPanelState();
+}
+
+class _ScriptVocabularyAnalysisPanelState
+    extends State<ScriptVocabularyAnalysisPanel> {
+  bool _showPanel = false;
+  bool _isLoading = false;
+  String? _message;
+  List<VocabularyAnalysisItem> _items = const [];
+
+  Future<void> _toggleAndAnalyze() async {
+    if (_showPanel) {
+      setState(() => _showPanel = false);
+      return;
+    }
+
+    setState(() {
+      _showPanel = true;
+      _message = null;
+    });
+
+    if (_items.isNotEmpty) return;
+    await _analyze();
+  }
+
+  Future<void> _analyze() async {
+    final script = widget.script.trim();
+    if (script.isEmpty) {
+      setState(() => _message = 'Chưa có script để phân tích.');
+      return;
+    }
+
+    if (!GeminiService.hasApiKey) {
+      await GeminiService.showApiKeyDialog(context);
+      if (!mounted) return;
+      if (!GeminiService.hasApiKey) {
+        setState(() => _message = 'Bạn cần nhập Gemini API Key trước.');
+        return;
+      }
+    }
+
+    setState(() {
+      _isLoading = true;
+      _message = null;
+    });
+    final items = await GeminiService.analyzeVocabularyFromScript(script);
+    if (!mounted) return;
+    setState(() {
+      _items = items;
+      _isLoading = false;
+      _message = items.isEmpty ? 'Gemini chưa tìm thấy từ vựng phù hợp.' : null;
+    });
+  }
+
+  Future<void> _addVocabulary(VocabularyAnalysisItem item) async {
+    final meaning = await showDialog<String>(
+      context: context,
+      builder: (ctx) => AddVocabularyDialog(
+        initialWord: item.word,
+        initialMeaning: item.meaning,
+        initialPhonetic: item.phonetic,
+      ),
+    );
+
+    if (!mounted || meaning == null || meaning.isEmpty) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text('Đã lưu từ vựng: "${item.word}" vào file txt.'),
+        backgroundColor: const Color(0xFF20A856),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        TextButton.icon(
+          style: TextButton.styleFrom(
+            foregroundColor: AppColors.blue,
+            padding: EdgeInsets.zero,
+            minimumSize: const Size(0, 34),
+            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+          ),
+          onPressed: _isLoading ? null : _toggleAndAnalyze,
+          icon: _isLoading
+              ? const SizedBox(
+                  width: 16,
+                  height: 16,
+                  child: CircularProgressIndicator(strokeWidth: 2),
+                )
+              : SvgPicture.asset(
+                  'assets/icon/gemini-color.svg',
+                  width: 18,
+                  height: 18,
+                ),
+          label: Text(_showPanel ? 'Ẩn phân tích từ vựng' : 'Phân tích từ vựng'),
+        ),
+        if (_showPanel) ...[
+          const SizedBox(height: 6),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+            decoration: BoxDecoration(
+              color: const Color(0xFFF8FAFC),
+              border: Border.all(color: AppColors.border),
+              borderRadius: BorderRadius.circular(4),
+            ),
+            child: _buildPanelContent(),
+          ),
+        ],
+      ],
+    );
+  }
+
+  Widget _buildPanelContent() {
+    if (_isLoading) {
+      return const Row(
+        children: [
+          SizedBox(
+            width: 16,
+            height: 16,
+            child: CircularProgressIndicator(strokeWidth: 2),
+          ),
+          SizedBox(width: 8),
+          Text('Gemini đang phân tích từ vựng...'),
+        ],
+      );
+    }
+
+    if (_message != null) {
+      return Row(
+        children: [
+          Expanded(child: Text(_message!)),
+          if (GeminiService.hasApiKey)
+            IconButton(
+              tooltip: 'Thử lại',
+              icon: const Icon(Icons.refresh, size: 18),
+              onPressed: _analyze,
+            ),
+        ],
+      );
+    }
+
+    return Column(
+      children: [
+        for (final item in _items)
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 2),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                IconButton(
+                  tooltip: 'Thêm từ vựng',
+                  icon: const Icon(Icons.add_circle_outline, size: 20),
+                  color: AppColors.blue,
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(
+                    minWidth: 28,
+                    minHeight: 28,
+                  ),
+                  onPressed: () => _addVocabulary(item),
+                ),
+                const SizedBox(width: 4),
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 5),
+                    child: Text(
+                      item.displayText,
+                      style: const TextStyle(fontSize: 14, height: 1.35),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
       ],
     );
   }
