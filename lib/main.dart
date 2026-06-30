@@ -3321,6 +3321,7 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
   int _selectedPartIndex = 0;
   bool _submitted = false;
   bool _highlightEnabled = true;
+  bool _showPracticeTranscript = false;
   bool _showResultAnswers = false;
 
   @override
@@ -4000,8 +4001,11 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
                           children: [
                             HighlightToggleRow(
                               enabled: _highlightEnabled,
+                              showTranscript: _showPracticeTranscript,
                               onChanged: (value) =>
                                   setState(() => _highlightEnabled = value),
+                              onShowTranscriptChanged: (value) =>
+                                  setState(() => _showPracticeTranscript = value),
                             ),
                             const SizedBox(height: 16),
                             if (_visibleParts.length > 1) ...[
@@ -4040,6 +4044,7 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
                               reviewedQuestionKeys: _reviewQuestionKeys,
                               focusedQuestionKey: _focusedQuestionKey,
                               highlightEnabled: _highlightEnabled,
+                              showTranscript: _showPracticeTranscript,
                               submitted: _submitted,
                               questionKeyFor: _questionWidgetKeyFor,
                               questionStateKey: _questionKey,
@@ -4093,12 +4098,16 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
 
 class HighlightToggleRow extends StatelessWidget {
   final bool enabled;
+  final bool showTranscript;
   final ValueChanged<bool> onChanged;
+  final ValueChanged<bool> onShowTranscriptChanged;
 
   const HighlightToggleRow({
     super.key,
     required this.enabled,
+    required this.showTranscript,
     required this.onChanged,
+    required this.onShowTranscriptChanged,
   });
 
   @override
@@ -4122,6 +4131,18 @@ class HighlightToggleRow extends StatelessWidget {
           message:
               'Bôi đen text để highlight nội dung. Bạn có thể thay đổi màu sắc hoặc thêm ghi chú.',
           child: const Icon(Icons.info_outline, size: 15, color: Colors.black),
+        ),
+        const SizedBox(width: 12),
+        Checkbox(
+          value: showTranscript,
+          onChanged: (value) => onShowTranscriptChanged(value ?? false),
+          materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+          activeColor: AppColors.blue,
+        ),
+        const SizedBox(width: 4),
+        const Text(
+          'Hiện transcript',
+          style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic),
         ),
       ],
     );
@@ -6071,6 +6092,7 @@ class PartPracticeContent extends StatelessWidget {
   final Set<String> reviewedQuestionKeys;
   final String? focusedQuestionKey;
   final bool highlightEnabled;
+  final bool showTranscript;
   final bool submitted;
   final GlobalKey Function(PartData part, ToeicQuestion question)
   questionKeyFor;
@@ -6099,6 +6121,7 @@ class PartPracticeContent extends StatelessWidget {
     required this.reviewedQuestionKeys,
     required this.focusedQuestionKey,
     required this.highlightEnabled,
+    required this.showTranscript,
     required this.submitted,
     required this.questionKeyFor,
     required this.questionStateKey,
@@ -6123,6 +6146,7 @@ class PartPracticeContent extends StatelessWidget {
             reviewedQuestionKeys: reviewedQuestionKeys,
             focusedQuestionKey: focusedQuestionKey,
             highlightEnabled: highlightEnabled,
+            showTranscript: showTranscript,
             submitted: submitted,
             questionKeyFor: questionKeyFor,
             questionStateKey: questionStateKey,
@@ -6193,6 +6217,7 @@ class PracticeQuestionGroup extends StatelessWidget {
   final Set<String> reviewedQuestionKeys;
   final String? focusedQuestionKey;
   final bool highlightEnabled;
+  final bool showTranscript;
   final bool submitted;
   final GlobalKey Function(PartData part, ToeicQuestion question)
   questionKeyFor;
@@ -6222,6 +6247,7 @@ class PracticeQuestionGroup extends StatelessWidget {
     required this.reviewedQuestionKeys,
     required this.focusedQuestionKey,
     required this.highlightEnabled,
+    required this.showTranscript,
     required this.submitted,
     required this.questionKeyFor,
     required this.questionStateKey,
@@ -6277,6 +6303,7 @@ class PracticeQuestionGroup extends StatelessWidget {
               ),
               focused: focusedQuestionKey == questionStateKey(part, question),
               highlightEnabled: highlightEnabled,
+              showTranscript: showTranscript,
               highlightsFor: (suffix) =>
                   highlightsFor(part, question, suffix: suffix),
               onHighlightsChanged: (marks, suffix) =>
@@ -6868,6 +6895,7 @@ class PracticeQuestionCard extends StatefulWidget {
   final bool reviewed;
   final bool focused;
   final bool highlightEnabled;
+  final bool showTranscript;
   final List<TextHighlightMark> Function(String suffix) highlightsFor;
   final bool submitted;
   final void Function(List<TextHighlightMark> marks, String suffix)
@@ -6884,6 +6912,7 @@ class PracticeQuestionCard extends StatefulWidget {
     required this.reviewed,
     required this.focused,
     required this.highlightEnabled,
+    required this.showTranscript,
     required this.highlightsFor,
     required this.submitted,
     required this.onHighlightsChanged,
@@ -6991,6 +7020,8 @@ class _PracticeQuestionCardState extends State<PracticeQuestionCard>
                                 'option_${entry.key}',
                               ),
                         ),
+                      if (widget.showTranscript)
+                        _buildPracticeTranscript(options),
                     ],
                   ),
                 ),
@@ -7064,6 +7095,8 @@ class _PracticeQuestionCardState extends State<PracticeQuestionCard>
                                 'option_${entry.key}',
                               ),
                         ),
+                      if (widget.showTranscript)
+                        _buildPracticeTranscript(options),
                     ],
                   ),
                 ),
@@ -7072,6 +7105,51 @@ class _PracticeQuestionCardState extends State<PracticeQuestionCard>
           );
         }
       },
+    );
+  }
+
+  Widget _buildPracticeTranscript(Map<String, String> options) {
+    final transcript = widget.question.transcript.trim();
+    final vocabularySource = buildVocabularyAnalysisSource(
+      widget.question,
+      options: options,
+    );
+    final hasTranscript = transcript.isNotEmpty;
+
+    return Padding(
+      padding: const EdgeInsets.only(top: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: const Color(0xFFF8FAFC),
+              border: Border.all(color: AppColors.border),
+              borderRadius: BorderRadius.circular(4),
+            ),
+            child: HighlightableText(
+              text: hasTranscript
+                  ? transcript
+                  : 'Chưa có transcript/giải thích cho câu này.',
+              enabled: widget.highlightEnabled,
+              marks: widget.highlightsFor('transcript'),
+              onChanged: (marks) =>
+                  widget.onHighlightsChanged(marks, 'transcript'),
+              style: const TextStyle(
+                fontSize: 14,
+                height: 1.45,
+                color: AppColors.text,
+              ),
+            ),
+          ),
+          if (vocabularySource.isNotEmpty) ...[
+            const SizedBox(height: 6),
+            ScriptVocabularyAnalysisPanel(script: vocabularySource),
+          ],
+        ],
+      ),
     );
   }
 
@@ -7339,6 +7417,16 @@ class VocabularyAnalysisItem {
   }
 }
 
+class VocabularyAnalysisResult {
+  final String literalTranslation;
+  final List<VocabularyAnalysisItem> items;
+
+  const VocabularyAnalysisResult({
+    this.literalTranslation = '',
+    this.items = const [],
+  });
+}
+
 class GeminiService {
   static String? _apiKey;
   static const String _apiKeyFileName = 'gemini_api_key.txt';
@@ -7433,10 +7521,12 @@ class GeminiService {
   }
 
   /// Calls Gemini API to extract vocabulary directly from a transcript.
-  static Future<List<VocabularyAnalysisItem>> analyzeVocabularyFromScript(
+  static Future<VocabularyAnalysisResult> analyzeVocabularyFromScript(
     String script,
   ) async {
-    if (!hasApiKey || script.trim().isEmpty) return const [];
+    if (!hasApiKey || script.trim().isEmpty) {
+      return const VocabularyAnalysisResult();
+    }
     try {
       final url = Uri.parse(
         'https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=$_apiKey',
@@ -7450,12 +7540,14 @@ class GeminiService {
               'parts': [
                 {
                   'text':
-                      'Phân tích transcript TOEIC bên dưới và lấy tất cả từ/cụm từ tiếng Anh xuất hiện trong script có thể học như từ vựng, bỏ trùng lặp. '
+                      'Trước danh sách từ vựng, hãy dịch nguyên văn toàn bộ script sang tiếng Việt, giữ sát ý và thứ tự câu. '
+                      'Sau đó phân tích transcript TOEIC bên dưới và lấy tất cả từ/cụm từ tiếng Anh xuất hiện trong script có thể học như từ vựng, bỏ trùng lặp. '
                       'Dịch nghĩa tiếng Việt ngắn gọn và thêm phiên âm IPA nếu có. '
-                      'Chỉ trả về mỗi dòng đúng format word:nghĩa (IPA), không đánh số, không markdown, không giải thích. '
-                      'Ví dụ:\n'
-                      'accept:chấp nhận, đồng ý (əkˈsept)\n'
-                      'advanced:tiên tiến, nâng cao (ədˈvænst)\n\n'
+                      'Bắt buộc trả về theo format mới này:\n'
+                      'TRANSLATION: bản dịch nguyên văn tiếng Việt\n'
+                      'VOCABULARY:\n'
+                      'word:nghĩa (IPA)\n'
+                      'word:nghĩa (IPA)\n\n'
                       'Script:\n$script',
                 },
               ],
@@ -7480,16 +7572,34 @@ class GeminiService {
     } catch (e) {
       debugPrint('Error analyzing vocabulary with Gemini: $e');
     }
-    return const [];
+    return const VocabularyAnalysisResult();
   }
 
-  static List<VocabularyAnalysisItem> _parseVocabularyAnalysis(String text) {
+  static VocabularyAnalysisResult _parseVocabularyAnalysis(String text) {
+    var translation = '';
+    var vocabularyText = text;
+    final translationMatch = RegExp(
+      r'TRANSLATION\s*:\s*([\s\S]*?)(?:\n\s*VOCABULARY\s*:|$)',
+      caseSensitive: false,
+    ).firstMatch(text);
+    if (translationMatch != null) {
+      translation = (translationMatch.group(1) ?? '').trim();
+      final vocabMatch = RegExp(
+        r'VOCABULARY\s*:\s*([\s\S]*)',
+        caseSensitive: false,
+      ).firstMatch(text);
+      vocabularyText = vocabMatch?.group(1) ?? '';
+    }
+
     final items = <VocabularyAnalysisItem>[];
     final seen = <String>{};
     final phoneticPattern = RegExp(r'\(([^()]*)\)\s*$');
-    for (final line in text.split('\n')) {
+    for (final line in vocabularyText.split('\n')) {
       var trimmed = line.trim();
       if (trimmed.isEmpty) continue;
+      if (RegExp(r'^vocabulary\s*:?$', caseSensitive: false).hasMatch(trimmed)) {
+        continue;
+      }
       trimmed = trimmed.replaceFirst(RegExp(r'^[-*•\d.)\s]+'), '').trim();
       final colonIndex = trimmed.indexOf(':');
       if (colonIndex <= 0 || colonIndex >= trimmed.length - 1) continue;
@@ -7515,7 +7625,10 @@ class GeminiService {
         ),
       );
     }
-    return items;
+    return VocabularyAnalysisResult(
+      literalTranslation: translation,
+      items: items,
+    );
   }
 
   /// Show the API key settings dialog.
@@ -8017,6 +8130,7 @@ class _ScriptVocabularyAnalysisPanelState
   bool _showPanel = false;
   bool _isLoading = false;
   String? _message;
+  String _literalTranslation = '';
   List<VocabularyAnalysisItem> _items = const [];
 
   Future<void> _toggleAndAnalyze() async {
@@ -8030,7 +8144,7 @@ class _ScriptVocabularyAnalysisPanelState
       _message = null;
     });
 
-    if (_items.isNotEmpty) return;
+    if (_items.isNotEmpty || _literalTranslation.trim().isNotEmpty) return;
     await _analyze();
   }
 
@@ -8054,12 +8168,16 @@ class _ScriptVocabularyAnalysisPanelState
       _isLoading = true;
       _message = null;
     });
-    final items = await GeminiService.analyzeVocabularyFromScript(script);
+    final result = await GeminiService.analyzeVocabularyFromScript(script);
     if (!mounted) return;
     setState(() {
-      _items = items;
+      _literalTranslation = result.literalTranslation;
+      _items = result.items;
       _isLoading = false;
-      _message = items.isEmpty ? 'Gemini chưa tìm thấy từ vựng phù hợp.' : null;
+      _message =
+          result.items.isEmpty && result.literalTranslation.trim().isEmpty
+          ? 'Gemini chưa tìm thấy từ vựng phù hợp.'
+          : null;
     });
   }
 
@@ -8155,7 +8273,24 @@ class _ScriptVocabularyAnalysisPanelState
     }
 
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        if (_literalTranslation.trim().isNotEmpty) ...[
+          const Text(
+            'Dịch nguyên văn:',
+            style: TextStyle(fontWeight: FontWeight.w700, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Text(
+            _literalTranslation.trim(),
+            style: const TextStyle(fontSize: 14, height: 1.4),
+          ),
+          if (_items.isNotEmpty) ...[
+            const SizedBox(height: 10),
+            const Divider(height: 1, color: AppColors.border),
+            const SizedBox(height: 6),
+          ],
+        ],
         for (final item in _items)
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 2),
