@@ -2807,6 +2807,7 @@ class _PracticeTabContent extends StatelessWidget {
                 data: data,
                 selectedPartNumbers: selectedPartNumbers,
                 timeLimitMinutes: selectedTimeLimit,
+                allowTranscriptToggle: true,
               ),
             ),
           ),
@@ -2869,7 +2870,11 @@ class FullTestTab extends StatelessWidget {
           onPressed: () => Navigator.of(context).push(
             MaterialPageRoute(
               builder: (_) =>
-                  PracticeQuestionsPage(data: data, timeLimitMinutes: 120),
+                  PracticeQuestionsPage(
+                    data: data,
+                    timeLimitMinutes: 120,
+                    allowTranscriptToggle: false,
+                  ),
             ),
           ),
           child: const Text(
@@ -3291,12 +3296,14 @@ class PracticeQuestionsPage extends StatefulWidget {
   final TestData data;
   final Set<int>? selectedPartNumbers;
   final int? timeLimitMinutes;
+  final bool allowTranscriptToggle;
 
   const PracticeQuestionsPage({
     super.key,
     required this.data,
     this.selectedPartNumbers,
     this.timeLimitMinutes,
+    this.allowTranscriptToggle = true,
   });
 
   @override
@@ -4002,6 +4009,8 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
                             HighlightToggleRow(
                               enabled: _highlightEnabled,
                               showTranscript: _showPracticeTranscript,
+                              allowTranscriptToggle:
+                                  widget.allowTranscriptToggle,
                               onChanged: (value) =>
                                   setState(() => _highlightEnabled = value),
                               onShowTranscriptChanged: (value) =>
@@ -4044,7 +4053,8 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
                               reviewedQuestionKeys: _reviewQuestionKeys,
                               focusedQuestionKey: _focusedQuestionKey,
                               highlightEnabled: _highlightEnabled,
-                              showTranscript: _showPracticeTranscript,
+                              showTranscript: widget.allowTranscriptToggle &&
+                                  _showPracticeTranscript,
                               submitted: _submitted,
                               questionKeyFor: _questionWidgetKeyFor,
                               questionStateKey: _questionKey,
@@ -4099,6 +4109,7 @@ class _PracticeQuestionsPageState extends State<PracticeQuestionsPage> {
 class HighlightToggleRow extends StatelessWidget {
   final bool enabled;
   final bool showTranscript;
+  final bool allowTranscriptToggle;
   final ValueChanged<bool> onChanged;
   final ValueChanged<bool> onShowTranscriptChanged;
 
@@ -4106,15 +4117,20 @@ class HighlightToggleRow extends StatelessWidget {
     super.key,
     required this.enabled,
     required this.showTranscript,
+    required this.allowTranscriptToggle,
     required this.onChanged,
     required this.onShowTranscriptChanged,
   });
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Switch(
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Switch(
           value: enabled,
           onChanged: onChanged,
           materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
@@ -4132,18 +4148,28 @@ class HighlightToggleRow extends StatelessWidget {
               'Bôi đen text để highlight nội dung. Bạn có thể thay đổi màu sắc hoặc thêm ghi chú.',
           child: const Icon(Icons.info_outline, size: 15, color: Colors.black),
         ),
-        const SizedBox(width: 12),
-        Checkbox(
-          value: showTranscript,
-          onChanged: (value) => onShowTranscriptChanged(value ?? false),
-          materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
-          activeColor: AppColors.blue,
+          ],
         ),
-        const SizedBox(width: 4),
-        const Text(
-          'Hiện transcript',
-          style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic),
-        ),
+        if (allowTranscriptToggle) ...[
+          const SizedBox(height: 6),
+          Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Switch(
+            value: showTranscript,
+            onChanged: onShowTranscriptChanged,
+            materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+            activeColor: Colors.white,
+            activeTrackColor: AppColors.blue,
+          ),
+          const SizedBox(width: 6),
+          const Text(
+            'Hiện transcript',
+            style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic),
+          ),
+            ],
+          ),
+        ],
       ],
     );
   }
@@ -6366,6 +6392,7 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
   bool _canPlay = true;
   bool _isLoading = false;
   bool _settingsMenuOpen = false;
+  bool _completed = false;
 
   @override
   void initState() {
@@ -6381,6 +6408,7 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
       setState(() => _isLoading = true);
       final player = AudioPlayer();
       _audioPlayer = player;
+      _completed = false;
 
       _durationSubscription = player.onDurationChanged.listen((d) {
         if (mounted) setState(() => _duration = d);
@@ -6394,6 +6422,9 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
         if (mounted) {
           setState(() {
             _isPlaying = state == PlayerState.playing;
+            if (state == PlayerState.playing) {
+              _completed = false;
+            }
           });
         }
       });
@@ -6403,8 +6434,10 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
           setState(() {
             _position = Duration.zero;
             _isPlaying = false;
+            _completed = true;
           });
         }
+        unawaited(_disposeCompletedPlayer(player));
       });
 
       String cleanPath = widget.audioPath;
@@ -6464,6 +6497,17 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
     }
   }
 
+  Future<void> _disposeCompletedPlayer(AudioPlayer player) async {
+    if (PracticeAudioBar.activePlayer == player) {
+      PracticeAudioBar.activePlayer = null;
+    }
+    await Future<void>.delayed(Duration.zero);
+    if (_audioPlayer != player) {
+      return;
+    }
+    await _disposePlayer();
+  }
+
   Future<void> _togglePlay() async {
     if (!_canPlay || _isLoading) {
       return;
@@ -6478,11 +6522,24 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
       if (_isPlaying) {
         await player.pause();
       } else {
-        if (PracticeAudioBar.activePlayer != player) {
-          await PracticeAudioBar.activePlayer?.pause();
-          PracticeAudioBar.activePlayer = player;
+        var playPlayer = player;
+        if (_completed ||
+            (_duration > Duration.zero && _position >= _duration)) {
+          await _disposePlayer();
+          if (!mounted) {
+            return;
+          }
+          final reloadedPlayer = await _ensurePlayer();
+          if (reloadedPlayer == null) {
+            return;
+          }
+          playPlayer = reloadedPlayer;
         }
-        await player.resume();
+        if (PracticeAudioBar.activePlayer != playPlayer) {
+          await PracticeAudioBar.activePlayer?.pause();
+          PracticeAudioBar.activePlayer = playPlayer;
+        }
+        await playPlayer.resume();
       }
     } catch (e) {
       debugPrint('Error toggling audio: $e');
@@ -6505,9 +6562,12 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
     }
     final position = Duration(milliseconds: value.toInt());
     try {
-      await player.seek(position);
+      await player.seek(position).timeout(const Duration(seconds: 5));
     } catch (e) {
       debugPrint('Error seeking audio: $e');
+      if (mounted && _audioPlayer == player) {
+        await _reloadFile();
+      }
     }
   }
 
@@ -6574,6 +6634,7 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
       setState(() {
         _canPlay = true;
         _isPlaying = false;
+        _completed = false;
         _duration = Duration.zero;
         _position = Duration.zero;
       });
@@ -6742,6 +6803,11 @@ class _PracticeAudioBarState extends State<PracticeAudioBar> {
                 max: validMax,
                 value: validVal,
                 onChanged: (val) {
+                  setState(() {
+                    _position = Duration(milliseconds: val.toInt());
+                  });
+                },
+                onChangeEnd: (val) {
                   _seek(val);
                 },
               ),
@@ -7742,6 +7808,8 @@ class GeminiService {
 }
 
 class VocabularyManager {
+  static const String _lastVocabularyFileName = 'last_vocabulary_file.txt';
+
   static Future<List<String>> getVocabularyFiles() async {
     try {
       final dir = await getApplicationDocumentsDirectory();
@@ -7750,6 +7818,7 @@ class VocabularyManager {
           .whereType<File>()
           .where((file) => file.path.endsWith('.txt'))
           .map((file) => file.path.split('/').last.split('\\').last)
+          .where((filename) => filename != _lastVocabularyFileName)
           .toList();
       if (!files.contains('vocab.txt')) {
         files.insert(0, 'vocab.txt');
@@ -7761,6 +7830,41 @@ class VocabularyManager {
     }
   }
 
+  static Future<String> getLastVocabularyFilename() async {
+    try {
+      final dir = await getApplicationDocumentsDirectory();
+      final file = File('${dir.path}/$_lastVocabularyFileName');
+      if (await file.exists()) {
+        final filename = (await file.readAsString()).trim();
+        if (filename.isNotEmpty) {
+          return _normalizeVocabularyFilename(filename);
+        }
+      }
+    } catch (e) {
+      debugPrint('Error getting last vocab file: $e');
+    }
+    return 'vocab.txt';
+  }
+
+  static Future<void> saveLastVocabularyFilename(String filename) async {
+    try {
+      final dir = await getApplicationDocumentsDirectory();
+      final file = File('${dir.path}/$_lastVocabularyFileName');
+      await file.writeAsString(_normalizeVocabularyFilename(filename));
+    } catch (e) {
+      debugPrint('Error saving last vocab file: $e');
+    }
+  }
+
+  static String _normalizeVocabularyFilename(String filename) {
+    final trimmed = filename.trim();
+    if (trimmed.isEmpty) {
+      return 'vocab.txt';
+    }
+    final basename = trimmed.split('/').last.split('\\').last;
+    return basename.endsWith('.txt') ? basename : '$basename.txt';
+  }
+
   static Future<void> addWord({
     required String filename,
     required String word,
@@ -7769,7 +7873,7 @@ class VocabularyManager {
   }) async {
     try {
       final dir = await getApplicationDocumentsDirectory();
-      final cleanName = filename.endsWith('.txt') ? filename : '$filename.txt';
+      final cleanName = _normalizeVocabularyFilename(filename);
       final file = File('${dir.path}/$cleanName');
       String content;
       if (phonetic.isNotEmpty) {
@@ -7778,6 +7882,7 @@ class VocabularyManager {
         content = '$word:$meaning\n';
       }
       await file.writeAsString(content, mode: FileMode.append);
+      await saveLastVocabularyFilename(cleanName);
     } catch (e) {
       debugPrint('Error adding vocabulary: $e');
     }
@@ -7824,9 +7929,13 @@ class _AddVocabularyDialogState extends State<AddVocabularyDialog> {
 
   Future<void> _loadFiles() async {
     final files = await VocabularyManager.getVocabularyFiles();
+    final lastFilename = await VocabularyManager.getLastVocabularyFilename();
+    if (!mounted) return;
     setState(() {
       _existingFiles = files;
-      if (_existingFiles.isNotEmpty &&
+      if (lastFilename.isNotEmpty) {
+        _fileController.text = lastFilename;
+      } else if (_existingFiles.isNotEmpty &&
           !_existingFiles.contains(_fileController.text)) {
         _fileController.text = _existingFiles.first;
       }
